@@ -2,7 +2,7 @@
 
 Personal apt repo for some software that distributes .deb files on Github Releases, but don't have their own repo, making updating harder
 
-All packages are updated with a cron job twice daily
+All packages are updated with a cron job daily
 
 ## How to use
 

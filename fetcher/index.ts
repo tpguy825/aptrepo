@@ -9,26 +9,35 @@ async function getLatest(repo: string) {
 	if (!latest[0]) return console.error(latest);
 
 	for (const file of latest[0].assets) {
-		if (!file.name.endsWith(".deb") || file.name.includes("musl-linux") || file.name.includes("i386") || file.name.includes("i686")) continue;
+		if (
+			!file.name.endsWith(".deb") ||
+			file.name.includes("musl-linux") ||
+			file.name.includes("386") ||
+			file.name.includes("i686") ||
+			file.name === "cloudflared-linux-arm.deb"
+		)
+			continue;
 		const filepath = path.join(__dirname, "..", "apt-repo/pool/main", file.name);
 		if (existsSync(filepath)) continue;
 		const buf = await fetch(file.browser_download_url, {
 			headers: { "User-Agent": "fetcher/1.0 (https://github.com/tpguy825/aptrepo)" },
-		}).then(r => r.arrayBuffer());
+		}).then((r) => r.arrayBuffer());
 		await fs.writeFile(filepath, Buffer.from(buf));
 		await Bun.$`reprepro -b ../apt-repo includedeb stable ${filepath}`;
 		await fs.unlink(filepath);
 	}
 }
 
-const repos = (await fs.readFile("repos.txt", "utf8")).split("\n").map(t => t.trim()).filter(t => t.length > 0)
+const repos = (await fs.readFile("repos.txt", "utf8"))
+	.split("\n")
+	.map((t) => t.trim())
+	.filter((t) => t.length > 0);
 for (const repo of repos) {
 	if (!repo) throw new Error("Must provide repo in format author/name");
-	await getLatest(repo)
+	await getLatest(repo);
 }
 
 await Bun.$`git add ../apt-repo && git commit -m "automated: update repo" && git push`.nothrow();
-
 
 interface Release {
 	url: string;
@@ -106,8 +115,4 @@ interface Author {
 	user_view_type: string;
 	site_admin: boolean;
 }
-
-
-
-
 
