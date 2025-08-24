@@ -10,6 +10,11 @@ while read -u 10 p; do
 
 	../create-release.sh > dists/stable/Release
 
+	cat ./dists/stable/Release | gpg -u 91EDAEB6C4F3EC9F -abs > ./dists/stable/Release.gpg
+	cat ./dists/stable/Release | gpg -u 91EDAEB6C4F3EC9F -abs --clearsign > ./dists/stable/InRelease
+
+	
+
 	git add .
 	git commit -m "automated: update $p"
 	git push
