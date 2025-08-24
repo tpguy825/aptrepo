@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Origin: tpguy825's apt repo
 Label: tpguy825's apt repo
 Suite: stable
@@ -61,3 +64,10 @@ SHA256:
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 dists/stable/main/binary-amd64/.gitkeep
  d29db1a53bb577bb5f5699070ed901eb7abed7e5dc522a782666d03e3d04be59 698 dists/stable/main/binary-amd64/Packages.gz
  f1d4096aa6a35fb87c51cfb8a77f91b583527d1aa8a94c8cd898c7cd48f50b24 4736 dists/stable/Release
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQTO6klqLFq3HjSs1IaR7a62xPPsnwUCaKsyuQAKCRCR7a62xPPs
+n7XYAQDHz3BYGtHjgwzKvzpfL5SpNPCSbXeUQ/fTUuvC9sSVvAEAmLonYRiJq9LV
+tI8aZWRKvL6aCwQhpBL5AMdC6TYm8Ao=
+=BwtN
+-----END PGP SIGNATURE-----
