@@ -27,6 +27,7 @@ for (const repo of repos) {
 	await getLatest(repo)
 }
 
+await Bun.$`git add ../apt-repo && git commit -m "automated: update repo" && git push`;
 
 
 interface Release {
