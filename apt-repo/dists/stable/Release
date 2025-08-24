@@ -1,5 +1,5 @@
-Origin: tpguy825's apt repo
-Label: tpguy825's apt repo
+Origin: tpguy825
+Label: tpguy825s apt repo
 Suite: stable
 Codename: stable
 Version: 1.0

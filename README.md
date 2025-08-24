@@ -12,3 +12,4 @@ wget -O- https://apt.tpgy.uk/repo.sources | sudo tee /etc/apt/sources.list.d/tpg
 sudo apt update
 ```
 
+> Note: If apt.tpgy.uk doesn't work, use tpguy825.github.io/aptrepo instead
