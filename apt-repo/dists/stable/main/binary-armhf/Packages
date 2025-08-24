@@ -15,6 +15,23 @@ MD5sum: fc55aef1c0eb8baa36f1e50e7ab5b8b2
 Description: cat(1) clone with wings.
   A cat(1) clone with syntax highlighting and Git integration.
 
+Package: cloudflared
+Version: 2025.8.1
+License: Apache License Version 2.0
+Vendor: Cloudflare
+Architecture: armhf
+Maintainer: Cloudflare <support@cloudflare.com>
+Installed-Size: 36341
+Homepage: https://github.com/cloudflare/cloudflared
+Priority: optional
+Section: default
+Filename: pool/main/c/cloudflared/cloudflared_2025.8.1_armhf.deb
+Size: 18258878
+SHA256: dc2b04b1bb99be7c8b7d84d147aba9f12b9852198c36bb79e26abf45fecdabb8
+SHA1: f602ef3d4dde5595fbfd33ce5d8ba042959594c4
+MD5sum: 9677d04c44c5fd39e6301db86268430a
+Description: Cloudflare Tunnel daemon
+
 Package: zoxide
 Version: 0.9.8-1
 Architecture: armhf

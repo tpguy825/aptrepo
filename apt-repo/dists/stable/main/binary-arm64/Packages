@@ -32,6 +32,23 @@ MD5sum: e08d508cfbd7713cdcaaea17a41f0158
 Description: cat(1) clone with wings.
   A cat(1) clone with syntax highlighting and Git integration.
 
+Package: cloudflared
+Version: 2025.8.1
+License: Apache License Version 2.0
+Vendor: Cloudflare
+Architecture: arm64
+Maintainer: Cloudflare <support@cloudflare.com>
+Installed-Size: 38332
+Homepage: https://github.com/cloudflare/cloudflared
+Priority: optional
+Section: default
+Filename: pool/main/c/cloudflared/cloudflared_2025.8.1_arm64.deb
+Size: 18894410
+SHA256: 402cb9e2c1c4352f9ca24a0fab95c888d9e62a5433307a29ced40e503e5f5c6e
+SHA1: 8cdbce17f7c42610e12fe972c1a467fa6e4ce65c
+MD5sum: 5d85c2bd5abeb40b0e4ed8a3ba1709a5
+Description: Cloudflare Tunnel daemon
+
 Package: zoxide
 Version: 0.9.8-1
 Architecture: arm64
