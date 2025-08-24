@@ -15,3 +15,21 @@ Homepage: https://github.com/sharkdp/bat
 Description: cat(1) clone with wings.
   A cat(1) clone with syntax highlighting and Git integration.
 
+Package: zoxide
+Version: 0.9.8-1
+Architecture: amd64
+Maintainer: Ajeet D'Souza <98ajeet@gmail.com>
+Installed-Size: 1313
+Filename: pool/main/zoxide_0.9.8-1_amd64.deb
+Size: 474200
+MD5sum: c82f3ed9c9198e0916947b2f5ee4122f
+SHA1: ec4d5b6fc04532fbe4beecce3af66faf0818eb9f
+SHA256: c8b49c861b577e703200c53cf5e3dfc8c8b11babb39c6b43deec4dc83efff42a
+Section: utils
+Priority: optional
+Homepage: https://github.com/ajeetdsouza/zoxide
+Description: A smarter cd command for your terminal
+ zoxide is a smarter cd command, inspired by z and autojump. It remembers which
+ directories you use most frequently, so you can "jump" to them in just a few
+ keystrokes.
+
