@@ -17,7 +17,8 @@ while read -u 10 p; do
 
 	git add .
 	git commit -m "automated: update $p"
-	git push
 
 	cd ../fetcher
 done 10< repos.txt
+
+git push
