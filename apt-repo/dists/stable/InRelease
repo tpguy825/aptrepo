@@ -9,7 +9,7 @@ Version: 1.0
 Architectures: amd64
 Components: main
 Description: apt repo that auto updates from github releases - https://github.com/tpguy825/aptrepo
-Date: Sun, 24 Aug 2025 17:03:38 +0000
+Date: Sun, 24 Aug 2025 17:05:07 +0000
 MD5Sum:
  8fdd1b73e729716d46f31f64838328a8 418176 pool/main/zoxide_0.9.8-1_armhf.deb
  d28c0802019086cfd341aa34c18747a4 2447440 pool/main/bat_0.25.0_musl-linux-armhf.deb
@@ -24,13 +24,13 @@ MD5Sum:
  b3ffb89a45a8dc800f8a68876c97c514 2669668 pool/main/bat-musl_0.25.0_musl-linux-amd64.deb
  18dcde208f9f6920a77297e5ffa58e7c 2691360 pool/main/bat_0.25.0_i686.deb
  e08d508cfbd7713cdcaaea17a41f0158 2433760 pool/main/bat-musl_0.25.0_arm64.deb
- f10770b25b8a1fb9487a1d6163e76ac8 228 dists/stable/Release.gpg
- 56fa1a1844720e7321d63788e0689ab9 5812 dists/stable/InRelease
+ 0652d59be40da992ef9088734da2d210 228 dists/stable/Release.gpg
+ ee589c723e0061849262456892b9e115 5812 dists/stable/InRelease
  7c9acddd0c7f0caea820b7e9b5505cf5 1167 dists/stable/main/binary-amd64/Packages
  d41d8cd98f00b204e9800998ecf8427e 0 dists/stable/main/binary-amd64/.gitkeep
  ae273218f3a53d5c5ab556944e1b7016 698 dists/stable/main/binary-amd64/Packages.gz
  13cf8ab089c7e676cb96f1df0a6b8a7f 101 dists/stable/main/binary-amd64/Release
- 6b4e7bdc2135366ed80b89fea81750f4 1689 dists/stable/Release
+ d9afb0b47654708354eb63de9750b504 1689 dists/stable/Release
 SHA1:
  dc38c4dcd52ee5e4253e8d31f01a48cce0f73809 418176 pool/main/zoxide_0.9.8-1_armhf.deb
  ce24436c586c016207c7185421bfb70cb5418c50 2447440 pool/main/bat_0.25.0_musl-linux-armhf.deb
@@ -45,13 +45,13 @@ SHA1:
  d812743f37b2c6137592fc487c2a4891fa20ca77 2669668 pool/main/bat-musl_0.25.0_musl-linux-amd64.deb
  b626dc4fc07316d2e7a9b09cf34dfdede67a8958 2691360 pool/main/bat_0.25.0_i686.deb
  42dbce2ae910eb286a99706d70e74a29cd187b4c 2433760 pool/main/bat-musl_0.25.0_arm64.deb
- d0e5f8e7ff4653c0327f3b472bfa7fdd47c0e2f3 228 dists/stable/Release.gpg
- aabcd1304bfca0dc7cecc55348cf06273f9b97b4 5812 dists/stable/InRelease
+ 97805b9680f45e208459bbde6dd9ad0863f310b7 228 dists/stable/Release.gpg
+ 2d5260a2f3bb95201fe0ea0f048804b63e11c089 5812 dists/stable/InRelease
  e47d4e84079312a1915633e6f7c8591f6e903056 1167 dists/stable/main/binary-amd64/Packages
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 dists/stable/main/binary-amd64/.gitkeep
  968e00e72577feb06a48ba6deb3abf926b7aad6b 698 dists/stable/main/binary-amd64/Packages.gz
  ba6159d786e3caeddf7666290685d2cf177a39e1 101 dists/stable/main/binary-amd64/Release
- 1c565f72bf177dbcf6e553eb7b82e76a0a8575bf 3333 dists/stable/Release
+ a109524156e858b7f8eb435a4f5c672c93918e76 3333 dists/stable/Release
 SHA256:
  5713b37ef4563a97cfb284c661169331bd25e37ce1a9ae49fed8f85901163a61 418176 pool/main/zoxide_0.9.8-1_armhf.deb
  e3add5a8a7dfa4496a3d8f8671f3ad1e700a181c085ec9e96fe73d7ad36ff4e5 2447440 pool/main/bat_0.25.0_musl-linux-armhf.deb
@@ -66,17 +66,17 @@ SHA256:
  050a4054ebfc4b9fce48765c3bde9284b22f465a9167e722e84022d4ce67c11f 2669668 pool/main/bat-musl_0.25.0_musl-linux-amd64.deb
  82d4b4c503439b8af45119396c8ca4cb97ddf72334e618ecaffe1b65c387ec98 2691360 pool/main/bat_0.25.0_i686.deb
  65ffcdb737e122ba3311041eff58def684fc3c825d7e6239c2a073aac91a5ca4 2433760 pool/main/bat-musl_0.25.0_arm64.deb
- 9bedb6382a33d152b544d0223f22cf89e867d836a129c181937dad2e312c3339 228 dists/stable/Release.gpg
- 4eb2d70a1a5c67bc6a5ddcfc268fd932709ad0d0afa07f2856bc11155eebfee5 5812 dists/stable/InRelease
+ 2d7173a5a630d619308c8037351a07b754edc245e045f5a47557e2da5c0163d2 228 dists/stable/Release.gpg
+ 7509a6f1fcfeff8ffb1d7f3bfbc74064dd23a10544658f24b0b2dfea0456e931 5812 dists/stable/InRelease
  141b4ef162f3bd9bd3e98fb0230dd34920b6f70a255d60dffed79b9b857ee186 1167 dists/stable/main/binary-amd64/Packages
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 dists/stable/main/binary-amd64/.gitkeep
  d29db1a53bb577bb5f5699070ed901eb7abed7e5dc522a782666d03e3d04be59 698 dists/stable/main/binary-amd64/Packages.gz
  21fc09aaa522e6f3888a2f190b82d3ca0de08ce5873451655541a9c1ef1bfe23 101 dists/stable/main/binary-amd64/Release
- 1dbeb8999b252ceda27325d216d981bb3093e26f8e6febf14edd3db5abb3aaac 5443 dists/stable/Release
+ 7cdc1fdda411dcf0d7f8aade9b80427f7b9ff67798ab2849799f04eb480f0fbe 5443 dists/stable/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQTO6klqLFq3HjSs1IaR7a62xPPsnwUCaKtF6gAKCRCR7a62xPPs
-ny4VAQDxLOIJ8fFgygXBHUNrwkQNgncz/SZkzlmjgF25O2HjFgEAy+N1HIIo9N7j
-ea9OCUHv2VTmk05md7sLQduknymFIgc=
-=iXx5
+iHUEARYKAB0WIQTO6klqLFq3HjSs1IaR7a62xPPsnwUCaKtGRAAKCRCR7a62xPPs
+nzHiAQDqBNjQhd3bHm6zSHx1tnl3h3aOHilpfAPdU7sGEeG4YQEAj+XzeyCxHxBQ
+twhvw7VMw6ren4YchuKMxQaujg/7xgM=
+=JGf9
 -----END PGP SIGNATURE-----
