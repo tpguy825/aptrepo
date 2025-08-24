@@ -1,0 +1,17 @@
+Package: bat
+Version: 0.25.0
+Architecture: amd64
+Maintainer: David Peter <mail@david-peter.de>
+Conflicts: bat-musl
+Provides: bat
+Filename: pool/main/bat_0.25.0_amd64.deb
+Size: 2631980
+MD5sum: 2d888d2216d7ea2b4740aea7d5fd7879
+SHA1: 17e7000d21f567067cc5794451fe7d0fa784649e
+SHA256: 7e6afdffaea04b394f466f6f719a1e0565572a4b59d6cb9969843355b684e2dc
+Section: utils
+Priority: optional
+Homepage: https://github.com/sharkdp/bat
+Description: cat(1) clone with wings.
+  A cat(1) clone with syntax highlighting and Git integration.
+

@@ -1,0 +1,51 @@
+Origin: tpguy825's apt repo
+Label: tpguy825's apt repo
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: amd64
+Components: main
+Description: apt repo that auto updates from github releases - https://github.com/tpguy825/aptrepo
+Date: Sun, 24 Aug 2025 13:24:29 +0000
+MD5Sum:
+ d28c0802019086cfd341aa34c18747a4 2447440 pool/main/bat_0.25.0_musl-linux-armhf.deb
+ ef77b96c61726b56de345547d4afe834 2691556 pool/main/bat-musl_0.25.0_musl-linux-i686.deb
+ d41d8cd98f00b204e9800998ecf8427e 0 pool/main/.gitkeep
+ fafd8fedf80ffa8c1ba7ce59716a3fb7 2386468 pool/main/bat_0.25.0_arm64.deb
+ 2d888d2216d7ea2b4740aea7d5fd7879 2631980 pool/main/bat_0.25.0_amd64.deb
+ fc55aef1c0eb8baa36f1e50e7ab5b8b2 2415520 pool/main/bat_0.25.0_armhf.deb
+ b3ffb89a45a8dc800f8a68876c97c514 2669668 pool/main/bat-musl_0.25.0_musl-linux-amd64.deb
+ 18dcde208f9f6920a77297e5ffa58e7c 2691360 pool/main/bat_0.25.0_i686.deb
+ e08d508cfbd7713cdcaaea17a41f0158 2433760 pool/main/bat-musl_0.25.0_arm64.deb
+ 3bc00cd5a2ffd7214b6377c94d0bc076 522 dists/stable/main/binary-amd64/Packages
+ d41d8cd98f00b204e9800998ecf8427e 0 dists/stable/main/binary-amd64/.gitkeep
+ fef2c27322ea9a96781e31df2c34f001 390 dists/stable/main/binary-amd64/Packages.gz
+ 7b7467aa872e51b5286e7562d1c053c0 1202 dists/stable/Release
+SHA1:
+ ce24436c586c016207c7185421bfb70cb5418c50 2447440 pool/main/bat_0.25.0_musl-linux-armhf.deb
+ 7039d22f529cccdeb7ef49fe571a1017ea306cc8 2691556 pool/main/bat-musl_0.25.0_musl-linux-i686.deb
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 pool/main/.gitkeep
+ 1a9f32febd9e5d0a0ff45d3a93c3923a5e838984 2386468 pool/main/bat_0.25.0_arm64.deb
+ 17e7000d21f567067cc5794451fe7d0fa784649e 2631980 pool/main/bat_0.25.0_amd64.deb
+ fce957f21a92b82d9d50e2d0f6256c806e73af44 2415520 pool/main/bat_0.25.0_armhf.deb
+ d812743f37b2c6137592fc487c2a4891fa20ca77 2669668 pool/main/bat-musl_0.25.0_musl-linux-amd64.deb
+ b626dc4fc07316d2e7a9b09cf34dfdede67a8958 2691360 pool/main/bat_0.25.0_i686.deb
+ 42dbce2ae910eb286a99706d70e74a29cd187b4c 2433760 pool/main/bat-musl_0.25.0_arm64.deb
+ 843e715604814ef0db7d72a394fb75bfdfacc6f0 522 dists/stable/main/binary-amd64/Packages
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 dists/stable/main/binary-amd64/.gitkeep
+ 6a6d23cb9971ab05e275834fd17d7ed6f971c16c 390 dists/stable/main/binary-amd64/Packages.gz
+ 4df4ad016f3fd0af4f51be7c944111b31378d878 2284 dists/stable/Release
+SHA256:
+ e3add5a8a7dfa4496a3d8f8671f3ad1e700a181c085ec9e96fe73d7ad36ff4e5 2447440 pool/main/bat_0.25.0_musl-linux-armhf.deb
+ 7825cfaac67d7e80504afb8c8fda44f4706eebd9ac2dd59fbef3bd0842606944 2691556 pool/main/bat-musl_0.25.0_musl-linux-i686.deb
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 pool/main/.gitkeep
+ 5218cbb36805e50583e02dd94141077db84acde4f617806e3a22a5f1dc320f23 2386468 pool/main/bat_0.25.0_arm64.deb
+ 7e6afdffaea04b394f466f6f719a1e0565572a4b59d6cb9969843355b684e2dc 2631980 pool/main/bat_0.25.0_amd64.deb
+ 8d97dfc63fea4f370d5ee26603df4e200d56e060cb812134a202938612fa24f7 2415520 pool/main/bat_0.25.0_armhf.deb
+ 050a4054ebfc4b9fce48765c3bde9284b22f465a9167e722e84022d4ce67c11f 2669668 pool/main/bat-musl_0.25.0_musl-linux-amd64.deb
+ 82d4b4c503439b8af45119396c8ca4cb97ddf72334e618ecaffe1b65c387ec98 2691360 pool/main/bat_0.25.0_i686.deb
+ 65ffcdb737e122ba3311041eff58def684fc3c825d7e6239c2a073aac91a5ca4 2433760 pool/main/bat-musl_0.25.0_arm64.deb
+ 7b0a1b0e69d36248cad30b25fbc2455d330be81884496fbe4393891b7e77ba4c 522 dists/stable/main/binary-amd64/Packages
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 dists/stable/main/binary-amd64/.gitkeep
+ 97c4d498a95e69b0e61a169941a5ab792d68e2172b8332b7f48b0421015ec5ad 390 dists/stable/main/binary-amd64/Packages.gz
+ 15bb8c090f8632a80faaf0e5cf76a0a065d20a868f98fd9f6f116177c0fd67fb 3664 dists/stable/Release
