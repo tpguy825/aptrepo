@@ -16,7 +16,7 @@ do_hash() {
 
 # Architectures: amd64 arm64 arm7
 cat << EOF
-Origin: tpguy825
+Origin: apt.tpgy.uk
 Label: tpguy825
 Suite: stable
 Codename: stable
