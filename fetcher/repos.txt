@@ -1,0 +1,2 @@
+sharkdp/bat
+ajeetdsouza/zoxide
