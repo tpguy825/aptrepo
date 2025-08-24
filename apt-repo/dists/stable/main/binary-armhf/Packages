@@ -2,33 +2,33 @@ Package: bat
 Version: 0.25.0
 Maintainer: David Peter <mail@david-peter.de>
 Homepage: https://github.com/sharkdp/bat
-Architecture: amd64
+Architecture: armhf
 Provides: bat
 Conflicts: bat-musl
 Priority: optional
 Section: utils
-Filename: pool/main/b/bat/bat_0.25.0_amd64.deb
-Size: 2631980
-SHA256: 7e6afdffaea04b394f466f6f719a1e0565572a4b59d6cb9969843355b684e2dc
-SHA1: 17e7000d21f567067cc5794451fe7d0fa784649e
-MD5sum: 2d888d2216d7ea2b4740aea7d5fd7879
+Filename: pool/main/b/bat/bat_0.25.0_armhf.deb
+Size: 2415520
+SHA256: 8d97dfc63fea4f370d5ee26603df4e200d56e060cb812134a202938612fa24f7
+SHA1: fce957f21a92b82d9d50e2d0f6256c806e73af44
+MD5sum: fc55aef1c0eb8baa36f1e50e7ab5b8b2
 Description: cat(1) clone with wings.
   A cat(1) clone with syntax highlighting and Git integration.
 
 Package: zoxide
 Version: 0.9.8-1
-Architecture: amd64
+Architecture: armhf
 Homepage: https://github.com/ajeetdsouza/zoxide
 Maintainer: Ajeet D'Souza <98ajeet@gmail.com>
-Installed-Size: 1313
+Installed-Size: 1083
 Depends: 
 Priority: optional
 Section: utils
-Filename: pool/main/z/zoxide/zoxide_0.9.8-1_amd64.deb
-Size: 474200
-SHA256: c8b49c861b577e703200c53cf5e3dfc8c8b11babb39c6b43deec4dc83efff42a
-SHA1: ec4d5b6fc04532fbe4beecce3af66faf0818eb9f
-MD5sum: c82f3ed9c9198e0916947b2f5ee4122f
+Filename: pool/main/z/zoxide/zoxide_0.9.8-1_armhf.deb
+Size: 418176
+SHA256: 5713b37ef4563a97cfb284c661169331bd25e37ce1a9ae49fed8f85901163a61
+SHA1: dc38c4dcd52ee5e4253e8d31f01a48cce0f73809
+MD5sum: 8fdd1b73e729716d46f31f64838328a8
 Description: A smarter cd command for your terminal
  zoxide is a smarter cd command, inspired by z and autojump. It remembers which
  directories you use most frequently, so you can "jump" to them in just a few

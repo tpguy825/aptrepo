@@ -9,18 +9,24 @@ async function getLatest(repo: string) {
 	if (!latest[0]) return console.error(latest);
 
 	for (const file of latest[0].assets) {
-		if (!file.name.endsWith(".deb")) continue;
+		if (!file.name.endsWith(".deb") || file.name.includes("musl-linux") || file.name.includes("i386") || file.name.includes("i686")) continue;
 		const filepath = path.join(__dirname, "..", "apt-repo/pool/main", file.name);
 		if (existsSync(filepath)) continue;
 		const buf = await fetch(file.browser_download_url, {
 			headers: { "User-Agent": "fetcher/1.0 (https://github.com/tpguy825/aptrepo)" },
 		}).then(r => r.arrayBuffer());
 		await fs.writeFile(filepath, Buffer.from(buf));
+		await Bun.$`reprepro -b ../apt-repo includedeb stable ${filepath}`;
+		await fs.unlink(filepath);
 	}
 }
 
-if (!process.argv[2]) throw new Error("Must provide repo in format author/name");
-await getLatest(process.argv[2]?.trim());
+const repos = (await fs.readFile("repos.txt", "utf8")).split("\n").map(t => t.trim()).filter(t => t.length > 0)
+for (const repo of repos) {
+	if (!repo) throw new Error("Must provide repo in format author/name");
+	await getLatest(repo)
+}
+
 
 
 interface Release {

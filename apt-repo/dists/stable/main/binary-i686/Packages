@@ -1,0 +1,17 @@
+Package: bat
+Version: 0.25.0
+Maintainer: David Peter <mail@david-peter.de>
+Homepage: https://github.com/sharkdp/bat
+Architecture: i686
+Provides: bat
+Conflicts: bat-musl
+Priority: optional
+Section: utils
+Filename: pool/main/b/bat/bat_0.25.0_i686.deb
+Size: 2691360
+SHA256: 82d4b4c503439b8af45119396c8ca4cb97ddf72334e618ecaffe1b65c387ec98
+SHA1: b626dc4fc07316d2e7a9b09cf34dfdede67a8958
+MD5sum: 18dcde208f9f6920a77297e5ffa58e7c
+Description: cat(1) clone with wings.
+  A cat(1) clone with syntax highlighting and Git integration.
+

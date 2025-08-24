@@ -1,0 +1,53 @@
+Package: bat
+Version: 0.25.0
+Maintainer: David Peter <mail@david-peter.de>
+Homepage: https://github.com/sharkdp/bat
+Architecture: arm64
+Provides: bat
+Conflicts: bat-musl
+Priority: optional
+Section: utils
+Filename: pool/main/b/bat/bat_0.25.0_arm64.deb
+Size: 2386468
+SHA256: 5218cbb36805e50583e02dd94141077db84acde4f617806e3a22a5f1dc320f23
+SHA1: 1a9f32febd9e5d0a0ff45d3a93c3923a5e838984
+MD5sum: fafd8fedf80ffa8c1ba7ce59716a3fb7
+Description: cat(1) clone with wings.
+  A cat(1) clone with syntax highlighting and Git integration.
+
+Package: bat-musl
+Version: 0.25.0
+Maintainer: David Peter <mail@david-peter.de>
+Homepage: https://github.com/sharkdp/bat
+Architecture: arm64
+Provides: bat
+Conflicts: bat
+Priority: optional
+Section: utils
+Filename: pool/main/b/bat-musl/bat-musl_0.25.0_arm64.deb
+Size: 2433760
+SHA256: 65ffcdb737e122ba3311041eff58def684fc3c825d7e6239c2a073aac91a5ca4
+SHA1: 42dbce2ae910eb286a99706d70e74a29cd187b4c
+MD5sum: e08d508cfbd7713cdcaaea17a41f0158
+Description: cat(1) clone with wings.
+  A cat(1) clone with syntax highlighting and Git integration.
+
+Package: zoxide
+Version: 0.9.8-1
+Architecture: arm64
+Homepage: https://github.com/ajeetdsouza/zoxide
+Maintainer: Ajeet D'Souza <98ajeet@gmail.com>
+Installed-Size: 1116
+Depends: 
+Priority: optional
+Section: utils
+Filename: pool/main/z/zoxide/zoxide_0.9.8-1_arm64.deb
+Size: 416616
+SHA256: 14af5e3815a7876ce60066136560e93cb763617f4a5f87b8ffd2fd87ec5a67ef
+SHA1: 8f6f69a3ea3b773afce43e830122fbbc6e19c77f
+MD5sum: 31fa226a1f5df01d42ea042d6665fbfd
+Description: A smarter cd command for your terminal
+ zoxide is a smarter cd command, inspired by z and autojump. It remembers which
+ directories you use most frequently, so you can "jump" to them in just a few
+ keystrokes.
+

@@ -2,71 +2,47 @@ Origin: apt.tpgy.uk
 Label: tpguy825
 Suite: stable
 Codename: stable
-Version: 1.1
-Architectures: amd64
+Version: 1.2
+Date: Sun, 24 Aug 2025 18:45:21 UTC
+Architectures: amd64 arm64 armhf i686
 Components: main
-Description: apt repo that auto updates from github releases - https://github.com/tpguy825/aptrepo
-Date: Sun, 24 Aug 2025 17:26:52 +0000
+Description: personal apt repo
 MD5Sum:
- 8fdd1b73e729716d46f31f64838328a8 418176 pool/main/zoxide_0.9.8-1_armhf.deb
- d28c0802019086cfd341aa34c18747a4 2447440 pool/main/bat_0.25.0_musl-linux-armhf.deb
- ef77b96c61726b56de345547d4afe834 2691556 pool/main/bat-musl_0.25.0_musl-linux-i686.deb
- dba6ccf6120b5e2c323571f62bbcc7c8 487672 pool/main/zoxide_0.9.8-1_i386.deb
- d41d8cd98f00b204e9800998ecf8427e 0 pool/main/.gitkeep
- fafd8fedf80ffa8c1ba7ce59716a3fb7 2386468 pool/main/bat_0.25.0_arm64.deb
- 2d888d2216d7ea2b4740aea7d5fd7879 2631980 pool/main/bat_0.25.0_amd64.deb
- fc55aef1c0eb8baa36f1e50e7ab5b8b2 2415520 pool/main/bat_0.25.0_armhf.deb
- 31fa226a1f5df01d42ea042d6665fbfd 416616 pool/main/zoxide_0.9.8-1_arm64.deb
- c82f3ed9c9198e0916947b2f5ee4122f 474200 pool/main/zoxide_0.9.8-1_amd64.deb
- b3ffb89a45a8dc800f8a68876c97c514 2669668 pool/main/bat-musl_0.25.0_musl-linux-amd64.deb
- 18dcde208f9f6920a77297e5ffa58e7c 2691360 pool/main/bat_0.25.0_i686.deb
- e08d508cfbd7713cdcaaea17a41f0158 2433760 pool/main/bat-musl_0.25.0_arm64.deb
- d6e4e468db5fdd65ea21ac9eb67c346f 228 dists/stable/Release.gpg
- 87ad98bdbd60b909a8b7e5694761fb5a 5812 dists/stable/InRelease
- 7c9acddd0c7f0caea820b7e9b5505cf5 1167 dists/stable/main/binary-amd64/Packages
- d41d8cd98f00b204e9800998ecf8427e 0 dists/stable/main/binary-amd64/.gitkeep
- ae273218f3a53d5c5ab556944e1b7016 698 dists/stable/main/binary-amd64/Packages.gz
- 13cf8ab089c7e676cb96f1df0a6b8a7f 101 dists/stable/main/binary-amd64/Release
- 44e6a2d4c6ea7ac2a1ace15a6622ed64 1689 dists/stable/Release
+ a6c7d2b6f360ae8fd2fceaa289d9122b 1192 main/binary-amd64/Packages
+ a64652192f99160f2c19e98dd012ce16 712 main/binary-amd64/Packages.gz
+ 433ab359e2995667dd47e38ccc810e17 132 main/binary-amd64/Release
+ fc6ea9610554a35ab1a8ae55710d91cd 1730 main/binary-arm64/Packages
+ 29efa07f2af347e180367c14d928fb2a 834 main/binary-arm64/Packages.gz
+ cb9bd9c2b4744083514bba20cbbcbb64 132 main/binary-arm64/Release
+ 8f391e0b7b1be71c1f864a93cd68960a 1192 main/binary-armhf/Packages
+ 6c1cc96fc93ab7a12ecec53019958c4e 712 main/binary-armhf/Packages.gz
+ 4a9a4dce0f088a036004dca07a0870eb 132 main/binary-armhf/Release
+ 8d7cf7db095a866d88f332baa38cc1c2 526 main/binary-i686/Packages
+ 3ee515753fb5432abde8e89533f2dc5c 392 main/binary-i686/Packages.gz
+ 01e61a0b92cd91cb1245581fa5c2f5e4 131 main/binary-i686/Release
 SHA1:
- dc38c4dcd52ee5e4253e8d31f01a48cce0f73809 418176 pool/main/zoxide_0.9.8-1_armhf.deb
- ce24436c586c016207c7185421bfb70cb5418c50 2447440 pool/main/bat_0.25.0_musl-linux-armhf.deb
- 7039d22f529cccdeb7ef49fe571a1017ea306cc8 2691556 pool/main/bat-musl_0.25.0_musl-linux-i686.deb
- 72dfb6959ab7ab801ee5666dbfc5f39dffb03b00 487672 pool/main/zoxide_0.9.8-1_i386.deb
- da39a3ee5e6b4b0d3255bfef95601890afd80709 0 pool/main/.gitkeep
- 1a9f32febd9e5d0a0ff45d3a93c3923a5e838984 2386468 pool/main/bat_0.25.0_arm64.deb
- 17e7000d21f567067cc5794451fe7d0fa784649e 2631980 pool/main/bat_0.25.0_amd64.deb
- fce957f21a92b82d9d50e2d0f6256c806e73af44 2415520 pool/main/bat_0.25.0_armhf.deb
- 8f6f69a3ea3b773afce43e830122fbbc6e19c77f 416616 pool/main/zoxide_0.9.8-1_arm64.deb
- ec4d5b6fc04532fbe4beecce3af66faf0818eb9f 474200 pool/main/zoxide_0.9.8-1_amd64.deb
- d812743f37b2c6137592fc487c2a4891fa20ca77 2669668 pool/main/bat-musl_0.25.0_musl-linux-amd64.deb
- b626dc4fc07316d2e7a9b09cf34dfdede67a8958 2691360 pool/main/bat_0.25.0_i686.deb
- 42dbce2ae910eb286a99706d70e74a29cd187b4c 2433760 pool/main/bat-musl_0.25.0_arm64.deb
- 499b594211bb12ce97128930fd7deadb086e72dd 228 dists/stable/Release.gpg
- 75604b4ff1eeaa54b43c46b87bfbc71ce6095352 5812 dists/stable/InRelease
- e47d4e84079312a1915633e6f7c8591f6e903056 1167 dists/stable/main/binary-amd64/Packages
- da39a3ee5e6b4b0d3255bfef95601890afd80709 0 dists/stable/main/binary-amd64/.gitkeep
- 968e00e72577feb06a48ba6deb3abf926b7aad6b 698 dists/stable/main/binary-amd64/Packages.gz
- ba6159d786e3caeddf7666290685d2cf177a39e1 101 dists/stable/main/binary-amd64/Release
- a90989df05ca140a23e4a239c7c100cb1a204531 3333 dists/stable/Release
+ a9a4462226b92fca17b4c4d3cf2cd568716af244 1192 main/binary-amd64/Packages
+ 91ada4bf37d319127244d7c92e99d3b05ab3579b 712 main/binary-amd64/Packages.gz
+ 652da2adffe57c06a75315178585a538fcf4e99f 132 main/binary-amd64/Release
+ aabc25981e202dda09e051a015087d71bbe74fbe 1730 main/binary-arm64/Packages
+ c775ec747c2f651c72d7fcd5c1bdf2a7e30e85cf 834 main/binary-arm64/Packages.gz
+ 2016dfea01cbc81204ba4b4495165d61a7225784 132 main/binary-arm64/Release
+ b2db7514519f112f4b345e16a52983a127468c2c 1192 main/binary-armhf/Packages
+ 6dc4718550d3dcc3b7dbfccea49fb920171615fc 712 main/binary-armhf/Packages.gz
+ 3af9244db166fbe16864b3a4cc1453f6c653cce0 132 main/binary-armhf/Release
+ 4dd8ede6a038e3e0bd17afebf637ee968e097ac2 526 main/binary-i686/Packages
+ 1dd86def14512933af3363dcb34b3beb9185b800 392 main/binary-i686/Packages.gz
+ d161834a34ef1063c5f42c91d4e001701015fc28 131 main/binary-i686/Release
 SHA256:
- 5713b37ef4563a97cfb284c661169331bd25e37ce1a9ae49fed8f85901163a61 418176 pool/main/zoxide_0.9.8-1_armhf.deb
- e3add5a8a7dfa4496a3d8f8671f3ad1e700a181c085ec9e96fe73d7ad36ff4e5 2447440 pool/main/bat_0.25.0_musl-linux-armhf.deb
- 7825cfaac67d7e80504afb8c8fda44f4706eebd9ac2dd59fbef3bd0842606944 2691556 pool/main/bat-musl_0.25.0_musl-linux-i686.deb
- 8b704a5e076eedf7d3cfbca64576de870740d3c84c534838865eb8bb621a9681 487672 pool/main/zoxide_0.9.8-1_i386.deb
- e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 pool/main/.gitkeep
- 5218cbb36805e50583e02dd94141077db84acde4f617806e3a22a5f1dc320f23 2386468 pool/main/bat_0.25.0_arm64.deb
- 7e6afdffaea04b394f466f6f719a1e0565572a4b59d6cb9969843355b684e2dc 2631980 pool/main/bat_0.25.0_amd64.deb
- 8d97dfc63fea4f370d5ee26603df4e200d56e060cb812134a202938612fa24f7 2415520 pool/main/bat_0.25.0_armhf.deb
- 14af5e3815a7876ce60066136560e93cb763617f4a5f87b8ffd2fd87ec5a67ef 416616 pool/main/zoxide_0.9.8-1_arm64.deb
- c8b49c861b577e703200c53cf5e3dfc8c8b11babb39c6b43deec4dc83efff42a 474200 pool/main/zoxide_0.9.8-1_amd64.deb
- 050a4054ebfc4b9fce48765c3bde9284b22f465a9167e722e84022d4ce67c11f 2669668 pool/main/bat-musl_0.25.0_musl-linux-amd64.deb
- 82d4b4c503439b8af45119396c8ca4cb97ddf72334e618ecaffe1b65c387ec98 2691360 pool/main/bat_0.25.0_i686.deb
- 65ffcdb737e122ba3311041eff58def684fc3c825d7e6239c2a073aac91a5ca4 2433760 pool/main/bat-musl_0.25.0_arm64.deb
- 26d9b8317d69495a9c70254d4740017c88677aa6b680d057aa2a7c30bf2adf35 228 dists/stable/Release.gpg
- 5f105d37af94f996d24e1d3cde2c8ec4e90ba9040b6416790e8bb7f569cb9362 5812 dists/stable/InRelease
- 141b4ef162f3bd9bd3e98fb0230dd34920b6f70a255d60dffed79b9b857ee186 1167 dists/stable/main/binary-amd64/Packages
- e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 dists/stable/main/binary-amd64/.gitkeep
- d29db1a53bb577bb5f5699070ed901eb7abed7e5dc522a782666d03e3d04be59 698 dists/stable/main/binary-amd64/Packages.gz
- 21fc09aaa522e6f3888a2f190b82d3ca0de08ce5873451655541a9c1ef1bfe23 101 dists/stable/main/binary-amd64/Release
- 16476fc2b97098b60a67e6a1cd6c7bfa4a73d3f590c66b7e8cefb7efd88feae3 5443 dists/stable/Release
+ e290b3276f38bc0e8481c0c904305570240cfe48f1b97577a1aecde965647c41 1192 main/binary-amd64/Packages
+ 36142e1fa66761380639faf7f689a05f23086a8cf801024b09e5e6f833e58ea1 712 main/binary-amd64/Packages.gz
+ d428fb0a1e3f2444606f1fd51687fa7a8fd81d0999ad8ea023d361486eac2309 132 main/binary-amd64/Release
+ 5911fc8cc3d6072a547f8cf75353822d5bb7aa3411a376e1aac119fc1062aaf8 1730 main/binary-arm64/Packages
+ 41cbc2c4daa0c0738da9e44ad0a23bc2ca36eaf92ce8b9389ed4951bcb3974b0 834 main/binary-arm64/Packages.gz
+ a34d250fb25931b702e907678cd8ff2e40b11290cb209dd23c4a31a1257b7784 132 main/binary-arm64/Release
+ 5aaae540f43332a9de795b43ee3ca9f693afc3f5738995c4075564f282d17cec 1192 main/binary-armhf/Packages
+ 00ffeb8c178dc21f19d67465bbaee66163f955016a07902c17b56350aa805412 712 main/binary-armhf/Packages.gz
+ d29b024db84513563841f151651e48327363b85624f11fba2275a3bf261d6ea2 132 main/binary-armhf/Release
+ 24462affd72f1129c339c5db047bb876939afd0d119ce474980220dfe73dbf9a 526 main/binary-i686/Packages
+ 0eeedf1ce17913826a8d0375b6904c45e132810923c796b27ff5cbb792294cbe 392 main/binary-i686/Packages.gz
+ edb65247700293b70c3a5b2ebd4ffd1dce38d2d4c498a942a609e2c967103bf2 131 main/binary-i686/Release
