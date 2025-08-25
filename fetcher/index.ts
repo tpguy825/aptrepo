@@ -18,7 +18,18 @@ async function getLatest(repo: string) {
 		)
 			continue;
 		const filepath = path.join(__dirname, "..", "apt-repo/pool/main", file.name);
-		if (existsSync(filepath)) continue;
+		const filepath2 = path.join(
+			__dirname,
+			"..",
+			"apt-repo/pool/main",
+			file.name.slice(0, 1),
+			// cloudflared uses dashes not underscores and breaks this when put into reprepro
+			file.name.includes("_") ? file.name.split("_")[0]!.trim() : file.name.split("_").slice(0, -2).join("-").trim(),
+			file.name,
+		);
+		console.log("Ckecking", filepath, "and", filepath2);
+		
+		if (existsSync(filepath) || existsSync(filepath2)) continue;
 		const buf = await fetch(file.browser_download_url, {
 			headers: { "User-Agent": "fetcher/1.0 (https://github.com/tpguy825/aptrepo)" },
 		}).then((r) => r.arrayBuffer());
@@ -115,4 +126,6 @@ interface Author {
 	user_view_type: string;
 	site_admin: boolean;
 }
+
+
 
