@@ -32,23 +32,6 @@ SHA1: 0aed622b846814627bef908ec5d6deaf0174f12e
 MD5sum: 3d77a6d23b799669c1a930cea05330b5
 Description: Cloudflare Tunnel daemon
 
-Package: cloudflared-fips
-Version: 2025.8.1
-License: Apache License Version 2.0
-Vendor: Cloudflare
-Architecture: amd64
-Maintainer: Cloudflare <support@cloudflare.com>
-Installed-Size: 42401
-Homepage: https://github.com/cloudflare/cloudflared
-Priority: optional
-Section: default
-Filename: pool/main/c/cloudflared-fips/cloudflared-fips_2025.8.1_amd64.deb
-Size: 20462948
-SHA256: 767d156b5a42bc1b0135f47d1af8745cdf24672b8bcdbb397ae56c512a36cc16
-SHA1: 24d2e4044f43a2b66e20821ac0aa2dcf2c2c45a8
-MD5sum: a8a7472fbb2ab40f932b805b68048a39
-Description: Cloudflare Tunnel daemon
-
 Package: fzf
 Version: 0.65.1
 Maintainer: Junegunn Choi <junegunn.c@gmail.com>

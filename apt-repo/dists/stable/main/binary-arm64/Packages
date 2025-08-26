@@ -15,23 +15,6 @@ MD5sum: fafd8fedf80ffa8c1ba7ce59716a3fb7
 Description: cat(1) clone with wings.
   A cat(1) clone with syntax highlighting and Git integration.
 
-Package: bat-musl
-Version: 0.25.0
-Maintainer: David Peter <mail@david-peter.de>
-Homepage: https://github.com/sharkdp/bat
-Architecture: arm64
-Provides: bat
-Conflicts: bat
-Priority: optional
-Section: utils
-Filename: pool/main/b/bat-musl/bat-musl_0.25.0_arm64.deb
-Size: 2433760
-SHA256: 65ffcdb737e122ba3311041eff58def684fc3c825d7e6239c2a073aac91a5ca4
-SHA1: 42dbce2ae910eb286a99706d70e74a29cd187b4c
-MD5sum: e08d508cfbd7713cdcaaea17a41f0158
-Description: cat(1) clone with wings.
-  A cat(1) clone with syntax highlighting and Git integration.
-
 Package: cloudflared
 Version: 2025.8.1
 License: Apache License Version 2.0
