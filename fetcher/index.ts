@@ -2,53 +2,85 @@ import { existsSync } from "fs";
 import fs from "fs/promises";
 import path from "path";
 
-async function getLatest(repo: string) {
-	const latest = await fetch(`https://api.github.com/repos/${repo}/releases`, {
+type MaybePromise<T> = T | Promise<T>;
+
+type EachFile = (name: string, contents: () => Promise<Buffer>, release: Release) => MaybePromise<string | false>;
+
+export const defaultEachFile = async (name: string, contents: () => Promise<Buffer>) => {
+	const filepath = path.join(poolpath, name);
+	const filepath2 = path.join(poolpath, firstchar(name), name.split("_")[0]!.trim(), name);
+	console.log("Ckecking", filepath, "and", filepath2);
+
+	if (existsSync(filepath) || existsSync(filepath2)) return false;
+	await fs.writeFile(filepath, await contents());
+	return filepath;
+};
+
+export interface RepoConfig {
+	repo: `${string}/${string}`;
+	/** @returns file name of saved deb file or false to skip */
+	eachFile?: EachFile;
+	fileNameEnding?: `.${string}`;
+}
+
+export function firstchar(t: string) {
+	return t.slice(0, 1);
+}
+/** remove amount chars from end of t */
+export function truncate(t: string, amount: number) {
+	return t.slice(0, t.length - amount);
+}
+export const poolpath = path.join(__dirname, "..", "apt-repo/pool/main");
+
+async function getLatest(repo: RepoConfig) {
+	console.log(repo.repo);
+
+	const latest = await fetch(`https://api.github.com/repos/${repo.repo}/releases`, {
 		headers: { "User-Agent": "fetcher/1.0 (https://github.com/tpguy825/aptrepo)" },
 	}).then((r) => r.json() as Promise<Release[]>);
 	if (!latest[0]) return console.error(latest);
 
 	for (const file of latest[0].assets) {
 		if (
-			!file.name.endsWith(".deb") ||
-			file.name.includes("musl-linux") ||
-			file.name.includes("386") ||
-			file.name.includes("i686") ||
-			file.name === "cloudflared-linux-arm.deb"
+			!file.name.endsWith(repo.fileNameEnding ?? ".deb") ||
+			!file.name.includes("linux") ||
+			!(
+				file.name.includes("amd64") ||
+				file.name.includes("arm64") ||
+				file.name.includes("armhf") ||
+				file.name.includes("armv7")
+			) ||
+			file.name.includes("musl-linux")
 		)
 			continue;
-		const filepath = path.join(__dirname, "..", "apt-repo/pool/main", file.name);
-		const filepath2 = path.join(
-			__dirname,
-			"..",
-			"apt-repo/pool/main",
-			file.name.slice(0, 1),
-			// cloudflared uses dashes not underscores and breaks this when put into reprepro
-			file.name.includes("_") ? file.name.split("_")[0]!.trim() : file.name.split("_").slice(0, -2).join("-").trim(),
-			file.name,
+
+		const eachFile = repo.eachFile ?? defaultEachFile;
+		const filepath = await eachFile(file.name, () =>
+			fetch(file.browser_download_url, {
+				headers: { "User-Agent": "fetcher/1.0 (https://github.com/tpguy825/aptrepo)" },
+				cache: "no-cache",
+			})
+				.then((r) => r.arrayBuffer())
+				.then((r) => Buffer.from(r)),
+			latest[0]
 		);
-		console.log("Ckecking", filepath, "and", filepath2);
-		
-		if (existsSync(filepath) || existsSync(filepath2)) continue;
-		const buf = await fetch(file.browser_download_url, {
-			headers: { "User-Agent": "fetcher/1.0 (https://github.com/tpguy825/aptrepo)" },
-		}).then((r) => r.arrayBuffer());
-		await fs.writeFile(filepath, Buffer.from(buf));
-		await Bun.$`reprepro -b ../apt-repo includedeb stable ${filepath}`;
+		if (!filepath) continue;
+		await Bun.$`reprepro -b ../apt-repo -S utils -P optional includedeb stable ${filepath}`;
 		await fs.unlink(filepath);
 	}
 }
 
-const repos = (await fs.readFile("repos.txt", "utf8"))
-	.split("\n")
-	.map((t) => t.trim())
-	.filter((t) => t.length > 0);
-for (const repo of repos) {
-	if (!repo) throw new Error("Must provide repo in format author/name");
-	await getLatest(repo);
+for (const repo of await fs.readdir("repos")) {
+	try {
+		await (import(path.join(__dirname, "repos", repo)) as Promise<{ default: RepoConfig }>).then((r) =>
+			getLatest(r.default),
+		);
+	} catch (e) {
+		console.error(e);
+	}
 }
 
-await Bun.$`git add ../apt-repo && git commit -m "automated: update repo" && git push`.nothrow();
+// await Bun.$`git add ../apt-repo && git commit -m "automated: update repo" && git push`.nothrow();
 
 interface Release {
 	url: string;
@@ -126,6 +158,5 @@ interface Author {
 	user_view_type: string;
 	site_admin: boolean;
 }
-
 
 

@@ -1,3 +1,0 @@
-sharkdp/bat
-ajeetdsouza/zoxide
-cloudflare/cloudflared
