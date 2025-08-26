@@ -3,7 +3,7 @@ Label: tpguy825
 Suite: stable
 Codename: stable
 Version: 1.2
-Architectures: amd64 arm64 armhf i686
+Architectures: amd64 arm64 armhf
 Components: main
 Description: personal apt repo
 SignWith: CEEA496A2C5AB71E34ACD48691EDAEB6C4F3EC9F

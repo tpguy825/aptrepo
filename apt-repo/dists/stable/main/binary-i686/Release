@@ -1,7 +1,0 @@
-Archive: stable
-Version: 1.2
-Component: main
-Origin: apt.tpgy.uk
-Label: tpguy825
-Architecture: i686
-Description: personal apt repo
