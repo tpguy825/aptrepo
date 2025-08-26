@@ -9,7 +9,6 @@ type EachFile = (name: string, contents: () => Promise<Buffer>, release: Release
 export const defaultEachFile = async (name: string, contents: () => Promise<Buffer>) => {
 	const filepath = path.join(poolpath, name);
 	const filepath2 = path.join(poolpath, firstchar(name), name.split("_")[0]!.trim(), name);
-	console.log("Ckecking", filepath, "and", filepath2);
 
 	if (existsSync(filepath) || existsSync(filepath2)) return false;
 	await fs.writeFile(filepath, await contents());
