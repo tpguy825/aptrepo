@@ -36,6 +36,7 @@ async function getLatest(repo: RepoConfig) {
 
 	const latest = await fetch(`https://api.github.com/repos/${repo.repo}/releases`, {
 		headers: { "User-Agent": "fetcher/1.0 (https://github.com/tpguy825/aptrepo)" },
+		cache: "no-cache"
 	}).then((r) => r.json() as Promise<Release[]>);
 	if (!latest[0]) return console.error(latest);
 
@@ -57,7 +58,6 @@ async function getLatest(repo: RepoConfig) {
 		const filepath = await eachFile(file.name, () =>
 			fetch(file.browser_download_url, {
 				headers: { "User-Agent": "fetcher/1.0 (https://github.com/tpguy825/aptrepo)" },
-				cache: "no-cache",
 			})
 				.then((r) => r.arrayBuffer())
 				.then((r) => Buffer.from(r)),
