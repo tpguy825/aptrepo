@@ -79,7 +79,7 @@ for (const repo of await fs.readdir("repos")) {
 	}
 }
 
-// await Bun.$`git add ../apt-repo && git commit -m "automated: update repo" && git push`.nothrow();
+await Bun.$`git add ../apt-repo && git commit -m "automated: update repo" && git push`.nothrow();
 
 interface Release {
 	url: string;
