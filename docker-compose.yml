@@ -4,6 +4,6 @@ services:
         ports:
             - 37278:80
         volumes:
-            - ./apt-repo:/usr/local/apache2/htdocs/
+            - .:/usr/local/apache2/htdocs/:ro
         # slightly ironic to use alpine to serve debian packages
         image: httpd:alpine
