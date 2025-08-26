@@ -4,6 +4,8 @@ Personal apt repo for some software that distributes .deb files on Github Releas
 
 All packages are updated with a cron job daily
 
+Hosted on my server in the UK as Github pages takes ages to deploy and increases with every package
+
 ## How to use
 
 ```bash
@@ -12,4 +14,4 @@ wget -O- https://apt.tpgy.uk/repo.sources | sudo tee /etc/apt/sources.list.d/tpg
 sudo apt update
 ```
 
-> Note: If apt.tpgy.uk doesn't work, use tpguy825.github.io/aptrepo instead
+> Note: If apt.tpgy.uk doesn't work, use https://raw.githubusercontent.com/tpguy825/aptrepo/refs/heads/main/apt-repo/ instead

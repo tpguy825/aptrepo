@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+	<body>
+		<h1>tpguy825&#39;s apt repository</h1>
+		<p>
+			<a href="https://github.com/tpguy825/aptrepo">View on Github</a> - <a href="/pool/main">Browse packages</a>
+		</p>
+		<p>
+			Personal apt repo for some software that distributes .deb files on Github Releases, but don&#39;t have their
+			own repo, making updating harder
+		</p>
+		<p>All packages are updated with a cron job daily</p>
+		<p>Hosted on my server in the UK as Github pages takes ages to deploy and increases with every package</p>
+		<h2>How to use</h2>
+		<pre>
+			<code>
+wget -O- https://keys.openpgp.org/vks/v1/by-fingerprint/CEEA496A2C5AB71E34ACD48691EDAEB6C4F3EC9F | gpg --dearmor | sudo tee /usr/share/keyrings/tpguy825-apt-repo.gpg &gt;/dev/null
+wget -O- https://apt.tpgy.uk/repo.sources | sudo tee /etc/apt/sources.list.d/tpguy825-apt-repo.sources &gt;/dev/null
+sudo apt update
+			</code>
+		</pre>
+		<ul>
+			<li>
+				Note: If apt.tpgy.uk doesn't work, use
+				https://raw.githubusercontent.com/tpguy825/aptrepo/refs/heads/main/apt-repo/ instead
+			</li>
+		</ul>
+	</body>
+</html>
+
