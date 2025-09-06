@@ -1,5 +1,6 @@
 on:
   workflow_dispatch:
+  push:
   schedule:
   - cron: "0 4 * * *"
 
@@ -27,7 +28,9 @@ jobs:
         with:
           gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
           passphrase: ${{ secrets.GPG_PASSPHRASE }}
-          fingerprint: BFADC90DB92BB93CF7A4D4A383C0169F2CB4BF0A
+          # fingerprint: BFADC90DB92BB93CF7A4D4A383C0169F2CB4BF0A
+      - name: test gpg key
+        run: echo test | gpg -s 
       - run: cd fetcher && bun i --production && bun index.ts
         env:
           GITHUB_TOKEN: "${{secrets.GITHUB_TOKEN}}"
