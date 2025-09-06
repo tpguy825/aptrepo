@@ -71,15 +71,10 @@ async function getLatest(repo: RepoConfig) {
 
 if (import.meta.main) {
 	for (const repo of await fs.readdir("repos")) {
-		try {
-			await (import(path.join(__dirname, "repos", repo)) as Promise<{ default: RepoConfig }>).then((r) =>
-				getLatest(r.default),
-			);
-		} catch (e) {
-			console.error(e);
-		}
+		await (import(path.join(__dirname, "repos", repo)) as Promise<{ default: RepoConfig }>).then((r) =>
+			getLatest(r.default),
+		);
 	}
 	await Bun.$`git add ../apt-repo && git commit -m "automated: update repo" && git push`.nothrow();
 }
-
 
