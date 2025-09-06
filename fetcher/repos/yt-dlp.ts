@@ -26,7 +26,7 @@ export default {
 	skipchecks: true,
 	async eachFile(name, contents, { tag_name: version }) {
 		let platform = "", arch = "";
-		console.log("hi", name);
+		// console.log("hi", name);
 		
 		switch (name) {
 			case "yt-dlp_linux":
