@@ -26,6 +26,7 @@ jobs:
         uses: crazy-max/ghaction-import-gpg@v6
         with:
           gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
+          passphrase: ""
       - run: cd fetcher && bun i --production && bun index.ts
         env:
           GITHUB_TOKEN: "${{secrets.GITHUB_TOKEN}}"
