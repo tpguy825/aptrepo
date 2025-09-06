@@ -27,6 +27,7 @@ jobs:
         with:
           gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
           passphrase: ""
+          fingerprint: BFADC90DB92BB93CF7A4D4A383C0169F2CB4BF0A
       - run: cd fetcher && bun i --production && bun index.ts
         env:
           GITHUB_TOKEN: "${{secrets.GITHUB_TOKEN}}"
