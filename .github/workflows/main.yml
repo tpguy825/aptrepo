@@ -11,9 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: oven-sh/setup-bun@v2
-      - run: cd fetcher
-      - run: bun i --production
-      - run: bun index.ts
+      - run: cd fetcher && bun i --production && bun index.ts
       - uses: stefanzweifel/git-auto-commit-action@v6
         with:
           commit_message: 'automated: update packages'
