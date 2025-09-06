@@ -86,4 +86,3 @@ interface RepoConfig {
 type MaybePromise<T> = T | Promise<T>;
 
 type EachFile = (name: string, contents: () => Promise<Buffer>, release: Release) => MaybePromise<string | false>;
-

@@ -25,9 +25,10 @@ export default {
 	fileNamePrefix: "yt-dlp_linux",
 	skipchecks: true,
 	async eachFile(name, contents, { tag_name: version }) {
-		let platform = "", arch = "";
+		let platform = "",
+			arch = "";
 		// console.log("hi", name);
-		
+
 		switch (name) {
 			case "yt-dlp_linux":
 				arch = "amd64";
@@ -40,9 +41,10 @@ export default {
 			default:
 				return false;
 		}
-			
+
 		if (!platform || !arch || platform !== "linux") return false;
-		if (arch === "armv7") arch = "armhf"; // raspberry pi
+		if (arch === "armv7")
+			arch = "armhf"; // raspberry pi
 		else if (arch !== "amd64" && arch !== "arm64") return false;
 		const debname = ["yt-dlp", version, arch].join("_") + ".deb";
 
@@ -76,5 +78,3 @@ Description: yt-dlp is a feature-rich command-line audio/video downloader with s
 		return j(poolpath, debname);
 	},
 } satisfies RepoConfig;
-
-

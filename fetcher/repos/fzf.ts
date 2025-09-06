@@ -13,10 +13,10 @@ async function md(...paths: string[]) {
 async function badcopy(from: string, to: string) {
 	return new Promise<void>((resolve, reject) => {
 		// this looks horrid
-		const stream = createReadStream(from).pipe(createWriteStream(to))
+		const stream = createReadStream(from).pipe(createWriteStream(to));
 		stream.on("finish", () => resolve());
 		stream.on("error", (e) => reject(e));
-	})
+	});
 }
 
 export default {
@@ -27,7 +27,8 @@ export default {
 		if (!platarch) return false;
 		let [platform, arch] = platarch.split("_");
 		if (!platform || !arch || platform !== "linux") return false;
-		if (arch === "armv7") arch = "armhf"; // raspberry pi
+		if (arch === "armv7")
+			arch = "armhf"; // raspberry pi
 		else if (arch !== "amd64" && arch !== "arm64") return false;
 		const debname = ["fzf", version, arch].join("_") + ".deb";
 
@@ -37,7 +38,7 @@ export default {
 		const tmptar = j(tmpdir, "fzf.tar.gz");
 		// j and await hell below
 		const cont = await contents();
-		await fs.writeFile(tmptar,cont);
+		await fs.writeFile(tmptar, cont);
 		await Bun.$`tar xf ${tmptar}`.cwd(tmpdir);
 
 		await md(tmpdir, ["fzf", version, arch].join("_"), "DEBIAN");
@@ -63,4 +64,3 @@ Description: fzf is a general-purpose command-line fuzzy finder.
 		return j(poolpath, debname);
 	},
 } satisfies RepoConfig;
-

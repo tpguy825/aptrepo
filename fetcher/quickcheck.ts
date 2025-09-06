@@ -6,7 +6,7 @@ if (typeof Bun === "undefined") {
 	config();
 }
 
-if (!process.env.GITHUB_TOKEN) throw new Error("no github token, will be ratelimited")
+if (!process.env.GITHUB_TOKEN) throw new Error("no github token, will be ratelimited");
 
 let longestrepo = 0;
 async function getLatest(repo: RepoConfig) {
@@ -45,4 +45,3 @@ console.table(
 	(await Promise.all(strs)).sort((a, b) => b!._date - a!._date),
 	["repo", "ver", "date"],
 );
-

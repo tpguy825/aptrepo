@@ -7,5 +7,3 @@ export default {
 		return defaultEachFile(name.replaceAll("-", "_").replace("_linux_", "_" + release.tag_name + "_"), contents);
 	},
 } satisfies RepoConfig;
-
-
