@@ -1,5 +1,5 @@
 import { join as j } from "path";
-import { firstchar, poolpath, truncate, type RepoConfig } from "..";
+import { poolpath, truncate } from "../index.ts";
 import fs from "fs/promises";
 import { tmpdir as gettmpdir } from "os";
 import { createReadStream, createWriteStream, existsSync } from "fs";
@@ -35,8 +35,9 @@ export default {
 
 		const tmpdir = await fs.mkdtemp(j(gettmpdir(), "aptrepo-fzf-"));
 		const tmptar = j(tmpdir, "fzf.tar.gz");
-		// join and await hell below
-		await fs.writeFile(tmptar, await contents());
+		// j and await hell below
+		const cont = await contents();
+		await fs.writeFile(tmptar,cont);
 		await Bun.$`tar xf ${tmptar}`.cwd(tmpdir);
 
 		await md(tmpdir, ["fzf", version, arch].join("_"), "DEBIAN");
@@ -46,14 +47,13 @@ export default {
 		await fs.writeFile(
 			j(tmpdir, ["fzf", version, arch].join("_"), "DEBIAN/control"),
 			// is libc needed? no idea
-// TODO get size of fzf some point here and provide it below
 			`Package: fzf
 Version: ${version}
 Maintainer: Junegunn Choi <junegunn.c@gmail.com>
 ` + //Depends: libc6
 				`Architecture: ${arch}
 Homepage: https://github.com/junegunn/fzf
-Installed-Size: 3973120
+Installed-Size: ${cont.length}
 Description: fzf is a general-purpose command-line fuzzy finder.
 `,
 		);

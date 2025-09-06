@@ -1,4 +1,4 @@
-import { defaultEachFile, type RepoConfig } from "..";
+import { defaultEachFile } from "../index.ts";
 
 export default {
 	repo: "cloudflare/cloudflared",
