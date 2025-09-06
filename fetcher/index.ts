@@ -41,9 +41,9 @@ async function getLatest(repo: RepoConfig) {
 			(repo.skipchecks
 				? false
 				: (!file.name.includes("amd64") &&
-				  !file.name.includes("arm64") &&
-				  !file.name.includes("armhf") &&
-				  !file.name.includes("armv7")) ||
+						!file.name.includes("arm64") &&
+						!file.name.includes("armhf") &&
+						!file.name.includes("armv7")) ||
 				  file.name.includes("musl-linux"))
 		)
 			continue;
@@ -63,6 +63,7 @@ async function getLatest(repo: RepoConfig) {
 			latest[0],
 		);
 		if (!filepath) continue;
+		// use reprepro from https://gitlab.com/packaging/reprepro-multiple-versions
 		await Bun.$`reprepro -b ../apt-repo -S utils -P optional includedeb stable ${filepath}`;
 		await fs.unlink(filepath);
 	}
@@ -80,4 +81,5 @@ if (import.meta.main) {
 	}
 	await Bun.$`git add ../apt-repo && git commit -m "automated: update repo" && git push`.nothrow();
 }
+
 
