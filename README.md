@@ -2,7 +2,7 @@
 
 Personal apt repo for some software that distributes .deb files on Github Releases, but don't have their own repo, making updating harder
 
-All packages are updated with a github action daily
+All packages are updated with a [github action](https://github.com/tpguy825/aptrepo/blob/main/.github/workflows/main.yml) daily
 
 ## How to use
 
@@ -13,3 +13,5 @@ sudo apt update
 ```
 
 > Note: If apt.tpgy.uk doesn't work, use https://raw.githubusercontent.com/tpguy825/aptrepo/refs/heads/main/apt-repo/ instead
+
+[view on github](https://github.com/tpguy825/aptrepo)
