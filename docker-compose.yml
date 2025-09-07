@@ -1,9 +1,0 @@
-name: aptrepo
-services:
-    httpd:
-        ports:
-            - 37278:80
-        volumes:
-            - .:/usr/local/apache2/htdocs/:ro
-        # slightly ironic to use alpine to serve debian packages
-        image: httpd:alpine

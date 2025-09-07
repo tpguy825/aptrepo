@@ -30,7 +30,7 @@ jobs:
           passphrase: ${{ secrets.GPG_PASSPHRASE }}
       - name: test gpg key
         # unlocks gpg agent so reprepro stops bloody crashing
-        run: echo "123" | gpg -s --batch --passphrase "$GPG_PASSPHRASE" --pinentry-mode loopback
+        run: echo "123" | gpg -s --batch --passphrase "$GPG_PASSPHRASE" --pinentry-mode loopback --clearsign
         env:
           GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
       - name: Run fetcher

@@ -2,9 +2,7 @@
 
 Personal apt repo for some software that distributes .deb files on Github Releases, but don't have their own repo, making updating harder
 
-All packages are updated with a cron job daily
-
-Hosted on my server in the UK as Github pages takes ages to deploy and increases with every package
+All packages are updated with a github action daily
 
 ## How to use
 
