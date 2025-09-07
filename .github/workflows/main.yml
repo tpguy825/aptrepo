@@ -28,7 +28,6 @@ jobs:
         with:
           gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
           passphrase: ${{ secrets.GPG_PASSPHRASE }}
-          # fingerprint: BFADC90DB92BB93CF7A4D4A383C0169F2CB4BF0A
       - name: test gpg key
         run: echo "123" | gpg -s --batch --passphrase "$GPG_PASSPHRASE" --pinentry-mode loopback
         env:
