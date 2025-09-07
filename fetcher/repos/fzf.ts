@@ -54,7 +54,7 @@ Maintainer: Junegunn Choi <junegunn.c@gmail.com>
 ` + //Depends: libc6
 				`Architecture: ${arch}
 Homepage: https://github.com/junegunn/fzf
-Installed-Size: ${cont.length}
+Installed-Size: ${Math.ceil(cont.length / 1024)}
 Description: fzf is a general-purpose command-line fuzzy finder.
 `,
 		);

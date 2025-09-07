@@ -59,7 +59,7 @@ export default {
 		await md(tmpdir, ["yt-dlp", version, arch].join("_"), "DEBIAN");
 		await md(tmpdir, ["yt-dlp", version, arch].join("_"), "usr/bin");
 
-		await fs.rename(j(tmpdir, "yt-dlp"), j(tmpdir, ["yt-dlp", version, arch].join("_"), "usr/bin/yt-dlp"));
+		await fs.rename(tmpexec, j(tmpdir, ["yt-dlp", version, arch].join("_"), "usr/bin/yt-dlp"));
 		await fs.writeFile(
 			j(tmpdir, ["yt-dlp", version, arch].join("_"), "DEBIAN/control"),
 			`Package: yt-dlp
@@ -68,7 +68,7 @@ Maintainer: Junegunn Choi <junegunn.c@gmail.com>
 ` + //Depends: libc6
 				`Architecture: ${arch}
 Homepage: https://github.com/yt-dlp/yt-dlp
-Installed-Size: ${cont.length}
+Installed-Size: ${Math.ceil(cont.length / 1024)}
 Description: yt-dlp is a feature-rich command-line audio/video downloader with support for thousands of sites.
 `,
 		);
