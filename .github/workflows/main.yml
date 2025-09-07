@@ -1,6 +1,6 @@
 on:
   workflow_dispatch:
-  push:
+  # push:
   schedule:
   - cron: "0 4 * * *"
 
@@ -29,6 +29,7 @@ jobs:
           gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
           passphrase: ${{ secrets.GPG_PASSPHRASE }}
       - name: test gpg key
+        # unlocks gpg agent so reprepro stops bloody crashing
         run: echo "123" | gpg -s --batch --passphrase "$GPG_PASSPHRASE" --pinentry-mode loopback
         env:
           GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
