@@ -46,6 +46,22 @@ SHA1: fe5daab72d72f772cd7092cbd2f4e385a5c01230
 MD5sum: 256084e4f275527101b1d2ed78a7540c
 Description: fzf is a general-purpose command-line fuzzy finder.
 
+Package: yt-dlp
+Version: 2025.09.05
+Maintainer: Junegunn Choi <junegunn.c@gmail.com>
+Architecture: amd64
+Homepage: https://github.com/yt-dlp/yt-dlp
+Installed-Size: 37846952
+Priority: optional
+Section: utils
+Filename: pool/main/y/yt-dlp/yt-dlp_2025.09.05_amd64.deb
+Size: 37135708
+SHA512: f028dccb7f00ce46748a6a9832d3ecf481443308cd497c898c3038410f3b2aaee9d784eca3a5194c2aeef8083a763d86a2e846e665e2fa52484404dae046adce
+SHA256: 1adb34485d545b4242e9daba51a1e0070a54a9118215d47ec9ce7a8ac7d6c1c9
+SHA1: 6258e34ea3b1e25d12f6c502959c08dd99c0427a
+MD5sum: b5faa5aec463ac5a001c974eb7472a1d
+Description: yt-dlp is a feature-rich command-line audio/video downloader with support for thousands of sites.
+
 Package: zoxide
 Version: 0.9.8-1
 Architecture: amd64
