@@ -57,11 +57,11 @@ Installed-Size: 36960
 Priority: optional
 Section: utils
 Filename: pool/main/y/yt-dlp/yt-dlp_2025.09.05_amd64.deb
-Size: 37140508
-SHA512: 382a03790840dba3fb5ac287034f3a10869a977f8985761241ae42f81f7f3c8290ee58e35c207e57db914109b56f4ed3c645d2055865fd8d7c0272a079866371
-SHA256: 8bc88ebab836760a362260da724dd45ceb245f2370328fa93e841a8e683a7aaa
-SHA1: 19857c2c72abe86762596003b722de245221ca96
-MD5sum: 1493125e3e7fecb54d5a9d0c033c9c2c
+Size: 37140492
+SHA512: 539cc765c1c4b25bb278b51de61a4a1adf9f72f158dc61072b8e00e12982df3e37ad72eb645b6ba387e0461e34dd38254471ada913f20d711a44d8075a7e06c9
+SHA256: 757b792fd19bbc6031017da0e4eb68ceca78e0e276d8149c8a715c8419e1fb0a
+SHA1: 04b07cdbac17b2e5df39b0fd8addd3825da0a8f0
+MD5sum: 7da6e83eb7b560611fd7d18a57e286d1
 Description: yt-dlp is a feature-rich command-line audio/video downloader with support for thousands of sites.
 
 Package: zoxide

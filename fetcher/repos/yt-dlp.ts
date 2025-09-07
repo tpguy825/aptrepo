@@ -48,13 +48,14 @@ export default {
 		else if (arch !== "amd64" && arch !== "arm64") return false;
 		const debname = ["yt-dlp", version, arch].join("_") + ".deb";
 
-		if (existsSync(j(poolpath, "f", "yt-dlp", debname))) return false;
+		if (existsSync(j(poolpath, "y", "yt-dlp", debname))) return false;
 
 		const tmpdir = await fs.mkdtemp(j(gettmpdir(), "aptrepo-ytdlp-"));
 		const tmpexec = j(tmpdir, "yt-dlp");
 		// j and await hell below
 		const cont = await contents();
 		await fs.writeFile(tmpexec, cont);
+		await fs.chmod(tmpexec, 0o755);
 
 		await md(tmpdir, ["yt-dlp", version, arch].join("_"), "DEBIAN");
 		await md(tmpdir, ["yt-dlp", version, arch].join("_"), "usr/bin");
