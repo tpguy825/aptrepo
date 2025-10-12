@@ -34,20 +34,38 @@ MD5sum: 50bdbae51d35ebc8d0fc15af7935cdcc
 Description: Cloudflare Tunnel daemon
 
 Package: fzf
-Version: 0.65.2
+Version: 0.66.0
 Maintainer: Junegunn Choi <junegunn.c@gmail.com>
 Architecture: amd64
 Homepage: https://github.com/junegunn/fzf
-Installed-Size: 1601
+Installed-Size: 1758
 Priority: optional
 Section: utils
-Filename: pool/main/f/fzf/fzf_0.65.2_amd64.deb
-Size: 1380928
-SHA512: bea42ebfcd6ccccd636f0205bb2702eb591e9f254b626dff33148ea5ae77d1c357eabd70b103394c0a61ad236b71f4d6e2059ff19aeb6f68905530296cc89817
-SHA256: 054b7ff3d9242cc4ba30020193d4e950c9f82485cbb9e0a794ab6f98b8cba1bf
-SHA1: e953a35f8beb6a4f89f6c3383c5aab65486704a4
-MD5sum: dc8f9b7e80f2e025ed228000ee2bc741
+Filename: pool/main/f/fzf/fzf_0.66.0_amd64.deb
+Size: 1514958
+SHA512: 84fa16c8b49d298ab1e1593b55d3c68d3ec60e4c593ca600810cee78f992c14385dc4d65a2591e2a4bb8cfe967183529c85b08dc55cbe4693cde760308784aea
+SHA256: d529556bf61f7413c3c42794a642912310a5530ce7b626baa4ed65580c3992c6
+SHA1: 9731dc514084081d8f531a37f780f89c3d9b14ad
+MD5sum: dd9c2fb69a4f8b05cb5f6448cfc5fa33
 Description: fzf is a general-purpose command-line fuzzy finder.
+
+Package: gcm
+Version: 2.6.1
+Architecture: amd64
+Depends:
+Maintainer: GCM <gitfundamentals@github.com>
+Priority: optional
+Section: utils
+Filename: pool/main/g/gcm/gcm_2.6.1_amd64.deb
+Size: 28156142
+SHA512: 7780851d06f3ca4834f30cb763ad45a70eea03606769a2fe375098428457ea9809075dd1928dc7baa2d0eb70108f1713bcb94c56298cb9b16eeeff6586c62280
+SHA256: 0890a0ab6ea82af962ab55325a96eac73c14cd75d62469c9ecc845682eaaa810
+SHA1: 3a967715e62fd0818e8a4cbb9ea32e752e5e7281
+MD5sum: fa76e3fae040a46e85b5d96a784e7dd3
+Description: Cross Platform Git Credential Manager command line utility.
+ GCM supports authentication with a number of Git hosting providers
+ including GitHub, BitBucket, and Azure DevOps.
+ For more information see https://aka.ms/gcm
 
 Package: yt-dlp
 Version: 2025.09.26
