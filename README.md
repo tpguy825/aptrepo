@@ -14,4 +14,14 @@ sudo apt update
 
 > Note: If apt.tpgy.uk doesn't work, use https://raw.githubusercontent.com/tpguy825/aptrepo/refs/heads/main/apt-repo/ instead
 
+## Packages
+
+Currently in this repo are:
+- [fzf](https://github.com/junegunn/fzf)
+- [bat](https://github.com/sharkdp/bat)
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp)
+- [cloudflared](https://github.com/cloudflare/cloudflared)
+- [zoxide](https://github.com/ajeetdsouza/zoxide)
+- [git-credential-manager (gcm)](https://github.com/git-ecosystem/git-credential-manager)
+
 [view on github](https://github.com/tpguy825/aptrepo)
