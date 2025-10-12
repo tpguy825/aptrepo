@@ -44,7 +44,7 @@ async function getLatest(repo: RepoConfig) {
 						!file.name.includes("arm64") &&
 						!file.name.includes("armhf") &&
 						!file.name.includes("armv7")) ||
-					file.name.includes("musl-linux"))
+				  file.name.includes("musl-linux"))
 		)
 			continue;
 
