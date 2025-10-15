@@ -16,21 +16,21 @@ Description: cat(1) clone with wings.
   A cat(1) clone with syntax highlighting and Git integration.
 
 Package: cloudflared
-Version: 2025.9.1
+Version: 2025.10.0
 License: Apache License Version 2.0
 Vendor: Cloudflare
 Architecture: arm64
 Maintainer: Cloudflare <support@cloudflare.com>
-Installed-Size: 38332
+Installed-Size: 38340
 Homepage: https://github.com/cloudflare/cloudflared
 Priority: optional
 Section: utils
-Filename: pool/main/c/cloudflared/cloudflared_2025.9.1_arm64.deb
-Size: 18894652
-SHA512: 60606387537e41a7b7b3667b87204286d703d20d49b3fef89a535bac2f481e61d68cf8de7c6a48aabd988b6136133b8ad212274ea8bf1c1806509a71c73f73c6
-SHA256: 84f60014905a4c5417680bb222e6d3481d8eab936d29a34891517519aca9e699
-SHA1: 0a3571a6240b297c40112875c2e2f08fa69db1a3
-MD5sum: acde6aa4902173ad841d1f2a248f159c
+Filename: pool/main/c/cloudflared/cloudflared_2025.10.0_arm64.deb
+Size: 18903792
+SHA512: 5cb822c0f3222cfdc851e62627c0512713e55f98b6d277ebd1038bf205ebffd1d7cf4b301dcbb4cd1569edf8fefbf50b686c42ba01d0a0fe94ce1936bc61b152
+SHA256: e43c446ee49cab77a08c678e25d511014f8a37b16f718799880b6050e0215ee2
+SHA1: f5b595b657f283ff4f1889d3dfbf879e620ac878
+MD5sum: 8d0b0dfc953d813cb457a35a679a604e
 Description: Cloudflare Tunnel daemon
 
 Package: fzf
@@ -50,19 +50,19 @@ MD5sum: 1ac6e26f787aa04576e8dfa3e584d8a8
 Description: fzf is a general-purpose command-line fuzzy finder.
 
 Package: yt-dlp
-Version: 2025.09.26
+Version: 2025.10.14
 Maintainer: Junegunn Choi <junegunn.c@gmail.com>
 Architecture: arm64
 Homepage: https://github.com/yt-dlp/yt-dlp
-Installed-Size: 36395
+Installed-Size: 36413
 Priority: optional
 Section: utils
-Filename: pool/main/y/yt-dlp/yt-dlp_2025.09.26_arm64.deb
-Size: 36732930
-SHA512: feb851bbce442f7990450938e1bc3ac85f9426f4d8109c5fb84862234beb5be8abe3a7207a8e6fa83cafe23129462c2f60f42b6ca7ffd206d637871f0b32f78b
-SHA256: 4692d59f2f3212ea2eae7f562629cce723c8ef891cd55c5760983bead200e78c
-SHA1: 7c338c1bc984299be8f052c106635896ab28a2ae
-MD5sum: 9e18c4e111c2420ee26b97d2f8773eb9
+Filename: pool/main/y/yt-dlp/yt-dlp_2025.10.14_arm64.deb
+Size: 36746974
+SHA512: 4ef724af0562272eae5ec5626f276940af5087f684e4dbe6f3492856ca1404c8bdd8bcfe802c62fddf34cbd8b3b614eac0170ab7e53e8ef59160a16c75b6422e
+SHA256: 6ae5446cee721fd278410131a5fd6119c368b6a8cf0fb1ebff37e7981d03a42b
+SHA1: cda177c68fe43df2fb53777985fa941873a3f43d
+MD5sum: 52ce38ba147dde96e3692f414b30da14
 Description: yt-dlp is a feature-rich command-line audio/video downloader with support for thousands of sites.
 
 Package: zoxide
