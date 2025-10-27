@@ -34,19 +34,19 @@ MD5sum: ffb38599f067a8c9f6233077c00d8185
 Description: Cloudflare Tunnel daemon
 
 Package: fzf
-Version: 0.66.0
+Version: 0.66.1
 Maintainer: Junegunn Choi <junegunn.c@gmail.com>
 Architecture: amd64
 Homepage: https://github.com/junegunn/fzf
 Installed-Size: 1758
 Priority: optional
 Section: utils
-Filename: pool/main/f/fzf/fzf_0.66.0_amd64.deb
-Size: 1514958
-SHA512: 84fa16c8b49d298ab1e1593b55d3c68d3ec60e4c593ca600810cee78f992c14385dc4d65a2591e2a4bb8cfe967183529c85b08dc55cbe4693cde760308784aea
-SHA256: d529556bf61f7413c3c42794a642912310a5530ce7b626baa4ed65580c3992c6
-SHA1: 9731dc514084081d8f531a37f780f89c3d9b14ad
-MD5sum: dd9c2fb69a4f8b05cb5f6448cfc5fa33
+Filename: pool/main/f/fzf/fzf_0.66.1_amd64.deb
+Size: 1515546
+SHA512: a5eb1971cbebb72409878ae8f9a3de51db74773d2a704ac7b32865556bdd0d4715f8fd39b2603ead08975d329e70b1f182329c07043363601f5b21890e6d4e2b
+SHA256: e2dbd8b0962a99cb2d8da363d6f9703b9eb649b0ac1f8501398573cb28014cd1
+SHA1: 1a6d42f1d808be09a5c24c74607f758118cd5fc9
+MD5sum: 817b656e729c723f9c2bd06dadd4417f
 Description: fzf is a general-purpose command-line fuzzy finder.
 
 Package: gcm
