@@ -10,7 +10,7 @@ jobs:
     name: update packages
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - uses: oven-sh/setup-bun@v2
       - name: Setup reprepro debian repository
         uses: myci-actions/add-deb-repo@11
