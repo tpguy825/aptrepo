@@ -33,6 +33,24 @@ SHA1: 5ccb919a7132e18fc4dba640bc58208db110f792
 MD5sum: 448c1c88153c903408ca6fca576138cf
 Description: Cloudflare Tunnel daemon
 
+Package: fastfetch
+Architecture: armhf
+Depends: libc6 (>= 2.31)
+Priority: optional
+Section: utils
+Filename: pool/main/f/fastfetch/fastfetch_2.56.1_armhf.deb
+Size: 5110508
+SHA512: d030b74a322880855084151804a89526b9c0615113a55e7f442c6c667ced573c9b942b1817845b11ab57eb6d2ced87133aa7ea2c2e555797e563e74be25d1871
+SHA256: 55e5488cd98d7ff6449ac151bbab477cc44cbb57d2fe8357b5fd5c7a638318f0
+SHA1: 6392372321e35b945995991f5e00a5c2ec50f4c5
+MD5sum: f0d1043563677c2e68d67738ef938dae
+Description: Fast neofetch-like system information tool
+ fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way. It is written mostly in C to achieve much better performance.
+Homepage: https://github.com/fastfetch-cli/fastfetch
+Maintainer: Carter Li <zhangsongcui@live.cn>
+Version: 2.56.1
+Installed-Size: 14199
+
 Package: fzf
 Version: 0.67.0
 Maintainer: Junegunn Choi <junegunn.c@gmail.com>
