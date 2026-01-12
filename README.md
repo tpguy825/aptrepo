@@ -23,5 +23,6 @@ Currently in this repo are:
 - [cloudflared](https://github.com/cloudflare/cloudflared)
 - [zoxide](https://github.com/ajeetdsouza/zoxide)
 - [git-credential-manager (gcm)](https://github.com/git-ecosystem/git-credential-manager)
+- [fastfetch](https://github.com/fastfetch-cli/fastfetch)
 
 [view on github](https://github.com/tpguy825/aptrepo)
