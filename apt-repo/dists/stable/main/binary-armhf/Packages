@@ -52,19 +52,19 @@ Version: 2.59.0
 Installed-Size: 14171
 
 Package: fzf
-Version: 0.67.0
+Version: 0.68.0
 Maintainer: Junegunn Choi <junegunn.c@gmail.com>
 Architecture: armhf
 Homepage: https://github.com/junegunn/fzf
-Installed-Size: 1666
+Installed-Size: 1678
 Priority: optional
 Section: utils
-Filename: pool/main/f/fzf/fzf_0.67.0_armhf.deb
-Size: 1396574
-SHA512: d922a4f4c0c1a819f48dde353459fedc41fc12f0897e51c0eb9a7f3acc6502fc771487910cc336ef5b1fe15c2f8e3a737110ac102235a3f87779139e2cd6c3f7
-SHA256: c0e4f8dd771f7c26d5e413d8d33a917f18ed1fe10e53a8ee5518644119e5f2e0
-SHA1: fd647c3c2b81e156d0036d30f4bbb4b1ca55a4c0
-MD5sum: d90efb17bb3c8e18463ea7ee8747b291
+Filename: pool/main/f/fzf/fzf_0.68.0_armhf.deb
+Size: 1408202
+SHA512: 2b6de63be8735c94e18dfc83c08736d8e4a1f3aa6d52187dfd0bbe5d112e612d832dea0e2b6a8a68d5a5d88158b77db2410cbd83eb853ca2e5e225c8864c3f25
+SHA256: 41bf8851e6a80e43cb7d83e889878753d1348a28a37d5aa49b8cc6b24089af9f
+SHA1: 41263bb528ba0804016685bb0d207932f7ef3087
+MD5sum: e05b589821e55368449d232af04f5b6e
 Description: fzf is a general-purpose command-line fuzzy finder.
 
 Package: zoxide
