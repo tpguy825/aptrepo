@@ -86,19 +86,19 @@ Description: Cross Platform Git Credential Manager command line utility.
  For more information see https://aka.ms/gcm
 
 Package: yt-dlp
-Version: 2026.02.04
+Version: 2026.02.21
 Maintainer: Junegunn Choi <junegunn.c@gmail.com>
 Architecture: amd64
 Homepage: https://github.com/yt-dlp/yt-dlp
-Installed-Size: 35174
+Installed-Size: 35210
 Priority: optional
 Section: utils
-Filename: pool/main/y/yt-dlp/yt-dlp_2026.02.04_amd64.deb
-Size: 35428684
-SHA512: 82bd26a97319e04eb0ca22e447a0fd96c361648ac71e10af24e078d5021df43c76d54a7a14f9ee7b86e312b804bb8a2ca2933e2486b2a991d2e33e1b9dfab5bc
-SHA256: ecfc24ae559c6f33cd148e2c66d8c57f7c170b0f2598a9aaf7d925694936c840
-SHA1: d79f548f4ba8875b19d9b64488184c40060baf9b
-MD5sum: f00622eb9b8649b89bcca09d30882711
+Filename: pool/main/y/yt-dlp/yt-dlp_2026.02.21_amd64.deb
+Size: 35464596
+SHA512: 45df82157b28771b7434d25989343292a2aca334794e980f732fe329f74a9c765778cfe7482b3ae8ad6afb2e7c4b023c70bc26d80b48392bdb22a6e1dadfa4b6
+SHA256: da21d719e0dacdc9c5581ac5218e754dcdb8eb7d5441c6ffee3e02ed0f0dfe79
+SHA1: c33acb66612e9c5682836ac95773ceb771dc0e8e
+MD5sum: 31d982e4fd08821da4c93c64ba8bfe26
 Description: yt-dlp is a feature-rich command-line audio/video downloader with support for thousands of sites.
 
 Package: zoxide
