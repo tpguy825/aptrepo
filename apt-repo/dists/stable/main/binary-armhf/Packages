@@ -16,21 +16,21 @@ Description: cat(1) clone with wings.
   A cat(1) clone with syntax highlighting and Git integration.
 
 Package: cloudflared
-Version: 2026.2.0
+Version: 2026.3.0
 License: Apache License Version 2.0
 Vendor: Cloudflare
 Architecture: armhf
 Maintainer: Cloudflare <support@cloudflare.com>
-Installed-Size: 34656
+Installed-Size: 35029
 Homepage: https://github.com/cloudflare/cloudflared
 Priority: optional
 Section: utils
-Filename: pool/main/c/cloudflared/cloudflared_2026.2.0_armhf.deb
-Size: 17331930
-SHA512: 39a827c55184615d32fa1893fa7d91d4e3123df2f305cd0c68b9ee24246fdfd2847020fdde630518023f6b03da739051d8211242dc93e12a237ba088612e5011
-SHA256: 8c95f2b0c103906dc816eff49f87b4e26d7d903c0d4f938fd8d441b8dfac8464
-SHA1: 467ccd578a1778509867a657a3651d9deab655c7
-MD5sum: 2a57816993a29268a021096955bc2a18
+Filename: pool/main/c/cloudflared/cloudflared_2026.3.0_armhf.deb
+Size: 17492302
+SHA512: 1557e646ddd466bb3ee201ef5d2fc89130253b2a73f1f312c1bed20f77fe7537ee103bf7bc87273d536e3326c8ac2b908462fc82d67875a99f3dfb2dc8dc5313
+SHA256: ba1d307ebad290f616b47b45f16cf51f7fe1d0c86ae58da2156a4db8b25e8f5a
+SHA1: 8299dee61d4b492360cf51a14166e57b8a69858f
+MD5sum: 98cce999b1f8195cb8cf608b0fcdccef
 Description: Cloudflare Tunnel daemon
 
 Package: fastfetch
