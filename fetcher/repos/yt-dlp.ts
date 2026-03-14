@@ -65,7 +65,7 @@ export default {
 			j(tmpdir, ["yt-dlp", version, arch].join("_"), "DEBIAN/control"),
 			`Package: yt-dlp
 Version: ${version}
-Maintainer: Junegunn Choi <junegunn.c@gmail.com>
+Maintainer: yt-dlp maintainers <maintainers@yt-dlp.org>
 ` + //Depends: libc6
 				`Architecture: ${arch}
 Homepage: https://github.com/yt-dlp/yt-dlp
