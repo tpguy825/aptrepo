@@ -1,5 +1,5 @@
 Package: bat
-Version: 0.25.0
+Version: 0.26.1
 Maintainer: David Peter <mail@david-peter.de>
 Homepage: https://github.com/sharkdp/bat
 Architecture: armhf
@@ -7,11 +7,12 @@ Provides: bat
 Conflicts: bat-musl
 Priority: optional
 Section: utils
-Filename: pool/main/b/bat/bat_0.25.0_armhf.deb
-Size: 2415520
-SHA256: 8d97dfc63fea4f370d5ee26603df4e200d56e060cb812134a202938612fa24f7
-SHA1: fce957f21a92b82d9d50e2d0f6256c806e73af44
-MD5sum: fc55aef1c0eb8baa36f1e50e7ab5b8b2
+Filename: pool/main/b/bat/bat_0.26.1_armhf.deb
+Size: 2908064
+SHA512: de2da2934717d397775bca59794955be84cba511556246ba515f4258ea3dca62bb47e37d30eab55cf23bc74f72b8d83631011af2a4c0b1bc032c5763d78ebc34
+SHA256: 6e3a00d061be73f66282d6dce0533bcaebcb331eb555b38c2802e7ee220dc512
+SHA1: 7217fd9ed7bc9810b8e3fc71daf46726b184bf5a
+MD5sum: d199abe07cb112aaeda01913411bb61c
 Description: cat(1) clone with wings.
   A cat(1) clone with syntax highlighting and Git integration.
 
@@ -68,19 +69,20 @@ MD5sum: d3214d3151d1521960ae043f4f1941e9
 Description: fzf is a general-purpose command-line fuzzy finder.
 
 Package: zoxide
-Version: 0.9.8-1
+Version: 0.9.9-1
 Architecture: armhf
 Homepage: https://github.com/ajeetdsouza/zoxide
 Maintainer: Ajeet D'Souza <98ajeet@gmail.com>
-Installed-Size: 1083
+Installed-Size: 1039
 Depends: 
 Priority: optional
 Section: utils
-Filename: pool/main/z/zoxide/zoxide_0.9.8-1_armhf.deb
-Size: 418176
-SHA256: 5713b37ef4563a97cfb284c661169331bd25e37ce1a9ae49fed8f85901163a61
-SHA1: dc38c4dcd52ee5e4253e8d31f01a48cce0f73809
-MD5sum: 8fdd1b73e729716d46f31f64838328a8
+Filename: pool/main/z/zoxide/zoxide_0.9.9-1_armhf.deb
+Size: 406768
+SHA512: ed0067c6921db7914aef849e93d13f0eadd87919b81148be54d42e9372f6a1c83eacd02c4c074d8917e3d27398e8239e421f992b076dfb81ebbd4b20ce7b15cf
+SHA256: 1b959c2c486d56a598d7fda1b17d33f7ae01e3d610fc8be01c577304b992a35b
+SHA1: 8affd47e6aeb476e124db5df6891eaa57c6fe337
+MD5sum: 21c8c077ecf39aa097e2b4e255928876
 Description: A smarter cd command for your terminal
  zoxide is a smarter cd command, inspired by z and autojump. It remembers which
  directories you use most frequently, so you can "jump" to them in just a few

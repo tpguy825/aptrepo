@@ -1,5 +1,5 @@
 Package: bat
-Version: 0.25.0
+Version: 0.26.1
 Maintainer: David Peter <mail@david-peter.de>
 Homepage: https://github.com/sharkdp/bat
 Architecture: arm64
@@ -7,11 +7,30 @@ Provides: bat
 Conflicts: bat-musl
 Priority: optional
 Section: utils
-Filename: pool/main/b/bat/bat_0.25.0_arm64.deb
-Size: 2386468
-SHA256: 5218cbb36805e50583e02dd94141077db84acde4f617806e3a22a5f1dc320f23
-SHA1: 1a9f32febd9e5d0a0ff45d3a93c3923a5e838984
-MD5sum: fafd8fedf80ffa8c1ba7ce59716a3fb7
+Filename: pool/main/b/bat/bat_0.26.1_arm64.deb
+Size: 2862796
+SHA512: d16ef949c512284e8e596d391874e1af2f3bb541aadde884eb33f6faf8ef8c7a14bf85c9a33f926a78ebd1eb7e024cc47cb1976540265be5b43ce70561222667
+SHA256: 4a70c3f6236f2c621bd68357257e21b78c9497de4de1e803301ec0209f168653
+SHA1: 7729dc4d8dab58934b08aede000cd39945169d53
+MD5sum: f45743c81770dabff2abd8c263e5759f
+Description: cat(1) clone with wings.
+  A cat(1) clone with syntax highlighting and Git integration.
+
+Package: bat-musl
+Version: 0.26.1
+Maintainer: David Peter <mail@david-peter.de>
+Homepage: https://github.com/sharkdp/bat
+Architecture: arm64
+Provides: bat
+Conflicts: bat
+Priority: optional
+Section: utils
+Filename: pool/main/b/bat-musl/bat-musl_0.26.1_arm64.deb
+Size: 2910138
+SHA512: 5960c2cbaeaa3c994a2ddb72c072eb700f9708381aaa8c8a6cf19a1c4f3a27d7c10c665210fd3ea59ac098dcb18d5148128309b82cd6192ae25a389c943df4a8
+SHA256: da2ca4c742dc55216daeb68b6b7ce6d26fac0aae34f3b657c3322c14df4d0cc8
+SHA1: 9a6837c2ab7e07be5893eab5f0fd1a983047d038
+MD5sum: 66357ca43c7b60527868e38ab0e076f0
 Description: cat(1) clone with wings.
   A cat(1) clone with syntax highlighting and Git integration.
 
@@ -67,6 +86,54 @@ Description: Cross Platform Git Credential Manager command line utility.
  including GitHub, BitBucket, and Azure DevOps.
  For more information see https://aka.ms/gcm
 
+Package: rpi-imager
+Version: 2.0.6
+Architecture: arm64
+Maintainer: Tom Dewey <tom.dewey@raspberrypi.com>
+Installed-Size: 37936
+Depends: dosfstools, fdisk, fuse, libfuse2, util-linux (>= 2.37), pkexec
+Recommends: udisks2
+Conflicts: rpi-imager-embedded
+Homepage: https://www.raspberrypi.com/software
+Priority: optional
+Section: utils
+Filename: pool/main/r/rpi-imager/rpi-imager_2.0.6_arm64.deb
+Size: 37896248
+SHA512: 304048882d2984986503a5e7a8dae12b98f276cfd262ce2bd8d7f47f56f0d5019388ae5a586cc0739525777d94b328f90ec44de5a0443172cefde3f30ff64ea7
+SHA256: 8dafb05b8995972a319c3474a6189c4dca1fb47a759d5ce4a44666fc96b1860b
+SHA1: b566c8fd79b8123737fdc0beb2d757c5d8178afa
+MD5sum: 25157e608fa83ed321461154aaad9513
+Description: Raspberry Pi Imaging utility
+ A user-friendly tool for creating bootable media for Raspberry Pi Devices.
+
+Package: rpi-imager-cli
+Source: rpi-imager
+Version: 2.0.6
+Architecture: arm64
+Maintainer: Tom Dewey <tom.dewey@raspberrypi.com>
+Installed-Size: 21222
+Depends: dosfstools, fdisk, fuse, libfuse2, util-linux (>= 2.37)
+Conflicts: rpi-imager, rpi-imager-embedded
+Homepage: https://www.raspberrypi.com/software
+Priority: optional
+Section: utils
+Filename: pool/main/r/rpi-imager/rpi-imager-cli_2.0.6_arm64.deb
+Size: 20795624
+SHA512: 840343952cd4c2b7e4a8ce0810ddfd466cdde1309ca1bc363385edfb76b554943802af99b496492a7fa3c99738b6e497503af6c3ed3698452d163ec13b3a2eed
+SHA256: 7fe94135446e16802166461b845a87c7883ff80b9829455ae4ca9f6bdef6df83
+SHA1: e12f32db61594e7f3562ccd1d2acb0c4396e9877
+MD5sum: bd9c004cbbd24e5502df05805be00c2a
+Description: Raspberry Pi Imaging utility (command-line only)
+ A command-line tool for creating bootable media for Raspberry Pi devices.
+ .
+ This version is optimized for command-line operation:
+  - No GUI components - CLI mode only
+  - Minimal dependencies (Qt Core only)
+  - Perfect for headless servers, automation and Raspberry Pi OS Lite
+  - Smaller package size and memory footprint
+  - Most imaging functionality available via command line
+  - Ideal for scripting and CI/CD pipelines
+
 Package: yt-dlp
 Version: 2026.03.13
 Maintainer: Junegunn Choi <junegunn.c@gmail.com>
@@ -84,19 +151,20 @@ MD5sum: 0c821858c2f3280ec940ccc4f7e8a344
 Description: yt-dlp is a feature-rich command-line audio/video downloader with support for thousands of sites.
 
 Package: zoxide
-Version: 0.9.8-1
+Version: 0.9.9-1
 Architecture: arm64
 Homepage: https://github.com/ajeetdsouza/zoxide
 Maintainer: Ajeet D'Souza <98ajeet@gmail.com>
-Installed-Size: 1116
+Installed-Size: 1065
 Depends: 
 Priority: optional
 Section: utils
-Filename: pool/main/z/zoxide/zoxide_0.9.8-1_arm64.deb
-Size: 416616
-SHA256: 14af5e3815a7876ce60066136560e93cb763617f4a5f87b8ffd2fd87ec5a67ef
-SHA1: 8f6f69a3ea3b773afce43e830122fbbc6e19c77f
-MD5sum: 31fa226a1f5df01d42ea042d6665fbfd
+Filename: pool/main/z/zoxide/zoxide_0.9.9-1_arm64.deb
+Size: 402232
+SHA512: 53656b207db03126d7f5d19ada2b2b3a24249f32cc99de3134a475eb9af4ed0dad81050858e8cbbb5b951d08ff458d10f49ccbe3801edc5df0026b511dd84ee8
+SHA256: 6ed2562bb8fad59e794ae5ea43eef9c5c61627744a3cc4cb93b75f56246d9338
+SHA1: fab4c0538a6271ef96cb2596f2ca97a692dbc390
+MD5sum: dd08b64ea9900717d5b36ba99c34a787
 Description: A smarter cd command for your terminal
  zoxide is a smarter cd command, inspired by z and autojump. It remembers which
  directories you use most frequently, so you can "jump" to them in just a few

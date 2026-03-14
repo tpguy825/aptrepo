@@ -1,5 +1,5 @@
 Package: bat
-Version: 0.25.0
+Version: 0.26.1
 Maintainer: David Peter <mail@david-peter.de>
 Homepage: https://github.com/sharkdp/bat
 Architecture: amd64
@@ -7,11 +7,12 @@ Provides: bat
 Conflicts: bat-musl
 Priority: optional
 Section: utils
-Filename: pool/main/b/bat/bat_0.25.0_amd64.deb
-Size: 2631980
-SHA256: 7e6afdffaea04b394f466f6f719a1e0565572a4b59d6cb9969843355b684e2dc
-SHA1: 17e7000d21f567067cc5794451fe7d0fa784649e
-MD5sum: 2d888d2216d7ea2b4740aea7d5fd7879
+Filename: pool/main/b/bat/bat_0.26.1_amd64.deb
+Size: 3037592
+SHA512: 5f06cfc449ed997bab071c0fe9e75057ef37b76cd6a876351f142b1977b7f22f41b1711ecc0e9cf84ff32a9c268d4d6a5b0af99d2be7c9bb55e7bbeda9266388
+SHA256: ad59954aa1540e526f97267f60557ea5ef4c7dcf91a0811254134537cb353a3c
+SHA1: a83665d81c2ff50c2fa5018e2543be67b67ece9f
+MD5sum: 03b9305cca73527a683c5bb6c67a9788
 Description: cat(1) clone with wings.
   A cat(1) clone with syntax highlighting and Git integration.
 
@@ -85,6 +86,54 @@ Description: Cross Platform Git Credential Manager command line utility.
  including GitHub, BitBucket, and Azure DevOps.
  For more information see https://aka.ms/gcm
 
+Package: rpi-imager
+Version: 2.0.6
+Architecture: amd64
+Maintainer: Tom Dewey <tom.dewey@raspberrypi.com>
+Installed-Size: 37064
+Depends: dosfstools, fdisk, fuse, libfuse2, util-linux (>= 2.37), pkexec
+Recommends: udisks2
+Conflicts: rpi-imager-embedded
+Homepage: https://www.raspberrypi.com/software
+Priority: optional
+Section: utils
+Filename: pool/main/r/rpi-imager/rpi-imager_2.0.6_amd64.deb
+Size: 37114742
+SHA512: 224afcb65d68cccaebd7190d2960737889c5b8f99eb34e55e6cc459353d67c4d6dd036768718e32df0cf712d69ba7ae44adc241b72b02883fdc8fc660b67dc62
+SHA256: cc014afad112d04b41ab45601ac94d06acea86acee12c260759e3d88b60918ef
+SHA1: f37b0d0e641259249e9cd97e6213b0f74a595fb1
+MD5sum: bad8c22e03bcfe8c9c42922850a2959f
+Description: Raspberry Pi Imaging utility
+ A user-friendly tool for creating bootable media for Raspberry Pi Devices.
+
+Package: rpi-imager-cli
+Source: rpi-imager
+Version: 2.0.6
+Architecture: amd64
+Maintainer: Tom Dewey <tom.dewey@raspberrypi.com>
+Installed-Size: 21042
+Depends: dosfstools, fdisk, fuse, libfuse2, util-linux (>= 2.37)
+Conflicts: rpi-imager, rpi-imager-embedded
+Homepage: https://www.raspberrypi.com/software
+Priority: optional
+Section: utils
+Filename: pool/main/r/rpi-imager/rpi-imager-cli_2.0.6_amd64.deb
+Size: 20748700
+SHA512: dba2e562a382227e705bb1cfe7e2462d780ad16037c05c39497732074fc6f55baa317824ffadb03b1ce437eae6eba2380390ed4d32f64b7965edb0203a11c8f4
+SHA256: ad59efb336b9eb4f42985cba4930384677f628f9d256e21f736d7b579f76e56a
+SHA1: 09f3edb1ee97937e62869c236a7650869aef2cc3
+MD5sum: df7027c91343f4549843ce0e43729dec
+Description: Raspberry Pi Imaging utility (command-line only)
+ A command-line tool for creating bootable media for Raspberry Pi devices.
+ .
+ This version is optimized for command-line operation:
+  - No GUI components - CLI mode only
+  - Minimal dependencies (Qt Core only)
+  - Perfect for headless servers, automation and Raspberry Pi OS Lite
+  - Smaller package size and memory footprint
+  - Most imaging functionality available via command line
+  - Ideal for scripting and CI/CD pipelines
+
 Package: yt-dlp
 Version: 2026.03.13
 Maintainer: Junegunn Choi <junegunn.c@gmail.com>
@@ -102,19 +151,20 @@ MD5sum: 814328338b18a0325c265b6ef7180098
 Description: yt-dlp is a feature-rich command-line audio/video downloader with support for thousands of sites.
 
 Package: zoxide
-Version: 0.9.8-1
+Version: 0.9.9-1
 Architecture: amd64
 Homepage: https://github.com/ajeetdsouza/zoxide
 Maintainer: Ajeet D'Souza <98ajeet@gmail.com>
-Installed-Size: 1313
+Installed-Size: 1237
 Depends: 
 Priority: optional
 Section: utils
-Filename: pool/main/z/zoxide/zoxide_0.9.8-1_amd64.deb
-Size: 474200
-SHA256: c8b49c861b577e703200c53cf5e3dfc8c8b11babb39c6b43deec4dc83efff42a
-SHA1: ec4d5b6fc04532fbe4beecce3af66faf0818eb9f
-MD5sum: c82f3ed9c9198e0916947b2f5ee4122f
+Filename: pool/main/z/zoxide/zoxide_0.9.9-1_amd64.deb
+Size: 462452
+SHA512: ae050485efe12ab3152e55dda1edf385233922fe825e5976e40f7f71c2658325e61bf1dd2faef4d1373973c7d244bcbdeffd318dfbc0b143c0f2da11079f67e3
+SHA256: 5ab14485571b00a2cd0d1f2e910f6bcd57ab4da59e4c9e974a9530c3d8ba23a3
+SHA1: 9be57c1476a8794afe746d48042ae800b7237d7a
+MD5sum: 9cd1803fa04a5120fb22cd001422a8a5
 Description: A smarter cd command for your terminal
  zoxide is a smarter cd command, inspired by z and autojump. It remembers which
  directories you use most frequently, so you can "jump" to them in just a few
