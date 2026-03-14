@@ -24,5 +24,6 @@ Currently in this repo are:
 - [zoxide](https://github.com/ajeetdsouza/zoxide)
 - [git-credential-manager (gcm)](https://github.com/git-ecosystem/git-credential-manager)
 - [fastfetch](https://github.com/fastfetch-cli/fastfetch)
+- [rpi-imager](https://github.com/raspberrypi/rpi-imager)
 
 [view on github](https://github.com/tpguy825/aptrepo)
