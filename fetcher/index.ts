@@ -37,7 +37,7 @@ async function getLatest(repo: RepoConfig) {
 		if (
 			(repo.fileNameEnding !== null && !file.name.endsWith(repo.fileNameEnding ?? ".deb")) ||
 			(repo.fileNamePrefix !== null && !file.name.startsWith(repo.fileNamePrefix ?? "")) ||
-			!file.name.includes("linux") ||
+			(repo.containsLinux !== null && !file.name.includes("linux")) ||
 			(repo.skipchecks
 				? false
 				: (!file.name.includes("amd64") &&

@@ -79,9 +79,14 @@ interface RepoConfig {
 	repo: `${string}/${string}`;
 	/** @returns file name of saved deb file or false to skip */
 	eachFile?: EachFile;
+	/** Null to disable @default ".deb" */
 	fileNameEnding?: undefined | null | `.${string}`;
+	/** Null to disable @default "" */
 	fileNamePrefix?: undefined | null | string;
+	/** Skip platform checks @default false */
 	skipchecks?: boolean;
+	/** Check if filename contains "linux". Useful for repos that distribute compressed binaries for multiple platforms instead of deb files. @default false */
+	containsLinux?: boolean;
 }
 type MaybePromise<T> = T | Promise<T>;
 

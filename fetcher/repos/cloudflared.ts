@@ -6,4 +6,5 @@ export default {
 		if (name === "cloudflared-linux-arm.deb" || name.startsWith("cloudflared-fips")) return false;
 		return defaultEachFile(name.replaceAll("-", "_").replace("_linux_", "_" + release.tag_name + "_"), contents);
 	},
+	containsLinux: true
 } satisfies RepoConfig;
