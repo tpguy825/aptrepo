@@ -1,3 +1,4 @@
+import { log } from "console";
 import { existsSync } from "fs";
 import fs from "fs/promises";
 import path from "path";
@@ -34,19 +35,30 @@ async function getLatest(repo: RepoConfig) {
 
 	for (const file of latest[0].assets) {
 		// evil murderous if statement that will eat your family
+		if (repo.fileNameEnding !== null && !file.name.endsWith(repo.fileNameEnding ?? ".deb")) {
+			// console.log("File", file.name, "fails ending check");
+			continue;
+		}
+		if (repo.fileNamePrefix !== null && !file.name.startsWith(repo.fileNamePrefix ?? "")) {
+			// console.log("File", file.name, "fails prefix check");
+			continue;
+		}
+		if (repo.containsLinux !== null && repo.containsLinux && !file.name.includes("linux")) {
+			console.log("File", file.name, "fails linux name check");
+			continue;
+		}
 		if (
-			(repo.fileNameEnding !== null && !file.name.endsWith(repo.fileNameEnding ?? ".deb")) ||
-			(repo.fileNamePrefix !== null && !file.name.startsWith(repo.fileNamePrefix ?? "")) ||
-			(repo.containsLinux !== null && !file.name.includes("linux")) ||
-			(repo.skipchecks
+			repo.skipchecks
 				? false
 				: (!file.name.includes("amd64") &&
 						!file.name.includes("arm64") &&
 						!file.name.includes("armhf") &&
 						!file.name.includes("armv7")) ||
-				  file.name.includes("musl-linux"))
-		)
+					file.name.includes("musl-linux")
+		) {
+			console.log("File", file.name, "fails platform checks");
 			continue;
+		}
 
 		const eachFile = repo.eachFile ?? defaultEachFile;
 		const filepath = await eachFile(
