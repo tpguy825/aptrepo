@@ -87,42 +87,42 @@ Description: Cross Platform Git Credential Manager command line utility.
  For more information see https://aka.ms/gcm
 
 Package: rpi-imager
-Version: 2.0.6
+Version: 2.0.7
 Architecture: amd64
 Maintainer: Tom Dewey <tom.dewey@raspberrypi.com>
-Installed-Size: 37064
-Depends: dosfstools, fdisk, fuse, libfuse2, util-linux (>= 2.37), pkexec
+Installed-Size: 37264
+Depends: dosfstools, fdisk, fuse, libfuse2, util-linux (>= 2.37), pkexec, libfontconfig1, libx11-6, libegl1, libgl1
 Recommends: udisks2
 Conflicts: rpi-imager-embedded
 Homepage: https://www.raspberrypi.com/software
 Priority: optional
 Section: utils
-Filename: pool/main/r/rpi-imager/rpi-imager_2.0.6_amd64.deb
-Size: 37114742
-SHA512: 224afcb65d68cccaebd7190d2960737889c5b8f99eb34e55e6cc459353d67c4d6dd036768718e32df0cf712d69ba7ae44adc241b72b02883fdc8fc660b67dc62
-SHA256: cc014afad112d04b41ab45601ac94d06acea86acee12c260759e3d88b60918ef
-SHA1: f37b0d0e641259249e9cd97e6213b0f74a595fb1
-MD5sum: bad8c22e03bcfe8c9c42922850a2959f
+Filename: pool/main/r/rpi-imager/rpi-imager_2.0.7_amd64.deb
+Size: 37316604
+SHA512: d9806a15a53ec197c8c445577b384c2d415b888fc0783bc9f513794dc4b12ea30203a9a7abdb8ec8a4a82ecdaba913beadd1f6fdb09e278b9ca5233effb16f6e
+SHA256: aa5f4f1018cab70f264324b122aeb41097729488d2d061d3287907f0e42d294e
+SHA1: 5001d408e061a913001a71bdc796014ed22874e2
+MD5sum: 4733d3b32a50d2cbf4efe38820b8ea01
 Description: Raspberry Pi Imaging utility
  A user-friendly tool for creating bootable media for Raspberry Pi Devices.
 
 Package: rpi-imager-cli
 Source: rpi-imager
-Version: 2.0.6
+Version: 2.0.7
 Architecture: amd64
 Maintainer: Tom Dewey <tom.dewey@raspberrypi.com>
-Installed-Size: 21042
+Installed-Size: 21178
 Depends: dosfstools, fdisk, fuse, libfuse2, util-linux (>= 2.37)
 Conflicts: rpi-imager, rpi-imager-embedded
 Homepage: https://www.raspberrypi.com/software
 Priority: optional
 Section: utils
-Filename: pool/main/r/rpi-imager/rpi-imager-cli_2.0.6_amd64.deb
-Size: 20748700
-SHA512: dba2e562a382227e705bb1cfe7e2462d780ad16037c05c39497732074fc6f55baa317824ffadb03b1ce437eae6eba2380390ed4d32f64b7965edb0203a11c8f4
-SHA256: ad59efb336b9eb4f42985cba4930384677f628f9d256e21f736d7b579f76e56a
-SHA1: 09f3edb1ee97937e62869c236a7650869aef2cc3
-MD5sum: df7027c91343f4549843ce0e43729dec
+Filename: pool/main/r/rpi-imager/rpi-imager-cli_2.0.7_amd64.deb
+Size: 20890232
+SHA512: 131f9cbb40590bc7a20914487f3ece98728ffbc0517db5bc467be655e64ea781b0f57445ff94a51d890df367d4ffe37243e0fddda082c640975dd6dd781c6dac
+SHA256: 0a9880b8cc1abaf160e79f8cfa44766a11ea6d5faf16eb6fe57d5ed44299d42a
+SHA1: 2f644e11ac5d7b7210844388c2f26a3723fba0c6
+MD5sum: 15d15a8a3429cad844fd62390ff6d576
 Description: Raspberry Pi Imaging utility (command-line only)
  A command-line tool for creating bootable media for Raspberry Pi devices.
  .
@@ -135,19 +135,19 @@ Description: Raspberry Pi Imaging utility (command-line only)
   - Ideal for scripting and CI/CD pipelines
 
 Package: yt-dlp
-Version: 2026.03.13
-Maintainer: Junegunn Choi <junegunn.c@gmail.com>
+Version: 2026.03.17
+Maintainer: yt-dlp maintainers <maintainers@yt-dlp.org>
 Architecture: amd64
 Homepage: https://github.com/yt-dlp/yt-dlp
-Installed-Size: 35253
+Installed-Size: 35264
 Priority: optional
 Section: utils
-Filename: pool/main/y/yt-dlp/yt-dlp_2026.03.13_amd64.deb
-Size: 35509576
-SHA512: 0812dcea3816de463414470b09d005426e8d88af75eaa92b16d71f9e07f3ff94ebed9faf79b69fc29afa36122fc6b8d250501d5d4b4599bebf71230c5acb625a
-SHA256: a7f231aae60513a75863be23eb3f97f88916dae3a02620982d618be9304e5dc4
-SHA1: 980e8455c734acd6d01b4cde4f436fc3581d3e18
-MD5sum: 814328338b18a0325c265b6ef7180098
+Filename: pool/main/y/yt-dlp/yt-dlp_2026.03.17_amd64.deb
+Size: 35519518
+SHA512: c76b2d720ccdbbb1cda12208cfe774012ae6d7d7b22897b644e42d0a45b288018904ce0ba376bd339fb9647a6563f364347287537a1428fe1b778e98357b91b5
+SHA256: 8f6ff888c70f09083f813d2da4562bed4ef46f5aa8c7494488160ac9c5c7a783
+SHA1: 42a8557bc83213d7c2bd440821e27210039d4f73
+MD5sum: a8a497b7d6eefbf4c97ccb54cf23bc04
 Description: yt-dlp is a feature-rich command-line audio/video downloader with support for thousands of sites.
 
 Package: zoxide
