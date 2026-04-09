@@ -39,33 +39,33 @@ Architecture: amd64
 Depends: libc6 (>= 2.35)
 Priority: optional
 Section: utils
-Filename: pool/main/f/fastfetch/fastfetch_2.60.0_amd64.deb
-Size: 5462976
-SHA512: 22269f38ddb1d9ec3cf4ef26bf73dd4f006db109909a8626e0d8cc370d6122c5eeab835b233addc04b8f4b50b7e144f672f8a250c2848733ba2dae9936c30e2f
-SHA256: f24aa1187c544250177d1329a7abc0c31ee9f06ec8e6cbba1ad57a2ddc4eec25
-SHA1: 90468fd8b7b3e6a5310e79db7e95824178e6997d
-MD5sum: dd8087c81b299731f65f6a90fb42f2fa
+Filename: pool/main/f/fastfetch/fastfetch_2.61.0_amd64.deb
+Size: 5461800
+SHA512: b2cd5ae63c1eb37d84e0247ef3acdd72f7540552dfa43dcbbf791963dd10f25e7e66b048b115b8136efb17248832ea7b56cad52231779e1b5e81e863151cafae
+SHA256: 9b046cdc48be70af50379d9471aeea7735392265bf793ab52094350b37352577
+SHA1: ada0f04a9c75a88601b811a08ff05fbea9d41844
+MD5sum: fdb29460ae44e85c811f397e0789e57d
 Description: Fast neofetch-like system information tool
  fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way. It is written mostly in C to achieve much better performance.
 Homepage: https://github.com/fastfetch-cli/fastfetch
 Maintainer: Carter Li <zhangsongcui@live.cn>
-Version: 2.60.0
-Installed-Size: 14684
+Version: 2.61.0
+Installed-Size: 14607
 
 Package: fzf
-Version: 0.70.0
+Version: 0.71.0
 Maintainer: Junegunn Choi <junegunn.c@gmail.com>
 Architecture: amd64
 Homepage: https://github.com/junegunn/fzf
-Installed-Size: 1789
+Installed-Size: 1794
 Priority: optional
 Section: utils
-Filename: pool/main/f/fzf/fzf_0.70.0_amd64.deb
-Size: 1542108
-SHA512: c82a1fa3ce8c3045d172e852af6a37f960f35e5c9cbac81c5a044f3d0f4fc632bf4276933c836ba62ef4280786e8b70b1607067c9c8bacf671e6996659e4d471
-SHA256: ef24a66dfc31deae7df6d05ca43280cc95956fe71cb6d1c54f532cb32a795709
-SHA1: 013403a3c1717a288e18bf4db9e944f01e6967ff
-MD5sum: 2b6f607c0a56e4c46f9f9e7f3b15bcb6
+Filename: pool/main/f/fzf/fzf_0.71.0_amd64.deb
+Size: 1549026
+SHA512: 33421884b5328b9f64898d855a21bee044ea23bba6c2f6f7f019e493c71b957ab47739e074781ffba50b265ebc4f387cd42139b7d677d76a317e480ce4097b72
+SHA256: 96a8be6f163e4f5b861df097d405fbcb02a016b4fc48b8a20fc023218418d47f
+SHA1: f94acac888a6bbe93b9e44c562c13cf09509ff9b
+MD5sum: d8d24a8ad623e438afff8c7e46a2d14b
 Description: fzf is a general-purpose command-line fuzzy finder.
 
 Package: gcm
@@ -87,42 +87,42 @@ Description: Cross Platform Git Credential Manager command line utility.
  For more information see https://aka.ms/gcm
 
 Package: rpi-imager
-Version: 2.0.7
+Version: 2.0.8
 Architecture: amd64
 Maintainer: Tom Dewey <tom.dewey@raspberrypi.com>
-Installed-Size: 37264
+Installed-Size: 37332
 Depends: dosfstools, fdisk, fuse, libfuse2, util-linux (>= 2.37), pkexec, libfontconfig1, libx11-6, libegl1, libgl1
 Recommends: udisks2
 Conflicts: rpi-imager-embedded
 Homepage: https://www.raspberrypi.com/software
 Priority: optional
 Section: utils
-Filename: pool/main/r/rpi-imager/rpi-imager_2.0.7_amd64.deb
-Size: 37316604
-SHA512: d9806a15a53ec197c8c445577b384c2d415b888fc0783bc9f513794dc4b12ea30203a9a7abdb8ec8a4a82ecdaba913beadd1f6fdb09e278b9ca5233effb16f6e
-SHA256: aa5f4f1018cab70f264324b122aeb41097729488d2d061d3287907f0e42d294e
-SHA1: 5001d408e061a913001a71bdc796014ed22874e2
-MD5sum: 4733d3b32a50d2cbf4efe38820b8ea01
+Filename: pool/main/r/rpi-imager/rpi-imager_2.0.8_amd64.deb
+Size: 37389252
+SHA512: 1a3fc81a3ea8614dedc4a778fafbbc1ec66813ee5862d51d235f2587448b739de89413ac641fe4cd9b67f63bfff909401e29b04f2de9d19ec8757e968f29a106
+SHA256: b00167e625d3079cc63f93d8989a5f26fffb1c1fa7154b9bca8001234c20f63d
+SHA1: ac4399e87613d1fb7a64d8c761066134f1071b4e
+MD5sum: 3bd145fe7ad94be3847c1d1bbfa922e9
 Description: Raspberry Pi Imaging utility
  A user-friendly tool for creating bootable media for Raspberry Pi Devices.
 
 Package: rpi-imager-cli
 Source: rpi-imager
-Version: 2.0.7
+Version: 2.0.8
 Architecture: amd64
 Maintainer: Tom Dewey <tom.dewey@raspberrypi.com>
-Installed-Size: 21178
+Installed-Size: 21234
 Depends: dosfstools, fdisk, fuse, libfuse2, util-linux (>= 2.37)
 Conflicts: rpi-imager, rpi-imager-embedded
 Homepage: https://www.raspberrypi.com/software
 Priority: optional
 Section: utils
-Filename: pool/main/r/rpi-imager/rpi-imager-cli_2.0.7_amd64.deb
-Size: 20890232
-SHA512: 131f9cbb40590bc7a20914487f3ece98728ffbc0517db5bc467be655e64ea781b0f57445ff94a51d890df367d4ffe37243e0fddda082c640975dd6dd781c6dac
-SHA256: 0a9880b8cc1abaf160e79f8cfa44766a11ea6d5faf16eb6fe57d5ed44299d42a
-SHA1: 2f644e11ac5d7b7210844388c2f26a3723fba0c6
-MD5sum: 15d15a8a3429cad844fd62390ff6d576
+Filename: pool/main/r/rpi-imager/rpi-imager-cli_2.0.8_amd64.deb
+Size: 20941454
+SHA512: c5ee139e69c0e9415002ca9d7ff2cead555e7276f95a3800db880ef708d05f91d201400645f6d777e708464dc08f930145e0318b8ab87c728c295d014102a822
+SHA256: 9a63fbfb0475982b498b4684f3e8e706daf9eb69e96fb56f8e9f9272774f6b7e
+SHA1: f1eeb96b98265f97023493325471a6976288ce77
+MD5sum: 5e2fb70d39ba24b278b2caf40ef85aba
 Description: Raspberry Pi Imaging utility (command-line only)
  A command-line tool for creating bootable media for Raspberry Pi devices.
  .

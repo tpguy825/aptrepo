@@ -53,19 +53,19 @@ MD5sum: b039069d2893c62be6af1cb354bf6e05
 Description: Cloudflare Tunnel daemon
 
 Package: fzf
-Version: 0.70.0
+Version: 0.71.0
 Maintainer: Junegunn Choi <junegunn.c@gmail.com>
 Architecture: arm64
 Homepage: https://github.com/junegunn/fzf
-Installed-Size: 1668
+Installed-Size: 1674
 Priority: optional
 Section: utils
-Filename: pool/main/f/fzf/fzf_0.70.0_arm64.deb
-Size: 1402916
-SHA512: 869f65c445e206e741bf76f0f6aaa6d951bbf13315d7eb33c255ea3cebe295e2dec74458a815261b86fa5869ef8cf3afd9c3bf40ca8f8d26bf9738e43848ca0d
-SHA256: 3e65e7e19c4ad2a7764e474162d865698339fe808b8b3fce63fa8ca4dfdd8b91
-SHA1: 14bb6a275aa500e575938857307822c62c2a4603
-MD5sum: ab508661c69a4a316e0b207d861c52df
+Filename: pool/main/f/fzf/fzf_0.71.0_arm64.deb
+Size: 1408068
+SHA512: 411ab584ea75d891972db198b3e225f4f88108526f9ae7cfe3386a4697b49e2759c823d1f4bd804e99970ec372dfe5f9aef8c1cbdd09c91a9dca46f98d9c40c4
+SHA256: 6ab7ea86bbde0bc928178fc5ce935d499746a071019918b33fe3e68ec75942dc
+SHA1: 361baa2d05c2bf9eda689e81b34a52b43e35a430
+MD5sum: 18d5a5bf9a8f22e89a776ddb87561592
 Description: fzf is a general-purpose command-line fuzzy finder.
 
 Package: gcm
@@ -87,42 +87,42 @@ Description: Cross Platform Git Credential Manager command line utility.
  For more information see https://aka.ms/gcm
 
 Package: rpi-imager
-Version: 2.0.7
+Version: 2.0.8
 Architecture: arm64
 Maintainer: Tom Dewey <tom.dewey@raspberrypi.com>
-Installed-Size: 38844
+Installed-Size: 38908
 Depends: dosfstools, fdisk, fuse, libfuse2, util-linux (>= 2.37), pkexec, libfontconfig1, libx11-6, libegl1, libgl1
 Recommends: udisks2
 Conflicts: rpi-imager-embedded
 Homepage: https://www.raspberrypi.com/software
 Priority: optional
 Section: utils
-Filename: pool/main/r/rpi-imager/rpi-imager_2.0.7_arm64.deb
-Size: 38852588
-SHA512: 556dc5bf10516cd92e0d51eae3f744c48994c7f0325a82a63b51101bc43fe4afbc556c5ad9af134b43b8ac1e9c5e266bdb5d5ee9d3ae548affc0da8e6fefc5d6
-SHA256: 487eff3b64b4273c8b9a9f7d6615a26118e88c3a8eed4bd656cef734a05c93e1
-SHA1: 3dfe67dabc30d79f041977cebb8191eb2d30f14b
-MD5sum: 1ccb0a1a9123f27c3d79cd7abd5fcefd
+Filename: pool/main/r/rpi-imager/rpi-imager_2.0.8_arm64.deb
+Size: 38920928
+SHA512: f7c12b9d21533841c9d914ed942de03a08e6c01b3e6adac6148c6665273f75dd1e812504a261c31761be0bd010f3841f898e127024a815f5210bc6833283ac6f
+SHA256: 02c11e448684d854f444d5a7ac31cfbccbf0e468ab472372430de3ee0f0ae68b
+SHA1: 852cc226fdba1fa385091055993ae682c54ed03d
+MD5sum: 9bbf40d6f59fb38647bb2f38c5dc1bb6
 Description: Raspberry Pi Imaging utility
  A user-friendly tool for creating bootable media for Raspberry Pi Devices.
 
 Package: rpi-imager-cli
 Source: rpi-imager
-Version: 2.0.7
+Version: 2.0.8
 Architecture: arm64
 Maintainer: Tom Dewey <tom.dewey@raspberrypi.com>
-Installed-Size: 22162
+Installed-Size: 22210
 Depends: dosfstools, fdisk, fuse, libfuse2, util-linux (>= 2.37)
 Conflicts: rpi-imager, rpi-imager-embedded
 Homepage: https://www.raspberrypi.com/software
 Priority: optional
 Section: utils
-Filename: pool/main/r/rpi-imager/rpi-imager-cli_2.0.7_arm64.deb
-Size: 21792092
-SHA512: 3280f48c3776556fcf5bf96ccd5f9de7ed3b1d559971815da16792affc9af97fd8670346eb86a268cc3353d01059cb6d98a1ad74fc383e45dfccbeaf6fee5736
-SHA256: 3a14209b1be4de3e68677bd6279f0de87e28723f29fa1592bc66af1d8cf9feda
-SHA1: e455b2322dbda2a11dbca86745810468dc534251
-MD5sum: 156676c86051ff0352b23bd9cb875bdc
+Filename: pool/main/r/rpi-imager/rpi-imager-cli_2.0.8_arm64.deb
+Size: 21845436
+SHA512: 134dc2f0f6c21aeccd0a9045c1739c787754a4a29f007c2c5a7b0c5a6c9c9cbf3520ba350984c18aaff0665906cf9b379950c22f9a0f7a846d4f5f57bea69c5c
+SHA256: 96b3cda6ab517f452036af7abbe7da9452d2678dd976fadfb40bb62569866150
+SHA1: 13b80163cfbbba1a2895ab5adcf458890fcaea30
+MD5sum: 8f3335f9a42f03a4b624f33510d7adb6
 Description: Raspberry Pi Imaging utility (command-line only)
  A command-line tool for creating bootable media for Raspberry Pi devices.
  .

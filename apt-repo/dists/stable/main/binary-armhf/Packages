@@ -36,36 +36,36 @@ Description: Cloudflare Tunnel daemon
 
 Package: fastfetch
 Architecture: armhf
-Depends: libc6 (>= 2.31)
+Depends: libc6 (>= 2.35)
 Priority: optional
 Section: utils
-Filename: pool/main/f/fastfetch/fastfetch_2.60.0_armhf.deb
-Size: 5121448
-SHA512: e486161930685a457b4cc0045422f66848cf39df350cbefb9fb5c9b1a2443c22405c5c106a37531690ce7025c6727e3e57cccb046be98d22f6fc8a85666db8ad
-SHA256: 8de91a066ba8b83504107ae24e90c6cfec9e15fa2d8c35dbd04617b46c9c7932
-SHA1: dc4ddde83465e743523f1a18998df7665ac84c0d
-MD5sum: 425626087ae2e8bd4c8e2eadd586f6b0
+Filename: pool/main/f/fastfetch/fastfetch_2.61.0_armhf.deb
+Size: 5163518
+SHA512: d54e6cb614df40c6bac242e484266f9a7217b36acce8cda461c6ed220c98953bd5f23932775741af0bb43e5c7f22dd641f79aa399920f924e6947e134932b5af
+SHA256: 989f54dcf0062962020e6bee4166d20eae8128d5568afb885df7204c6538a964
+SHA1: 12b85c2bb84251cddd6d600db9189469ae73433d
+MD5sum: 1558e75aeef8c8f199bfeed88b4730fb
 Description: Fast neofetch-like system information tool
  fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way. It is written mostly in C to achieve much better performance.
 Homepage: https://github.com/fastfetch-cli/fastfetch
 Maintainer: Carter Li <zhangsongcui@live.cn>
-Version: 2.60.0
-Installed-Size: 14201
+Version: 2.61.0
+Installed-Size: 12624
 
 Package: fzf
-Version: 0.70.0
+Version: 0.71.0
 Maintainer: Junegunn Choi <junegunn.c@gmail.com>
 Architecture: armhf
 Homepage: https://github.com/junegunn/fzf
-Installed-Size: 1692
+Installed-Size: 1697
 Priority: optional
 Section: utils
-Filename: pool/main/f/fzf/fzf_0.70.0_armhf.deb
-Size: 1419012
-SHA512: ed6728e77f471f998d0320107e0ce98eeac4f2954c7e971eb9d286b5a9d235f8169d5d2f326b8533457a75d2adf0bc3efd2f102de129be9dc7f8d0aef36f5a27
-SHA256: 62d3dbbb0613dfbbfe6eae17fd87929fbe5e90b27d6caf5d89eb5c363d058334
-SHA1: e4d7ebf5c0c6be945de9cbcbd9dc4b3b7233bfe5
-MD5sum: d3214d3151d1521960ae043f4f1941e9
+Filename: pool/main/f/fzf/fzf_0.71.0_armhf.deb
+Size: 1426038
+SHA512: d4110bb6863f47db3127a73b4b92af83cfef7a0f95e9cd3230c942dcfa0404137279d7e13f4436258a1a3db5e2203af08d6d23e5eaf45a73e418d3735f3d4695
+SHA256: 70910013ea2cf9ec22b15ba064158dcfd766623f1f460ce06c16d6328db45a65
+SHA1: d1cef990157c1abb72075cd6d7a867f85b2ff1e8
+MD5sum: 334872d70aee9d7fa931b0bd85d66c9d
 Description: fzf is a general-purpose command-line fuzzy finder.
 
 Package: zoxide
