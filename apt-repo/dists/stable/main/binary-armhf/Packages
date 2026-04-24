@@ -39,18 +39,18 @@ Architecture: armhf
 Depends: libc6 (>= 2.35)
 Priority: optional
 Section: utils
-Filename: pool/main/f/fastfetch/fastfetch_2.62.0_armhf.deb
-Size: 5252840
-SHA512: df9c304dbead580e40aef6c994ed1ea675e151a077a0cc095ccc982c2aee17ce8a3716868d0f546e0dd1180a029673d6b012f1bbb53b6832c48b697a069724bc
-SHA256: 749e7ba7f1d5dd6cf2091a1dc1cf9abec1b7574ac48a24327bf3f401fe40e5a7
-SHA1: 101cf545e765e80a2ff07f8d24c85283af875abc
-MD5sum: 17c242b250b17e1297459bbc14d89b9b
+Filename: pool/main/f/fastfetch/fastfetch_2.62.1_armhf.deb
+Size: 5254138
+SHA512: 357ccd4526251070161b6650278999db3c26feccb8e5532f52304a0b128b827791a2440691106a7683060082daac9263b609e2a5e8c8ecc09fc1ef3ddc39e352
+SHA256: 8bc346d08d2769bccdaf5be98bebbc4ddf8fed354f9883e3c038e504c4f87cba
+SHA1: c3758e892f2edcb5a1cbd8847ca99a5597863453
+MD5sum: 81fac0b6d65a2575826878c13afbaa4a
 Description: Fast neofetch-like system information tool
  fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way. It is written mostly in C to achieve much better performance.
 Homepage: https://github.com/fastfetch-cli/fastfetch
 Maintainer: Carter Li <zhangsongcui@live.cn>
-Version: 2.62.0
-Installed-Size: 12844
+Version: 2.62.1
+Installed-Size: 12848
 
 Package: fzf
 Version: 0.71.0
