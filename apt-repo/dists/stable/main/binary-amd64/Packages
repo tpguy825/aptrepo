@@ -53,19 +53,19 @@ Version: 2.62.1
 Installed-Size: 14794
 
 Package: fzf
-Version: 0.71.0
+Version: 0.72.0
 Maintainer: Junegunn Choi <junegunn.c@gmail.com>
 Architecture: amd64
 Homepage: https://github.com/junegunn/fzf
-Installed-Size: 1794
+Installed-Size: 1802
 Priority: optional
 Section: utils
-Filename: pool/main/f/fzf/fzf_0.71.0_amd64.deb
-Size: 1549026
-SHA512: 33421884b5328b9f64898d855a21bee044ea23bba6c2f6f7f019e493c71b957ab47739e074781ffba50b265ebc4f387cd42139b7d677d76a317e480ce4097b72
-SHA256: 96a8be6f163e4f5b861df097d405fbcb02a016b4fc48b8a20fc023218418d47f
-SHA1: f94acac888a6bbe93b9e44c562c13cf09509ff9b
-MD5sum: d8d24a8ad623e438afff8c7e46a2d14b
+Filename: pool/main/f/fzf/fzf_0.72.0_amd64.deb
+Size: 1555852
+SHA512: f874bfa6f247b52839bcee964bd66fedd0dd4343148e741e5f161eb5bc534024e736ead88d7016ec0ea3f5073cae4c751fce5b5304b3767aa6b85397416f4d20
+SHA256: 807d27a36b2830e775bb5c245bab0d8e7fdc25d414eceaa0d327b88b5f17bb92
+SHA1: 1a7faef0306abd4520f2873fa4b6bc140bc9de68
+MD5sum: 8b56ec36960d5282736e58f7a1bd5bd1
 Description: fzf is a general-purpose command-line fuzzy finder.
 
 Package: gcm
