@@ -17,21 +17,21 @@ Description: cat(1) clone with wings.
   A cat(1) clone with syntax highlighting and Git integration.
 
 Package: cloudflared
-Version: 2026.3.0
+Version: 2026.5.0
 License: Apache License Version 2.0
 Vendor: Cloudflare
 Architecture: amd64
 Maintainer: Cloudflare <support@cloudflare.com>
-Installed-Size: 38738
+Installed-Size: 38106
 Homepage: https://github.com/cloudflare/cloudflared
 Priority: optional
 Section: utils
-Filename: pool/main/c/cloudflared/cloudflared_2026.3.0_amd64.deb
-Size: 19308942
-SHA512: c4d2af0ddd090ac6037fcc50f46b43fd2091c4a57a16ee329d301310c56dadc8d0028d791fe86f6565a891a1caccb1051f4de878c194ef4ffd6b5e3055373653
-SHA256: 00f2475bad5874e9a110c2f5b8d1ce8a1bf5b6280628886a68bdc4ee76fd376c
-SHA1: 756f5c56251d5e0d054962c36eb2a0cc5db13199
-MD5sum: 312f36d5f95a63a3c42ccb59ca5774c4
+Filename: pool/main/c/cloudflared/cloudflared_2026.5.0_amd64.deb
+Size: 18765408
+SHA512: 18e6fc87fcd95430064e27b04035013f92ae667b9235b3fbf40ae0950505f32594c59894b4b1b178decf2b49d4279d3ebc057b1ecea774ab3df2ec018cda27e6
+SHA256: 0173a478774c635e577ef1eaa5a49af88d09d2d69b4a3e46f7033598f68f6521
+SHA1: 6b98384d31a4bdfabd4f695708f1eaa51549d7db
+MD5sum: a79d1412914be03c2a7e76fe8c35cdaa
 Description: Cloudflare Tunnel daemon
 
 Package: fastfetch
@@ -39,18 +39,18 @@ Architecture: amd64
 Depends: libc6 (>= 2.35)
 Priority: optional
 Section: utils
-Filename: pool/main/f/fastfetch/fastfetch_2.62.1_amd64.deb
-Size: 5526618
-SHA512: 266529e4f234867bcabcb22434b29a069cf46b88823c6a5766a75e68176d6b9cb981d575e55db3e4eff9e6e630cb2be6953bc4185d61637dc9db35e45858d6d2
-SHA256: 505070e07386f7b3e8e7a6c8b5c6b1d0ad7607580b293ff887dd05718a80f62e
-SHA1: 4a7533bade84b9e7a75d17924e2125a3f6b01408
-MD5sum: 17dc4f71ef35810cb2c83fff1c66bde4
+Filename: pool/main/f/fastfetch/fastfetch_2.63.1_amd64.deb
+Size: 5601042
+SHA512: 963cc0341af26477162b5344ebd87c628e793182728aa74b7e07a0d6d54f7a9bb7b922e80747d7693288622bac5ee26c985c7d6ff8fd405af646fc7fe7f2035e
+SHA256: d0239b79c2082f30c0d519ec9af8e80f965b3cb873f4abd99ac4d8db1c48adf3
+SHA1: 48baab6ddbed4c69a5a9cdbdd4d6a8e90d509c49
+MD5sum: 6e92fae09a205b31e81cc4319024f8fa
 Description: Fast neofetch-like system information tool
  fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way. It is written mostly in C to achieve much better performance.
 Homepage: https://github.com/fastfetch-cli/fastfetch
 Maintainer: Carter Li <zhangsongcui@live.cn>
-Version: 2.62.1
-Installed-Size: 14794
+Version: 2.63.1
+Installed-Size: 14971
 
 Package: fzf
 Version: 0.72.0
