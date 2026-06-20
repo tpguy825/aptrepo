@@ -87,42 +87,42 @@ Description: Cross Platform Git Credential Manager command line utility.
  For more information see https://aka.ms/gcm
 
 Package: rpi-imager
-Version: 2.0.9
+Version: 2.0.10
 Architecture: amd64
 Maintainer: Tom Dewey <tom.dewey@raspberrypi.com>
-Installed-Size: 36969
+Installed-Size: 38798
 Depends: dosfstools, fdisk, fuse, libfuse2, util-linux (>= 2.37), pkexec, libfontconfig1, libx11-6, libegl1, libgl1
 Recommends: udisks2
 Conflicts: rpi-imager-embedded
 Homepage: https://www.raspberrypi.com/software
 Priority: optional
 Section: utils
-Filename: pool/main/r/rpi-imager/rpi-imager_2.0.9_amd64.deb
-Size: 37024710
-SHA512: 46548f1d23ea8188a6afd1cbe40592b7dd4b9b0cb74ee646952cf0738b59a0ed3e52c93e428c72f026865e3777aa25299ab575d8744a44d31f78da3e9cdb045d
-SHA256: b1596fb8915dbbeab8d859421b243462b4effae172a5ebe3a00e8812dd433944
-SHA1: b5ee18c92d3b84fe93cd7a7f4a418b522ebc7f88
-MD5sum: 423aef4f04d7b85751892613ddc7e0c6
+Filename: pool/main/r/rpi-imager/rpi-imager_2.0.10_amd64.deb
+Size: 38875408
+SHA512: c9c5c036f3509c2b7f5b63fee826c18e4069f7e9a6a26fc33a0319bc269f62bc9d14f3da80016ea5065f07cb202fd0a9e8835e070cf36c16394ae7189eeaa9fa
+SHA256: 88cf1227c0da4e358ab4c0158090b5d8805e134f66cdeae7efcc57c93869948f
+SHA1: 88ecb50a356aea6205058b09fa3608e0f77fcf46
+MD5sum: a5a566cfaf130af2961b40aa396fcb47
 Description: Raspberry Pi Imaging utility
  A user-friendly tool for creating bootable media for Raspberry Pi Devices.
 
 Package: rpi-imager-cli
 Source: rpi-imager
-Version: 2.0.9
+Version: 2.0.10
 Architecture: amd64
 Maintainer: Tom Dewey <tom.dewey@raspberrypi.com>
-Installed-Size: 21315
+Installed-Size: 20584
 Depends: dosfstools, fdisk, fuse, libfuse2, util-linux (>= 2.37)
 Conflicts: rpi-imager, rpi-imager-embedded
 Homepage: https://www.raspberrypi.com/software
 Priority: optional
 Section: utils
-Filename: pool/main/r/rpi-imager/rpi-imager-cli_2.0.9_amd64.deb
-Size: 21028926
-SHA512: a62724c18fdb670714887537a6ea4b387d3c28669793180d9df3f8ba1f4bb2a1a0ef72979517e416f81613a5d60c4a670b66a036962efaf12fd95f906c010b60
-SHA256: 2c93eb8cbb07703fe37fa6be647444a91a5d4a4c804746e396d96d0090a18ccf
-SHA1: 49184535e047c268fe69225f7499458aa4a38c64
-MD5sum: 42fd385ff3df40658571747ef5b939b4
+Filename: pool/main/r/rpi-imager/rpi-imager-cli_2.0.10_amd64.deb
+Size: 20278226
+SHA512: e5f2c7d791844eec90546ba946a6bc29c7886a69055aefc20c64b1a9b675407b67c361a359e6e68bbcf4da0cdea4fa1a6e133908de4aa58513a96b7ea5fb368f
+SHA256: d0c0a41019389f5c81cef50596d60feb1c0bd65dbbe1f6cf4235a04a1c762d69
+SHA1: e746b98212b7595ee4f4f3951556d932a10d899b
+MD5sum: f34043932887eae15592a25fedeeb879
 Description: Raspberry Pi Imaging utility (command-line only)
  A command-line tool for creating bootable media for Raspberry Pi devices.
  .
