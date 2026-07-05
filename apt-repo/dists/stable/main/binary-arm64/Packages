@@ -135,36 +135,36 @@ Description: Raspberry Pi Imaging utility (command-line only)
   - Ideal for scripting and CI/CD pipelines
 
 Package: yt-dlp
-Version: 2026.06.09
+Version: 2026.07.04
 Maintainer: yt-dlp maintainers <maintainers@yt-dlp.org>
 Architecture: arm64
 Homepage: https://github.com/yt-dlp/yt-dlp
-Installed-Size: 38700
+Installed-Size: 38746
 Priority: optional
 Section: utils
-Filename: pool/main/y/yt-dlp/yt-dlp_2026.06.09_arm64.deb
-Size: 39128474
-SHA512: 75ba6872f2de1bee7acbb659835d02878096d0d2cbac062b48455a310cbf6de1bbf47eb3073330a7469a32e1fda127f18c2ffa45e0eb0f023e6d664c8d54d7ea
-SHA256: 9cf632a2ba4e124a3bb362dd5f15d99f7a07c1485433671a2440382bff82d666
-SHA1: 4a36dad592bdc4ad73a8543f2c88a816ed57e38f
-MD5sum: 588066508f4a87f3823e3b2c7b379471
+Filename: pool/main/y/yt-dlp/yt-dlp_2026.07.04_arm64.deb
+Size: 39175338
+SHA512: cc2bce772b91bd06ac98ad33a810f8dfaf2e941ca072325764b1f254b6b4c544a90cf528d374dad09bbaa7cc7ad15a67f76fcf249063433b9fdb3f2425653782
+SHA256: f6c89d6dc4b0a68145617777956cf3c1e9855838d735fc4e59e8b42be15886ca
+SHA1: 3878a2ea4e345ba4a9f8b90e00fc2b55005f4f38
+MD5sum: 5b30867406997cf29d1e749899fab1f3
 Description: yt-dlp is a feature-rich command-line audio/video downloader with support for thousands of sites.
 
 Package: zoxide
-Version: 0.9.9-1
+Version: 0.10.0-1
 Architecture: arm64
 Homepage: https://github.com/ajeetdsouza/zoxide
 Maintainer: Ajeet D'Souza <98ajeet@gmail.com>
-Installed-Size: 1065
+Installed-Size: 1119
 Depends: 
 Priority: optional
 Section: utils
-Filename: pool/main/z/zoxide/zoxide_0.9.9-1_arm64.deb
-Size: 402232
-SHA512: 53656b207db03126d7f5d19ada2b2b3a24249f32cc99de3134a475eb9af4ed0dad81050858e8cbbb5b951d08ff458d10f49ccbe3801edc5df0026b511dd84ee8
-SHA256: 6ed2562bb8fad59e794ae5ea43eef9c5c61627744a3cc4cb93b75f56246d9338
-SHA1: fab4c0538a6271ef96cb2596f2ca97a692dbc390
-MD5sum: dd08b64ea9900717d5b36ba99c34a787
+Filename: pool/main/z/zoxide/zoxide_0.10.0-1_arm64.deb
+Size: 420708
+SHA512: 1d564efd3e7e6161c142db37477d1625d177a3125bade54d7cae9a7f4a052a36ebed8043bb36aae7c877a5d303093f10502e6e750bcbe259edb0f3b6e5ec5dd6
+SHA256: f4799bcf1a4f43c0197b75fd4876fcef79d502280e236e327cb154a6fedf1e40
+SHA1: 2d8eefeb061ce1e718d36b5fab0467834cea663d
+MD5sum: ea52925083128ed19d7e6f2c91699ab8
 Description: A smarter cd command for your terminal
  zoxide is a smarter cd command, inspired by z and autojump. It remembers which
  directories you use most frequently, so you can "jump" to them in just a few

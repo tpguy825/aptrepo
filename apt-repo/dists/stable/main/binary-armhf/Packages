@@ -69,20 +69,20 @@ MD5sum: 37f7a6aaf72a6b5cc7c624faceaadcc3
 Description: fzf is a general-purpose command-line fuzzy finder.
 
 Package: zoxide
-Version: 0.9.9-1
+Version: 0.10.0-1
 Architecture: armhf
 Homepage: https://github.com/ajeetdsouza/zoxide
 Maintainer: Ajeet D'Souza <98ajeet@gmail.com>
-Installed-Size: 1039
+Installed-Size: 1093
 Depends: 
 Priority: optional
 Section: utils
-Filename: pool/main/z/zoxide/zoxide_0.9.9-1_armhf.deb
-Size: 406768
-SHA512: ed0067c6921db7914aef849e93d13f0eadd87919b81148be54d42e9372f6a1c83eacd02c4c074d8917e3d27398e8239e421f992b076dfb81ebbd4b20ce7b15cf
-SHA256: 1b959c2c486d56a598d7fda1b17d33f7ae01e3d610fc8be01c577304b992a35b
-SHA1: 8affd47e6aeb476e124db5df6891eaa57c6fe337
-MD5sum: 21c8c077ecf39aa097e2b4e255928876
+Filename: pool/main/z/zoxide/zoxide_0.10.0-1_armhf.deb
+Size: 423784
+SHA512: 7c60117e272bda136a8013c9c9801c4198176f0655c7f7b58551cb67e5acecd4ce80742f8237a254d3c7f8843c6f4a00288401262e2ec48fc444599d81af47d3
+SHA256: ef7895cf10ba89f71953d058c386e5b313fa0f439dc351b331640129d7a81ae8
+SHA1: 0990b8b4911436cb0b376a213ec0cd7ae4d28fc0
+MD5sum: 06ed248277d24ae8fa6104c3fb36f9f2
 Description: A smarter cd command for your terminal
  zoxide is a smarter cd command, inspired by z and autojump. It remembers which
  directories you use most frequently, so you can "jump" to them in just a few
