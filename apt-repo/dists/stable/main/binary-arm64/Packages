@@ -69,18 +69,18 @@ MD5sum: 2293c1206e700aa9f2179fda4d08629f
 Description: fzf is a general-purpose command-line fuzzy finder.
 
 Package: gcm
-Version: 2.8.0
+Version: 2.9.1
 Architecture: arm64
 Depends:
 Maintainer: GCM <gitfundamentals@github.com>
 Priority: optional
 Section: utils
-Filename: pool/main/g/gcm/gcm_2.8.0_arm64.deb
-Size: 26759954
-SHA512: 3321f6c793c79d4c1eb3c9f3c6cd945103b28a88f63823f15de65c67ed35d9955ce9debaa728a76dbd0c11232a6246b821823b7688d39216788a5b5799b04331
-SHA256: e5bbc12c31e97a7409585ef60aa5d53138c7661d9a3abc9227d9b0f68959e836
-SHA1: ed6b45058dd1604d48711cdf3ad90add9bec0b98
-MD5sum: 0bf16be7d62d148918aec4931c6843c6
+Filename: pool/main/g/gcm/gcm_2.9.1_arm64.deb
+Size: 26720506
+SHA512: 3d6ce7cc381f377a4cebcdbd33be693e0d5278b7d90efb54d12292b338ca82b8ee5fa360ddd5b4d683312cba7a9b40682e73f7e21ff6da54b68b05adfdff1a81
+SHA256: 8dd4cee6f5820516d1d1982bc8d68ce1c3e221cd2bf0629b10f0f2c059af9543
+SHA1: 2908b972a7df135366adc159be8702f87b80d279
+MD5sum: 6a4e3cb01c0a4c58f760004e8ab9fbfe
 Description: Cross Platform Git Credential Manager command line utility.
  GCM supports authentication with a number of Git hosting providers
  including GitHub, BitBucket, and Azure DevOps.
