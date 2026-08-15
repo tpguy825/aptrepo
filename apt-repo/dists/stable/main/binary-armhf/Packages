@@ -17,21 +17,21 @@ Description: cat(1) clone with wings.
   A cat(1) clone with syntax highlighting and Git integration.
 
 Package: cloudflared
-Version: 2026.8.1
+Version: 2026.8.2
 License: Apache License Version 2.0
 Vendor: Cloudflare
 Architecture: armhf
 Maintainer: Cloudflare <support@cloudflare.com>
-Installed-Size: 35320
+Installed-Size: 35319
 Homepage: https://github.com/cloudflare/cloudflared
 Priority: optional
 Section: utils
-Filename: pool/main/c/cloudflared/cloudflared_2026.8.1_armhf.deb
-Size: 17603040
-SHA512: a9b10537b1eeb752e5599649363eb9eeda3e2ba3fa129c7edcab32ebf67f644933782166bc510de762ac0e9c1439f5d57a5a63ee9531a06590706961fd778970
-SHA256: 3e902455786301636ba3a71b198415fbfabb74f05e834106115728b5d564fad2
-SHA1: 6e25492391d3be0d5f2ebc09d282774e50b40144
-MD5sum: 698ba1b266382f3aab667c822344565c
+Filename: pool/main/c/cloudflared/cloudflared_2026.8.2_armhf.deb
+Size: 17601768
+SHA512: 4543b22796a76e8992c15494402e096a57e885e6158337f8745ac446d1a21120adb12d7d19369b33327f130a8b1baf0851f527a7ad4bcbfcdbd7bd3107123240
+SHA256: 2ddaadc63910d1704f1a562044b4ae330a924da7a49c5dbd44207eaa91e44a1d
+SHA1: 4e94a3e6f659db875d9cfcc62c382cb9d03874ee
+MD5sum: 659f158b14954e7ad8057be58fdfe1ac
 Description: Cloudflare Tunnel daemon
 
 Package: fastfetch
@@ -39,18 +39,18 @@ Architecture: armhf
 Depends: libc6 (>= 2.35)
 Priority: optional
 Section: utils
-Filename: pool/main/f/fastfetch/fastfetch_2.67.0_armhf.deb
-Size: 5762462
-SHA512: 8119f45da49c540ee8fe4d92c275dd1e885e46952f0659339923a49bd58ca5da4816d3755cce731cb70d9691f3b520c3366034633904df69af7aec9b24aaf63f
-SHA256: 11b639fbec99acfad377a54df7097c0b30559bf2aa490a66fbc852fb9c66d308
-SHA1: b685632a9986e2c6b97be2c734a1a238c6378197
-MD5sum: f14738f7b275bbf00a72d2706b634ebb
+Filename: pool/main/f/fastfetch/fastfetch_2.67.1_armhf.deb
+Size: 5762114
+SHA512: 7b5333ac0c0d5abc99dffa9218e23722fdfb7e201c197706ac121fb04c96fa65538af8973d50ab9f512f72030d8b4936678c6225274b3b0586515f88f7c28e67
+SHA256: d8a99dddfa20121815593a2433901869aaf78aa75abd8797d5f57d544a05c52d
+SHA1: 03a68a808eca208bfe86ddfe5692e2ab97b039c1
+MD5sum: a4c926115c31192312d7e68c898f7682
 Description: Fast neofetch-like system information tool
  fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way. It is written mostly in C to achieve much better performance.
 Homepage: https://github.com/fastfetch-cli/fastfetch
 Maintainer: Carter Li <zhangsongcui@live.cn>
-Version: 2.67.0
-Installed-Size: 14066
+Version: 2.67.1
+Installed-Size: 14073
 
 Package: fzf
 Version: 0.74.2
@@ -67,6 +67,54 @@ SHA256: 5e5aabe293d78e0637f070809ae72352cc5cf63b4309f5fbdbfa1101fa10aaa3
 SHA1: d4b6d570c697264949f29e22ed4987420d572912
 MD5sum: 3a52d2b09f44ed2300cb6668a60752ea
 Description: fzf is a general-purpose command-line fuzzy finder.
+
+Package: rpi-imager
+Version: 2.0.11-1
+Architecture: armhf
+Maintainer: Tom Dewey <tom.dewey@raspberrypi.com>
+Installed-Size: 31590
+Depends: dosfstools, fdisk, fuse, libfuse2, util-linux (>= 2.37), pkexec, libstdc++6, libatomic1, libfontconfig1, libfreetype6, libx11-6, libx11-xcb1, libxcb1, libxcb-cursor0, libxcb-glx0, libxcb-icccm4, libxcb-image0, libxcb-keysyms1, libxcb-randr0, libxcb-render0, libxcb-render-util0, libxcb-shape0, libxcb-shm0, libxcb-sync1, libxcb-xfixes0, libxcb-xkb1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libwayland-cursor0, libegl1, libgl1, libopengl0, libdbus-1-3, libdrm2, libgbm1, libinput10, libudev1
+Recommends: udisks2
+Conflicts: rpi-imager-embedded
+Homepage: https://www.raspberrypi.com/software
+Priority: optional
+Section: utils
+Filename: pool/main/r/rpi-imager/rpi-imager_2.0.11-1_armhf.deb
+Size: 31492176
+SHA512: 83f98918a08891deda88c53c046ddf859f6bf590b8428fb8420265782cfdcdb0f58c8fb5d056569f63a6c801de99d129e510125ba7cc045f00f15c1d6809755d
+SHA256: eb2a47aa436a543634b60a2ad3bfc54b12585f21a0d3a6bf9aa2f999ef5bdf59
+SHA1: e9197c92695f609c6942ac40a0ce5e05cae92688
+MD5sum: a2aba38628cdb09eab80e39dc336a907
+Description: Raspberry Pi Imaging utility
+ A user-friendly tool for creating bootable media for Raspberry Pi Devices.
+
+Package: rpi-imager-cli
+Source: rpi-imager
+Version: 2.0.11-1
+Architecture: armhf
+Maintainer: Tom Dewey <tom.dewey@raspberrypi.com>
+Installed-Size: 9524
+Depends: dosfstools, fdisk, fuse, libfuse2, util-linux (>= 2.37), libstdc++6, libatomic1
+Conflicts: rpi-imager, rpi-imager-embedded
+Homepage: https://www.raspberrypi.com/software
+Priority: optional
+Section: utils
+Filename: pool/main/r/rpi-imager/rpi-imager-cli_2.0.11-1_armhf.deb
+Size: 9142900
+SHA512: 30dc12af3d5e84f379f5f69ee233e473be6c4c9fd4f24ad1f41e9e75522d8e8162a16045142adb4a314f6b72e225ed66eb068b46bdb84edefef4e75cda9ddba3
+SHA256: 8d08c2f582da0f88805d6b54fab1461a60b50a9e641593576f3facebf011191f
+SHA1: f10dfaf78954b19b349fb7a22acd8e87b63c6b0f
+MD5sum: 786182cbb3fe10bf4f7759b6da220698
+Description: Raspberry Pi Imaging utility (command-line only)
+ A command-line tool for creating bootable media for Raspberry Pi devices.
+ .
+ This version is optimized for command-line operation:
+  - No GUI components - CLI mode only
+  - Minimal dependencies (Qt Core only)
+  - Perfect for headless servers, automation and Raspberry Pi OS Lite
+  - Smaller package size and memory footprint
+  - Most imaging functionality available via command line
+  - Ideal for scripting and CI/CD pipelines
 
 Package: zoxide
 Version: 0.10.0-1

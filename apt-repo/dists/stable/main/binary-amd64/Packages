@@ -17,21 +17,21 @@ Description: cat(1) clone with wings.
   A cat(1) clone with syntax highlighting and Git integration.
 
 Package: cloudflared
-Version: 2026.8.1
+Version: 2026.8.2
 License: Apache License Version 2.0
 Vendor: Cloudflare
 Architecture: amd64
 Maintainer: Cloudflare <support@cloudflare.com>
-Installed-Size: 38865
+Installed-Size: 38867
 Homepage: https://github.com/cloudflare/cloudflared
 Priority: optional
 Section: utils
-Filename: pool/main/c/cloudflared/cloudflared_2026.8.1_amd64.deb
-Size: 19146316
-SHA512: c425610fe4d8b945aa1103b6f7bd15148368cce5290070c875e1533b52722466c474c1819fc476d06ff6096db2aa9fa56eb53cf30c964a9c515d8af61a759382
-SHA256: e430a257d74d60a80b870ac86d4c6be0bf6d4766f2a72461a6056afce9d8a140
-SHA1: 0adfde07566113ffd84b418bec77f8367d19a473
-MD5sum: bbc8ac8a420e584bda946a92d78b8bcc
+Filename: pool/main/c/cloudflared/cloudflared_2026.8.2_amd64.deb
+Size: 19146390
+SHA512: 18131ce535760549b191720a3e091b1368f4329ddcc3d0463520e6a4107b4cad902b41dd6c7789aad717659fe71406a500b017b1af2eec820af0ffe45a6cb4af
+SHA256: c805c7c8102190c04dfc16e3b4cc4acc9007d5b19b3afbcd608ea6fed7645a43
+SHA1: b9254644352266ffccc825baeb1c887d17df3bd2
+MD5sum: bd0e9f17ebf6ff28ee8e643b87cb7400
 Description: Cloudflare Tunnel daemon
 
 Package: fastfetch
@@ -39,18 +39,18 @@ Architecture: amd64
 Depends: libc6 (>= 2.35)
 Priority: optional
 Section: utils
-Filename: pool/main/f/fastfetch/fastfetch_2.67.0_amd64.deb
-Size: 6176110
-SHA512: 6d0e5505da512dd2e4c7940c66a6441b7a12521e729eb8d325fc8c6d97dc80f09359e1935399490f3b0c3f283b62c22a2770c0636a2ebd2aa688cdf911e0c474
-SHA256: d27b68638d49ae109294b47e7328b7868f5c5568e9cd2be83514eb0d674c863e
-SHA1: 10e9c8adb8d0b1457e0e84c541bd8db0d7c10688
-MD5sum: 13c94ece42d1e022fcfb2e1dccdab1d6
+Filename: pool/main/f/fastfetch/fastfetch_2.67.1_amd64.deb
+Size: 6177506
+SHA512: 7f306bec5d2ae5f4d6e2617383b71f5385e40f8960f6d84d9bcdf9847514215dc9d8b9107b357f94a674a601642b2ebfe73babf66b950e86e31b1455d8853410
+SHA256: 41fcc5f96ce952ce4147a7ba7ad70ddd319d15f88b7691fe615045d5adb329d8
+SHA1: 8a868dcf2b4a6a3db0310d19c31c55968a09e6b8
+MD5sum: a5d55117fca822ec2a989fe046c78dce
 Description: Fast neofetch-like system information tool
  fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way. It is written mostly in C to achieve much better performance.
 Homepage: https://github.com/fastfetch-cli/fastfetch
 Maintainer: Carter Li <zhangsongcui@live.cn>
-Version: 2.67.0
-Installed-Size: 16783
+Version: 2.67.1
+Installed-Size: 16788
 
 Package: fzf
 Version: 0.74.2
@@ -87,42 +87,42 @@ Description: Cross Platform Git Credential Manager command line utility.
  For more information see https://aka.ms/gcm
 
 Package: rpi-imager
-Version: 2.0.10
+Version: 2.0.11-1
 Architecture: amd64
 Maintainer: Tom Dewey <tom.dewey@raspberrypi.com>
-Installed-Size: 38798
-Depends: dosfstools, fdisk, fuse, libfuse2, util-linux (>= 2.37), pkexec, libfontconfig1, libx11-6, libegl1, libgl1
+Installed-Size: 33285
+Depends: dosfstools, fdisk, fuse, libfuse2, util-linux (>= 2.37), pkexec, libstdc++6, libatomic1, libfontconfig1, libfreetype6, libx11-6, libx11-xcb1, libxcb1, libxcb-cursor0, libxcb-glx0, libxcb-icccm4, libxcb-image0, libxcb-keysyms1, libxcb-randr0, libxcb-render0, libxcb-render-util0, libxcb-shape0, libxcb-shm0, libxcb-sync1, libxcb-xfixes0, libxcb-xkb1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libwayland-cursor0, libegl1, libgl1, libopengl0, libdbus-1-3, libdrm2, libgbm1, libinput10, libudev1
 Recommends: udisks2
 Conflicts: rpi-imager-embedded
 Homepage: https://www.raspberrypi.com/software
 Priority: optional
 Section: utils
-Filename: pool/main/r/rpi-imager/rpi-imager_2.0.10_amd64.deb
-Size: 38875408
-SHA512: c9c5c036f3509c2b7f5b63fee826c18e4069f7e9a6a26fc33a0319bc269f62bc9d14f3da80016ea5065f07cb202fd0a9e8835e070cf36c16394ae7189eeaa9fa
-SHA256: 88cf1227c0da4e358ab4c0158090b5d8805e134f66cdeae7efcc57c93869948f
-SHA1: 88ecb50a356aea6205058b09fa3608e0f77fcf46
-MD5sum: a5a566cfaf130af2961b40aa396fcb47
+Filename: pool/main/r/rpi-imager/rpi-imager_2.0.11-1_amd64.deb
+Size: 33148488
+SHA512: c1bb4dd01f27588cb2649987ee7b917a5e8eff13f8d8575b3309b01a23d61f93138b7da52a15fe2a457c98e191d52617b052cfe68387434ce60ab8daf5e87257
+SHA256: 9bc2d19fafd17f61cb9f4292e2e3aa16b439657aa201d9d08ca7469dc181c85e
+SHA1: 16cbad04b9cef4f843d4d31d17230f034fe39902
+MD5sum: 31ccd2afb543afa9b5e7faec79181a37
 Description: Raspberry Pi Imaging utility
  A user-friendly tool for creating bootable media for Raspberry Pi Devices.
 
 Package: rpi-imager-cli
 Source: rpi-imager
-Version: 2.0.10
+Version: 2.0.11-1
 Architecture: amd64
 Maintainer: Tom Dewey <tom.dewey@raspberrypi.com>
-Installed-Size: 20584
-Depends: dosfstools, fdisk, fuse, libfuse2, util-linux (>= 2.37)
+Installed-Size: 10235
+Depends: dosfstools, fdisk, fuse, libfuse2, util-linux (>= 2.37), libstdc++6, libatomic1
 Conflicts: rpi-imager, rpi-imager-embedded
 Homepage: https://www.raspberrypi.com/software
 Priority: optional
 Section: utils
-Filename: pool/main/r/rpi-imager/rpi-imager-cli_2.0.10_amd64.deb
-Size: 20278226
-SHA512: e5f2c7d791844eec90546ba946a6bc29c7886a69055aefc20c64b1a9b675407b67c361a359e6e68bbcf4da0cdea4fa1a6e133908de4aa58513a96b7ea5fb368f
-SHA256: d0c0a41019389f5c81cef50596d60feb1c0bd65dbbe1f6cf4235a04a1c762d69
-SHA1: e746b98212b7595ee4f4f3951556d932a10d899b
-MD5sum: f34043932887eae15592a25fedeeb879
+Filename: pool/main/r/rpi-imager/rpi-imager-cli_2.0.11-1_amd64.deb
+Size: 9758064
+SHA512: bef4d28a0275f9253f2c19782a61dceca70720d8ec8d9f94595e3107b0997405f099a25a880f4919565cf3091452aeca52d5a38cc25b3f8afcf6e10cd7f0a9b1
+SHA256: 8263675cfa10aa4c8ab2eb06896dc3a23adafec340a9cdc3f80d1f58c75a4bea
+SHA1: 7a9989747f6da268789db4861749b2977a2fb730
+MD5sum: 3bd9a85d5b45b3e31a15d7793fa7ca3e
 Description: Raspberry Pi Imaging utility (command-line only)
  A command-line tool for creating bootable media for Raspberry Pi devices.
  .
