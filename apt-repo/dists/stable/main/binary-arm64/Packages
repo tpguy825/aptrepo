@@ -87,42 +87,42 @@ Description: Cross Platform Git Credential Manager command line utility.
  For more information see https://aka.ms/gcm
 
 Package: rpi-imager
-Version: 2.0.11-1
+Version: 2.0.11.1-1
 Architecture: arm64
 Maintainer: Tom Dewey <tom.dewey@raspberrypi.com>
-Installed-Size: 33473
+Installed-Size: 33738
 Depends: dosfstools, fdisk, fuse, libfuse2, util-linux (>= 2.37), pkexec, libstdc++6, libatomic1, libfontconfig1, libfreetype6, libx11-6, libx11-xcb1, libxcb1, libxcb-cursor0, libxcb-glx0, libxcb-icccm4, libxcb-image0, libxcb-keysyms1, libxcb-randr0, libxcb-render0, libxcb-render-util0, libxcb-shape0, libxcb-shm0, libxcb-sync1, libxcb-xfixes0, libxcb-xkb1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libwayland-cursor0, libegl1, libgl1, libopengl0, libdbus-1-3, libdrm2, libgbm1, libinput10, libudev1
 Recommends: udisks2
 Conflicts: rpi-imager-embedded
 Homepage: https://www.raspberrypi.com/software
 Priority: optional
 Section: utils
-Filename: pool/main/r/rpi-imager/rpi-imager_2.0.11-1_arm64.deb
-Size: 33214672
-SHA512: ac81f8724df2ba2da232a9a5c3a2539f326d7a3eccee7e4b9466c0bd12289360d311024b26050a192e40f6380c98723371743e0da62c9c8b33f32a7768bcb3e6
-SHA256: d3ce5f5a21440ab649b92edb388117c9bb9462dc87594bda93d937f1049f37c5
-SHA1: 72628bbb2b36bb904263085f9c6205bcbe85c4eb
-MD5sum: c3cde4f50af4d1784cb16a173277fc72
+Filename: pool/main/r/rpi-imager/rpi-imager_2.0.11.1-1_arm64.deb
+Size: 33477784
+SHA512: b92a193f9cd1d0953b783c9c970e0e8ea0c06cd0e98765c2ac899ddd9f3bd285109cc006e7d210a7013ef143136f5a5d9a3b2f6bc7851458f27f0fd9705b8383
+SHA256: 816ac42e126263822a9ef644234dc81dbcf462f92c69a1b5e9774724dcd863ef
+SHA1: c28171ff018a8028ed399d4ccc163c35e219ad73
+MD5sum: 3ba4022f7b42cfd47709a564515b0515
 Description: Raspberry Pi Imaging utility
  A user-friendly tool for creating bootable media for Raspberry Pi Devices.
 
 Package: rpi-imager-cli
 Source: rpi-imager
-Version: 2.0.11-1
+Version: 2.0.11.1-1
 Architecture: arm64
 Maintainer: Tom Dewey <tom.dewey@raspberrypi.com>
-Installed-Size: 10043
+Installed-Size: 10044
 Depends: dosfstools, fdisk, fuse, libfuse2, util-linux (>= 2.37), libstdc++6, libatomic1
 Conflicts: rpi-imager, rpi-imager-embedded
 Homepage: https://www.raspberrypi.com/software
 Priority: optional
 Section: utils
-Filename: pool/main/r/rpi-imager/rpi-imager-cli_2.0.11-1_arm64.deb
-Size: 9541100
-SHA512: 8cce48b6dcc30af07bae2eb269da641f28dc2d98ff915577de25f2df987ae50074e5f7d09ef329e01842e803d19e4f7176a5a879d92755464d2d2bdbea05867c
-SHA256: 1e06778962eb7fe1f3790be569418202132504fe37ed26ae9bbdcbd5a60340fd
-SHA1: 2778058934b213bd5363f3dfe9236a3ac116a125
-MD5sum: 1e5bb35c9dd41bf10b8c17839fe8f2d2
+Filename: pool/main/r/rpi-imager/rpi-imager-cli_2.0.11.1-1_arm64.deb
+Size: 9541772
+SHA512: 6030a9d871c064c50f7f4bcd742655a73a53ef44e4f4826002de0e44e021530479f91836f2611a5439c34d62bef1a3ec9b2acc25b897cbbb21a0a37ab54f73d0
+SHA256: bb25d77543526e590a02a6723cab9da5b6f6e3affa7d65d1c7368b875facce09
+SHA1: e817b369ec8af22bc36cf42426656c67396612aa
+MD5sum: 969302170ecdbd762a5278f927093590
 Description: Raspberry Pi Imaging utility (command-line only)
  A command-line tool for creating bootable media for Raspberry Pi devices.
  .
@@ -136,7 +136,7 @@ Description: Raspberry Pi Imaging utility (command-line only)
 
 Package: rpi-imager-embedded
 Source: rpi-imager
-Version: 2.0.11-1
+Version: 2.0.11.1-1
 Architecture: arm64
 Maintainer: Tom Dewey <tom.dewey@raspberrypi.com>
 Installed-Size: 71295
@@ -146,12 +146,12 @@ Conflicts: rpi-imager
 Homepage: https://www.raspberrypi.com/software
 Priority: optional
 Section: utils
-Filename: pool/main/r/rpi-imager/rpi-imager-embedded_2.0.11-1_arm64.deb
-Size: 16455460
-SHA512: d589b8d54ad079388999d0c8fc67442f297086374fd06c95620762dde17ae9c4c46f81ba5ee7ea99ffb2e9970e6b38ea517dcdab6a10b6d916509e8f972777e8
-SHA256: 0833597a3b115c8849aee93c7c15b2f91074b8c807b4f58dfe61e262abb7e8e7
-SHA1: b6470fd0149eb54d05c35a7084a16401c425b72d
-MD5sum: 2791c0344509a145ca70610ec0007ec8
+Filename: pool/main/r/rpi-imager/rpi-imager-embedded_2.0.11.1-1_arm64.deb
+Size: 16457036
+SHA512: 842f71c5173be71d6665cfdb69cd5ad672060e1877f029436b7a0d1ef0260c95451d2a95edb82affbe7c738138440c697804a3626b3ae671fc46992f8e32c9eb
+SHA256: 229b1101116a7e16e56a7dd58d5359675b0e7632f0d14d298901ecd572d4d8d3
+SHA1: 45383dfbdf0aad6f1191495ca74bb9df1be96a3b
+MD5sum: 6f75c4bde3e95ebd581349669cfefb9b
 Description: Raspberry Pi Imaging utility for embedded systems
  A user-friendly tool for creating bootable media for Raspberry Pi devices,
  optimized for embedded systems.
