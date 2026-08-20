@@ -135,19 +135,19 @@ Description: Raspberry Pi Imaging utility (command-line only)
   - Ideal for scripting and CI/CD pipelines
 
 Package: yt-dlp
-Version: 2026.07.04
+Version: 2026.08.19
 Maintainer: yt-dlp maintainers <maintainers@yt-dlp.org>
 Architecture: amd64
 Homepage: https://github.com/yt-dlp/yt-dlp
-Installed-Size: 38989
+Installed-Size: 39499
 Priority: optional
 Section: utils
-Filename: pool/main/y/yt-dlp/yt-dlp_2026.07.04_amd64.deb
-Size: 39297434
-SHA512: 794b8914cee9f486df3df72c4e377baa0d5a6235185c647494ea7ff18a09ab15ba27fb974c33579eac3e7018a6876d8b9635d51ab292b76c6b5483ff4ea9ff1b
-SHA256: deddaa0411e9630c18421c5aff43702cd61b72922d4e543cc81600c7872efc54
-SHA1: 95149abee0237f652187e87279f0e5254290b58e
-MD5sum: 2b2f3c3d1937e0c3a51c23178b8f690c
+Filename: pool/main/y/yt-dlp/yt-dlp_2026.08.19_amd64.deb
+Size: 39794592
+SHA512: efd1a9814fa7864600865d28c747fb8e9014d10913e149d367388c1d08e2235f5d3896fe832d56ec507f5f09b2dc0fa575528e654545a5d88f780837cba6b88d
+SHA256: 795422ab54bfda632b5adbdfd12e31003a91e1dd1cb628f30ef9a9f71ae96804
+SHA1: 287c3649b9558eb7a61d02f6d9c539a26fa075e8
+MD5sum: e6c5a18b3fb16d0d215824232f0eb378
 Description: yt-dlp is a feature-rich command-line audio/video downloader with support for thousands of sites.
 
 Package: zoxide
