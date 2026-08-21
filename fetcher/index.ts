@@ -61,6 +61,8 @@ async function getLatest(repo: RepoConfig) {
 			continue;
 		}
 
+		console.log("Accepting '"+file.name+"'");
+
 		const eachFile = repo.eachFile ?? defaultEachFile;
 		const filepath = await eachFile(
 			file.name,
