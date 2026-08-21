@@ -25,5 +25,6 @@ Currently in this repo are:
 - [git-credential-manager (gcm)](https://github.com/git-ecosystem/git-credential-manager)
 - [fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - [rpi-imager](https://github.com/raspberrypi/rpi-imager)
+- [rustdesk](https://github.com/rustdesk/rustdesk)
 
 [view on github](https://github.com/tpguy825/aptrepo)
