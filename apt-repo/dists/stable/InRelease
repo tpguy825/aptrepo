@@ -6,7 +6,7 @@ Label: tpguy825
 Suite: stable
 Codename: stable
 Version: 1.2
-Date: Thu, 20 Aug 2026 04:35:57 UTC
+Date: Fri, 21 Aug 2026 11:40:06 UTC
 Architectures: amd64 arm64 armhf
 Components: main
 Description: personal apt repo
@@ -17,8 +17,8 @@ MD5Sum:
  971821bce4bc951ffbef7711bd3aa375 8644 main/binary-arm64/Packages
  0a0159e572ac9295ba27705a2a663326 3696 main/binary-arm64/Packages.gz
  cb9bd9c2b4744083514bba20cbbcbb64 132 main/binary-arm64/Release
- 2b4c0ffce352b372468d0e53199ae634 6119 main/binary-armhf/Packages
- 2f9f3003da3ae334c5aa2d12192d127b 2818 main/binary-armhf/Packages.gz
+ 693625875222910cfdc0e555bb890495 6987 main/binary-armhf/Packages
+ a36bef3d7aaa4fb4263f84047ca017fe 3177 main/binary-armhf/Packages.gz
  4a9a4dce0f088a036004dca07a0870eb 132 main/binary-armhf/Release
 SHA1:
  2daddae62603bbd10a9e66ef84d105ef661cabc9 7543 main/binary-amd64/Packages
@@ -27,8 +27,8 @@ SHA1:
  d8f48e9b7ef91307b838abc6416e0cfc1c8ea4a1 8644 main/binary-arm64/Packages
  4953fd5ffa817a55d8c3548db8c552ba84a3520e 3696 main/binary-arm64/Packages.gz
  2016dfea01cbc81204ba4b4495165d61a7225784 132 main/binary-arm64/Release
- be6ba6b01815bec1f5633f672418d9127a920b59 6119 main/binary-armhf/Packages
- 784703283cfdb8f65b907afa577b2655454b1732 2818 main/binary-armhf/Packages.gz
+ bc196337577d85b669d6adad9b89526348f30123 6987 main/binary-armhf/Packages
+ 90d596f532e335b51a0bec73232900259450af7e 3177 main/binary-armhf/Packages.gz
  3af9244db166fbe16864b3a4cc1453f6c653cce0 132 main/binary-armhf/Release
 SHA256:
  1f668bf5c407066fca65876b6629c4051ddb58dc1a13094d815c7e841a132411 7543 main/binary-amd64/Packages
@@ -37,8 +37,8 @@ SHA256:
  d4b1f944210fded7d3c48984a92b7abbeeeb2bc0ec43286e9b92a100d7b33318 8644 main/binary-arm64/Packages
  c7b9e7389e24fed270118c16bba84269071a89bcff89d9ffaec2f2f101281985 3696 main/binary-arm64/Packages.gz
  a34d250fb25931b702e907678cd8ff2e40b11290cb209dd23c4a31a1257b7784 132 main/binary-arm64/Release
- 21a7fe3bebedac18fa84ab3405d983ec092b23e73a216b005d32fd10611b08f0 6119 main/binary-armhf/Packages
- 0fdc8794a5b014e111ad1c782ed2a96c4b29044f5b486a607a3779481617676a 2818 main/binary-armhf/Packages.gz
+ 4f07448955c306cee17944a50e7d52b675ae38194bef103cb6d84f2e45c3f613 6987 main/binary-armhf/Packages
+ ed03be64f16ceec9da38e2fceb120c4e14e4ea30d99d0b5531c067cf1cdb8ab0 3177 main/binary-armhf/Packages.gz
  d29b024db84513563841f151651e48327363b85624f11fba2275a3bf261d6ea2 132 main/binary-armhf/Release
 SHA512:
  5aad4659f72135033e0ad37ba1f340dc147e38ebebfbb212c6d1eb6edfa2c034bbc91a061c7357d617beb406c06dddea2dfa1308cdf66f49a1a53b55fc58c43d 7543 main/binary-amd64/Packages
@@ -47,13 +47,13 @@ SHA512:
  a9912b8c2f0271a639fbff3240e38dc92590bc31dfb23136d796c47696d1b6c9e1946c98f411b9fc90a8831c9462de0405085efab20d024105890d3bc9063083 8644 main/binary-arm64/Packages
  a223a9a247c0878772673b52bdf3c56ee6fb1c0b85e0825de029a7cb5ce498bfef568ab13889292847f7780f36c476f06d799474c3bec3a981f3a4f0f2a07134 3696 main/binary-arm64/Packages.gz
  704d765d8d3e168a86af90e059175504ea9ace9a1d5f629dbdc064a46ca3ae1ee9883e986f94c336eba4414af06a9d45dcdf0657500b088ea5dd154b6ff1b3e4 132 main/binary-arm64/Release
- edc5c622575c88474703b83de26e2f1b4de7ab726e0b08398fd9be1107e0a98f90982784e6ac60fdd16f579d0d3998c1123c2bea009b804d60883ff9e2ca727c 6119 main/binary-armhf/Packages
- d81e450a249b59413d221b72840f4605d1e58ab6fd0a9bd0de70a824c4377620aaa6c0221ce6af5b28ca853ac94886b27e38e21f4394adadac331e287230f229 2818 main/binary-armhf/Packages.gz
+ 9d4f2e377bb2869a836d81500256685ab0836baadae48f9eb539348e1205bd3948730b2d722e04d40a4f0ba146751d1a0811641056931b4a54998ba74179907a 6987 main/binary-armhf/Packages
+ 96eeccd7192c7217c7adeb14405fa466837688890784457be8969eedd61e3548d98704a983894c719fabb8283aa60243186135cd3dae15a501dbdccfffd9acbc 3177 main/binary-armhf/Packages.gz
  4814477da242935a239959da2fd44d9c02a2915d2a579ab20a91008cc47b4933e4f431e5bb6c4db3f63c6755beed23588930366168ebb33f3e37cbba7369d927 132 main/binary-armhf/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQTO6klqLFq3HjSs1IaR7a62xPPsnwUCaoaELQAKCRCR7a62xPPs
-n7+TAQDctt1P9vHUlsZ3IiNSTDhdKw5J75qM9sD+vlY89kQULAEA6/BeM3H3WomE
-0MJ/Lw/kXHtGIfhmAGGorSz8G4fkZwI=
-=KyZd
+iHUEARYKAB0WIQTO6klqLFq3HjSs1IaR7a62xPPsnwUCaog5FgAKCRCR7a62xPPs
+nxlKAQC8XL6B0LjoOKS8wcacvXBgmDV7VEj25K0nvbULrsxbzAD/eeVvPVi21UeF
+6swpFMMB/gd5FHVSuhpxJG/V2HKL+Ag=
+=IjmI
 -----END PGP SIGNATURE-----
