@@ -36,27 +36,28 @@ async function getLatest(repo: RepoConfig) {
 	for (const file of latest[0].assets) {
 		// evil murderous if statement that will eat your family
 		if (repo.fileNameEnding !== null && !file.name.endsWith(repo.fileNameEnding ?? ".deb")) {
-			// console.log("File", file.name, "fails ending check");
+			console.log("Rejecting '" + file.name + "' [1]");
 			continue;
 		}
 		if (repo.fileNamePrefix !== null && !file.name.startsWith(repo.fileNamePrefix ?? "")) {
-			// console.log("File", file.name, "fails prefix check");
+			console.log("Rejecting '" + file.name + "' [2]");
 			continue;
 		}
 		if (repo.containsLinux !== null && repo.containsLinux && !file.name.includes("linux")) {
-			console.log("File", file.name, "fails linux name check");
+			console.log("Rejecting '" + file.name + "' [3]");
 			continue;
 		}
 		if (
 			repo.skipchecks
 				? false
 				: (!file.name.includes("amd64") &&
+				   		!file.name.includes("x86_64") &&
 						!file.name.includes("arm64") &&
 						!file.name.includes("armhf") &&
 						!file.name.includes("armv7")) ||
 					file.name.includes("musl-linux")
 		) {
-			console.log("File", file.name, "fails platform checks");
+			console.log("Rejecting '" + file.name + "' [4]");
 			continue;
 		}
 
