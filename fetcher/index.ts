@@ -48,20 +48,25 @@ async function getLatest(repo: RepoConfig) {
 			continue;
 		}
 		if (
-			repo.skipchecks
-				? false
-				: (!file.name.includes("amd64") &&
-				   		!file.name.includes("x86_64") &&
-						!file.name.includes("arm64") &&
-						!file.name.includes("armhf") &&
-						!file.name.includes("armv7")) ||
-					file.name.includes("musl-linux")
+			!repo.skipchecks &&
+			// amd64
+			((!file.name.includes("amd64") &&
+				!file.name.includes("x86_64") &&
+				// arm64
+				!file.name.includes("arm64") &&
+				!file.name.includes("aarch64") &&
+				// arm32 (raspberry pi, etc)
+				!file.name.includes("armhf") &&
+				!file.name.includes("armv7"))
+				
+				// Specifically for cloudflared, keep it glibc otherwise reprepro will conflict
+				|| file.name.includes("musl-linux"))
 		) {
 			console.log("Rejecting '" + file.name + "' [4]");
 			continue;
 		}
 
-		console.log("Accepting '"+file.name+"'");
+		console.log("Accepting '" + file.name + "'");
 
 		const eachFile = repo.eachFile ?? defaultEachFile;
 		const filepath = await eachFile(
