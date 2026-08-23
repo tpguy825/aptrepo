@@ -134,6 +134,43 @@ Description: Raspberry Pi Imaging utility (command-line only)
   - Most imaging functionality available via command line
   - Ideal for scripting and CI/CD pipelines
 
+Package: rustdesk
+Version: 1.4.9
+Architecture: amd64
+Maintainer: rustdesk <info@rustdesk.com>
+Homepage: https://rustdesk.com
+Depends: libgtk-3-0t64 | libgtk-3-0, libxcb-randr0, libxdo3 | libxdo4, libxfixes3, libxcb-shape0, libxcb-xfixes0, libasound2t64 | libasound2, libsystemd0, curl, libva2, libva-drm2, libva-x11-2, libgstreamer-plugins-base1.0-0, gstreamer1.0-pipewire
+Recommends: libayatana-appindicator3-1
+Priority: optional
+Section: utils
+Filename: pool/main/r/rustdesk/rustdesk_1.4.9_amd64.deb
+Size: 23363620
+SHA512: bd9df874ec6b6563ade4a5c2dc469f933708ee9c2fdc74c47e250cddd382e613e31661e92dd145dee849635ffd953bc000b89c06dffd50f3acbd572baa9dde81
+SHA256: 79a5149a6f93eebce38774e0b431ffe03ef99647c35412124966fc5587b7e220
+SHA1: 9ffd9ae0fd43503d72d93199cccb25e7618a5bcb
+MD5sum: fe1d2f8ee1753e1a423cd1e6d3e309e5
+Description: A remote control software.
+
+Package: rustdesk-unattended-wayland
+Conflicts: rustdesk
+Replaces: rustdesk
+Provides: rustdesk
+Version: 1.4.9
+Architecture: amd64
+Maintainer: rustdesk <info@rustdesk.com>
+Homepage: https://rustdesk.com
+Depends: libgtk-3-0t64 | libgtk-3-0, libxcb-randr0, libxdo3 | libxdo4, libxfixes3, libxcb-shape0, libxcb-xfixes0, libasound2t64 | libasound2, libsystemd0, curl, libva2, libva-drm2, libva-x11-2, libgstreamer-plugins-base1.0-0, gstreamer1.0-pipewire, libdrm2 (>= 2.4.101), libegl1, libgles2, libc6 (>= 2.34)
+Recommends: libayatana-appindicator3-1
+Priority: optional
+Section: utils
+Filename: pool/main/r/rustdesk-unattended-wayland/rustdesk-unattended-wayland_1.4.9_amd64.deb
+Size: 23723104
+SHA512: 311a848608eefe499ba9041c97c7068334e776d6e0975483356211bf6ed0b047e97ceff5971bd0f820fe77f29583cf0229a6925a618c784cc219fa4c7f724ccf
+SHA256: 565ae43b842c5511c64ee45105380e72e829f51814a0c14972a5e2014553f7f6
+SHA1: ddd794bb0a7c5e371eca45c56e357ea7c7a5e921
+MD5sum: 1c248390d8b52f729b3bf98ea3f17cf2
+Description: A remote control software.
+
 Package: yt-dlp
 Version: 2026.08.19
 Maintainer: yt-dlp maintainers <maintainers@yt-dlp.org>
