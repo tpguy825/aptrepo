@@ -30,7 +30,7 @@ async function getLatest(repo: RepoConfig) {
 			Authorization: "Bearer " + process.env.GITHUB_TOKEN,
 		},
 		cache: "no-cache",
-	}).then((r) => r.json() as Promise<Release[]>);
+	}).then((r) => r.json() as Promise<Release[]>).then(r => r.filter(r => !r.prerelease));
 	if (!latest[0]) return console.error(latest);
 
 	for (const file of latest[0].assets) {
