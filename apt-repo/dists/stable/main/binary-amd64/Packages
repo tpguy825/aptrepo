@@ -17,21 +17,21 @@ Description: cat(1) clone with wings.
   A cat(1) clone with syntax highlighting and Git integration.
 
 Package: cloudflared
-Version: 2026.8.3
+Version: 2026.9.0
 License: Apache License Version 2.0
 Vendor: Cloudflare
 Architecture: amd64
 Maintainer: Cloudflare <support@cloudflare.com>
-Installed-Size: 38832
+Installed-Size: 38904
 Homepage: https://github.com/cloudflare/cloudflared
 Priority: optional
 Section: utils
-Filename: pool/main/c/cloudflared/cloudflared_2026.8.3_amd64.deb
-Size: 19130860
-SHA512: 906204b79ebf46a068fe1f79e525c1adfe46186a744effa7209f1fa4e941eaeab39f8a55e093826687b41b0de07fa896f57eb96c6f64eb144b5ebc65e0fd3994
-SHA256: 660b348d473bba81997445b534e7eaefaf4c4e16331866922326c338a7013dd9
-SHA1: 8f1be7ea2344fd4998ed9ab51bb5fa5c151c831e
-MD5sum: 46b8c92fdeb368be8f1c60e851f4ca9a
+Filename: pool/main/c/cloudflared/cloudflared_2026.9.0_amd64.deb
+Size: 19159328
+SHA512: 68af7b0ec1f815d70718753836bfe9526750d1cd04b775c4b832cb4fadc8a5b8bdb9d3c1d423b24d235bab6bfc0a31a7fe243c72e8a77f16c7a0ddc93d149ec3
+SHA256: 1ea48af7a774376b71e329c6fdc0b7853298df270356132a294f8d8d5eb0e543
+SHA1: ff43c0514a4b24dc717611c8441df8c19aede944
+MD5sum: 192d5df40a97d2bfd7fc4cf2e5d7fcc3
 Description: Cloudflare Tunnel daemon
 
 Package: fastfetch
