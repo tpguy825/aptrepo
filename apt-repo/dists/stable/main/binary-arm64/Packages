@@ -35,21 +35,21 @@ Description: cat(1) clone with wings.
   A cat(1) clone with syntax highlighting and Git integration.
 
 Package: cloudflared
-Version: 2026.9.0
+Version: 2026.9.1
 License: Apache License Version 2.0
 Vendor: Cloudflare
 Architecture: arm64
 Maintainer: Cloudflare <support@cloudflare.com>
-Installed-Size: 36589
+Installed-Size: 36588
 Homepage: https://github.com/cloudflare/cloudflared
 Priority: optional
 Section: utils
-Filename: pool/main/c/cloudflared/cloudflared_2026.9.0_arm64.deb
-Size: 17666688
-SHA512: 3695a3e55433d92a7db06fb2fae3a61da79f4bb9dadba4ec8275b941f13ba2a9d08f3b0ea8744556fd30be287dbc158bb7e3b82ef1b0143879195e52e9fe45ed
-SHA256: 2355fac318375a79d4f62690251e92a52d56f2737e30f053bb3419000fc32593
-SHA1: bed73006349d460ca36317aface1fe3f354df52e
-MD5sum: d24804f12b860d55b0f3786a89229eaf
+Filename: pool/main/c/cloudflared/cloudflared_2026.9.1_arm64.deb
+Size: 17667370
+SHA512: 12326f57fcecbb8dbfa3f09c89e0e367cedc88862fd3457fb006d3aed788a8f99a5066e80b195d89a49c32b8915365ff64c45be822885a357726c7457a8f4da3
+SHA256: 2a870d5bf6ea74d16c0923b804eabbf4943f1fd7c63a5c20fd41cc66b629c725
+SHA1: 1edd4619b0d577dde541ca83cb57a3ad322438aa
+MD5sum: 98c3a004db3cded849de4ef121158a6c
 Description: Cloudflare Tunnel daemon
 
 Package: fastfetch
@@ -71,19 +71,19 @@ Version: 2.68.1
 Installed-Size: 19319
 
 Package: fzf
-Version: 0.74.3
+Version: 0.74.4
 Maintainer: Junegunn Choi <junegunn.c@gmail.com>
 Architecture: arm64
 Homepage: https://github.com/junegunn/fzf
-Installed-Size: 1811
+Installed-Size: 2027
 Priority: optional
 Section: utils
-Filename: pool/main/f/fzf/fzf_0.74.3_arm64.deb
-Size: 1526058
-SHA512: 5251f61cec0c8e55e012d3c066c5181297fe6d2c814e2c8664f8872ddb0f0fb7cfa301b8a9e56e2dd586f8363167ab5b7c9e279df4838dbc9ddb60edcb6a6baf
-SHA256: ad2e433a818efa847247196c7a023f3a680f22b68fe4d9caf46dc7ed7c29f570
-SHA1: 9b733e73ef60aaf41561766bcdde8952d724d2e7
-MD5sum: aae1b0cffd1c9d9d3674810499c83d33
+Filename: pool/main/f/fzf/fzf_0.74.4_arm64.deb
+Size: 1717710
+SHA512: de4400c521d73cfce158d9ba94539e714833c9dfcda110a55f010b676170ff95da062178dfa608508ae787efdbb289f7a4f2076d4a7035447b03cc4e60558d19
+SHA256: aaa833e934101204e237188145f3c33e1a483a55f7059861be76e2473dfd034f
+SHA1: 663e69a536cc1a977acf297d7f54e0787639c69f
+MD5sum: 7cb6b6fc1756c746b135e939c390df39
 Description: fzf is a general-purpose command-line fuzzy finder.
 
 Package: gcm
