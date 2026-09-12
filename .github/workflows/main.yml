@@ -20,7 +20,7 @@ jobs:
           keys-asc: https://packaging.gitlab.io/reprepro-multiple-versions/gpg.key
           update: true
       - name: Install reprepro
-        uses: awalsh128/cache-apt-pkgs-action@v1.6.0
+        uses: awalsh128/cache-apt-pkgs-action@v1.6.3
         with:
           packages: apt-mirror apt-transport-https reprepro
       - name: Import GPG key
