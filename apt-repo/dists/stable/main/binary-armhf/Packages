@@ -69,42 +69,42 @@ MD5sum: 2bcaa37867f0a50e0e18e4819cbb4604
 Description: fzf is a general-purpose command-line fuzzy finder.
 
 Package: rpi-imager
-Version: 2.0.11.1-1
+Version: 2.0.12-1
 Architecture: armhf
 Maintainer: Tom Dewey <tom.dewey@raspberrypi.com>
-Installed-Size: 31811
-Depends: dosfstools, fdisk, fuse, libfuse2, util-linux (>= 2.37), pkexec, libstdc++6, libatomic1, libfontconfig1, libfreetype6, libx11-6, libx11-xcb1, libxcb1, libxcb-cursor0, libxcb-glx0, libxcb-icccm4, libxcb-image0, libxcb-keysyms1, libxcb-randr0, libxcb-render0, libxcb-render-util0, libxcb-shape0, libxcb-shm0, libxcb-sync1, libxcb-xfixes0, libxcb-xkb1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libwayland-cursor0, libegl1, libgl1, libopengl0, libdbus-1-3, libdrm2, libgbm1, libinput10, libudev1
+Installed-Size: 32634
+Depends: fuse, util-linux (>= 2.37), pkexec, libstdc++6, libatomic1, libfontconfig1, libfreetype6, libx11-6, libx11-xcb1, libxcb1, libxcb-glx0, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libwayland-cursor0, libegl1, libgl1, libopengl0, libdbus-1-3, libdrm2, libgbm1, libinput10, libudev1
 Recommends: udisks2
 Conflicts: rpi-imager-embedded
 Homepage: https://www.raspberrypi.com/software
 Priority: optional
 Section: utils
-Filename: pool/main/r/rpi-imager/rpi-imager_2.0.11.1-1_armhf.deb
-Size: 31717104
-SHA512: 9f2f0b920b39c8c8ed6e2a1364ad8576c7bdf4245f07c2fe5af55cea629351b9c158616fd1bc2f4d9062904b0bf3016e8c813944784219882ef0705247653e77
-SHA256: 63e6d9527a39cdcc7669c0f1ceb5de286de9db9adbc9801a2f6689b8b97cbda5
-SHA1: b5a6a14e4ab96cab44a3fb050e1f5aeb7fbc4052
-MD5sum: 1e69fe53cad2710f5e3fd144e635bb29
+Filename: pool/main/r/rpi-imager/rpi-imager_2.0.12-1_armhf.deb
+Size: 32553064
+SHA512: 3cad41f5843f09a4ba07976466cf849a08fc4b372f9700f778c9dc5b8bd550f0decc4091d3bf1b86724715a10824a83513724ee0c4983fd473978b0de23f9130
+SHA256: 071f7d6d4735c648025c66579b89f1b40d8f2dc090bcc5671a683caea7d6a934
+SHA1: aa5dff73d6485c2e93782faf361ab4b5d80314a3
+MD5sum: f5910c8a95398732de3390c5e5f97955
 Description: Raspberry Pi Imaging utility
  A user-friendly tool for creating bootable media for Raspberry Pi Devices.
 
 Package: rpi-imager-cli
 Source: rpi-imager
-Version: 2.0.11.1-1
+Version: 2.0.12-1
 Architecture: armhf
 Maintainer: Tom Dewey <tom.dewey@raspberrypi.com>
-Installed-Size: 9525
-Depends: dosfstools, fdisk, fuse, libfuse2, util-linux (>= 2.37), libstdc++6, libatomic1
+Installed-Size: 9616
+Depends: fuse, util-linux (>= 2.37), libstdc++6, libatomic1
 Conflicts: rpi-imager, rpi-imager-embedded
 Homepage: https://www.raspberrypi.com/software
 Priority: optional
 Section: utils
-Filename: pool/main/r/rpi-imager/rpi-imager-cli_2.0.11.1-1_armhf.deb
-Size: 9142456
-SHA512: b4caf1babe1f335fc7f98d43af62542991d554984590cbf070bed99647d397dcd59e711794378b23c8ed5fe98039e172e0787ff13fde07c0f793348e131da1e1
-SHA256: 4ae32fcba2d55fe89edc77cd1e01c88bbdff0da9302ea9d7c12882a6a7456b97
-SHA1: ca70cc2bf0edbb72230f1b79ef864c44362891a3
-MD5sum: bc69824562e4a41feb8d24c3e4e6c4c1
+Filename: pool/main/r/rpi-imager/rpi-imager-cli_2.0.12-1_armhf.deb
+Size: 9234892
+SHA512: 51741d19fe6435afd0916fb1f5b9a62fc14207ab4a383f11a0e02dd556413fe2a0eedd195410c59818cab505e1cacc8dc4022f74447cb5a867a236a4a10baed0
+SHA256: 8abbe022d2a2806b1c0de2c3a27141c54d3a988b94a831027cf926c7eb5f7725
+SHA1: 1fa654df438497581a09ffd1865688077a64fb60
+MD5sum: ca42adc934e994ac9088224e08128d8e
 Description: Raspberry Pi Imaging utility (command-line only)
  A command-line tool for creating bootable media for Raspberry Pi devices.
  .
