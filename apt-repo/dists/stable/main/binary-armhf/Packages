@@ -53,19 +53,19 @@ Version: 2.69.0
 Installed-Size: 16575
 
 Package: fzf
-Version: 0.74.4
+Version: 0.74.5
 Maintainer: Junegunn Choi <junegunn.c@gmail.com>
 Architecture: armhf
 Homepage: https://github.com/junegunn/fzf
-Installed-Size: 2095
+Installed-Size: 2100
 Priority: optional
 Section: utils
-Filename: pool/main/f/fzf/fzf_0.74.4_armhf.deb
-Size: 1749836
-SHA512: e18c83f3a9e0ff03d0edfc948cf7b6000dca278041ac4e9eee267185ca819b52b2f9c9dd6c3363b461e0b273274e9aff7d33575a25f3d2169365ddd9984056d3
-SHA256: c4a632de3c143bd7783267da0b7590f2e81b7bb2fd8e4b4c82b91b4c99a12679
-SHA1: 9a27b290244a9714b0d72d460aea39fab166d477
-MD5sum: 2bcaa37867f0a50e0e18e4819cbb4604
+Filename: pool/main/f/fzf/fzf_0.74.5_armhf.deb
+Size: 1753012
+SHA512: ba20441675678b01e869b4320b3176efbff3c2ceec211c0ccf5e046bedf0a61dc18bab9f818c2fd5db3bf900a9153c95c8685ee2a7bf3f3952669a728e481759
+SHA256: ead2b52c0f88bc6d3bad086f34b4588871d169ea2cf834bb5c7ce8f021e3c54d
+SHA1: db8375da11f41b47aa54ee5609cff509e88e8cae
+MD5sum: 8acedde50a4aa2fbfa004a9db99944bc
 Description: fzf is a general-purpose command-line fuzzy finder.
 
 Package: rpi-imager
