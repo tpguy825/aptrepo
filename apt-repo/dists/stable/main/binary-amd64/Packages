@@ -17,7 +17,7 @@ Description: cat(1) clone with wings.
   A cat(1) clone with syntax highlighting and Git integration.
 
 Package: cloudflared
-Version: 2026.10.2
+Version: 2026.10.3
 License: Apache License Version 2.0
 Vendor: Cloudflare
 Architecture: amd64
@@ -26,12 +26,12 @@ Installed-Size: 39285
 Homepage: https://github.com/cloudflare/cloudflared
 Priority: optional
 Section: utils
-Filename: pool/main/c/cloudflared/cloudflared_2026.10.2_amd64.deb
-Size: 19898708
-SHA512: 659d6782855ea3c7b0d0835c36f5fcfe32a3a540f07dffa02ec4742414ce1fcdcf01f2f18d456aad815b0e29473cc192498741cb4ef32c52ef826f77e0d231ea
-SHA256: 30a9a127c24ea8365fa8e11b13684128f34dd8a1137599aa00b4bebda1a0a083
-SHA1: 41af9dce8ac24b1dc7ea07a7b4afbe40d42d17e4
-MD5sum: 7903108490f6ea51ebf525c6b59f9607
+Filename: pool/main/c/cloudflared/cloudflared_2026.10.3_amd64.deb
+Size: 19899586
+SHA512: cd01fd2e5d8c53e8fc25bdce18da9a1b4d86fee7f83592c01442b826104977bdeb18fa55aa4f2b07436ae6ef6b79182d9778c362f81b11d59fc13d20cb53cd52
+SHA256: 297d906a8fef396ec888b51571e783d594bde280f3b44d63e8fa343ef2c4cc4e
+SHA1: c5b5e5313efd565ed9a3a2fbeca8270955169b75
+MD5sum: ec7f4f1f4695ec1a2dcde2f9a2af844b
 Description: Cloudflare Tunnel daemon
 
 Package: fastfetch
@@ -172,19 +172,19 @@ MD5sum: b55068ff64e9d8465e19ca49a2a2fb39
 Description: A remote control software.
 
 Package: yt-dlp
-Version: 2026.08.19
+Version: 2026.10.21
 Maintainer: yt-dlp maintainers <maintainers@yt-dlp.org>
 Architecture: amd64
 Homepage: https://github.com/yt-dlp/yt-dlp
-Installed-Size: 39499
+Installed-Size: 39619
 Priority: optional
 Section: utils
-Filename: pool/main/y/yt-dlp/yt-dlp_2026.08.19_amd64.deb
-Size: 39794592
-SHA512: efd1a9814fa7864600865d28c747fb8e9014d10913e149d367388c1d08e2235f5d3896fe832d56ec507f5f09b2dc0fa575528e654545a5d88f780837cba6b88d
-SHA256: 795422ab54bfda632b5adbdfd12e31003a91e1dd1cb628f30ef9a9f71ae96804
-SHA1: 287c3649b9558eb7a61d02f6d9c539a26fa075e8
-MD5sum: e6c5a18b3fb16d0d215824232f0eb378
+Filename: pool/main/y/yt-dlp/yt-dlp_2026.10.21_amd64.deb
+Size: 39916328
+SHA512: d69e02b75bc597821674d5f2677c91350c2755d5a1cd9c4a4fa8eff387c6253d54d63c7a9b78296b1cbc159c41e5a6720bde05a38706525bcee1c0bc937c88ef
+SHA256: 23a59c062579ba86d48c7415f1ba2111ce561371c5d3c245896467d14820c4e2
+SHA1: 3315befdd58ffe3eed2662653b693c55be41247f
+MD5sum: 5eb0364a9210eb77a11f1d842ca06149
 Description: yt-dlp is a feature-rich command-line audio/video downloader with support for thousands of sites.
 
 Package: zoxide
