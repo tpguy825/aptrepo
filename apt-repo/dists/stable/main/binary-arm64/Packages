@@ -35,21 +35,21 @@ Description: cat(1) clone with wings.
   A cat(1) clone with syntax highlighting and Git integration.
 
 Package: cloudflared
-Version: 2026.10.3
+Version: 2026.10.4
 License: Apache License Version 2.0
 Vendor: Cloudflare
 Architecture: arm64
 Maintainer: Cloudflare <support@cloudflare.com>
-Installed-Size: 36770
+Installed-Size: 36778
 Homepage: https://github.com/cloudflare/cloudflared
 Priority: optional
 Section: utils
-Filename: pool/main/c/cloudflared/cloudflared_2026.10.3_arm64.deb
-Size: 18268018
-SHA512: cf529e6d2c0d598f9432ba2bf175ecb55a98d037109828d5d9f25d0e5e85b9c99b949db421e2e77d2103c82f20aeb73df0730db958c6ed33b16f746be06353be
-SHA256: 9382c5406c5cb64821114360550b8903c600b20052e9e82359acf343834be2b7
-SHA1: aaa2a80228428bf1554b4971c7897a0559ac4ead
-MD5sum: 5ca4c896946b0b3aaa0233d86d6fc564
+Filename: pool/main/c/cloudflared/cloudflared_2026.10.4_arm64.deb
+Size: 18281760
+SHA512: 730bcc7fccd5301f73bb0942007b82629a494e379736cd2386f0d4dd11c39d7689dfec40da8551a11f094c123eb4e2e75bb0b9df344b17e338aa5f1b7b1ef366
+SHA256: d0d08a43521e52ba0707900ebe67314e7ca6f610b88024fe6562a408ab6a0f4d
+SHA1: 3494b7b02707c29e4fe50ec8a809b07cc14c3a49
+MD5sum: 843b2b30c219203e418bfb8027d76b26
 Description: Cloudflare Tunnel daemon
 
 Package: fastfetch
@@ -87,18 +87,18 @@ MD5sum: 149ca39881c00c26f14a1c7b8c369708
 Description: fzf is a general-purpose command-line fuzzy finder.
 
 Package: gcm
-Version: 3.0.1
+Version: 3.0.2
 Architecture: arm64
 Depends:
 Maintainer: Microsoft Corporation <gcmsupport@microsoft.com>
 Priority: optional
 Section: utils
-Filename: pool/main/g/gcm/gcm_3.0.1_arm64.deb
-Size: 12522102
-SHA512: 1391aee9c4922a9f80e8dbe74e9fbcfacb66ca4d080295042212c58bab124122b89a633072b1ba4fae3a59452cad22916c1c3a58228a4eff927db3d54c806689
-SHA256: a915b3bb648e4e978aa9e198e8bbeb50df229bcdba3007193651dec237165291
-SHA1: 4346be7a279b523c0447c811c95ced8bf562bb78
-MD5sum: 072ea938a2de76961077e5b67d418426
+Filename: pool/main/g/gcm/gcm_3.0.2_arm64.deb
+Size: 12655230
+SHA512: b6fe662b0d16195e19ba6cae5a3079981dc3d65c6c3d829fb58716715413ed6888c38a911b25e22d725efb5c372bf4f2e8cdf9f78acc1c1030999cfb885dcae9
+SHA256: ff118acac8550758c557be31730086e6eb356c91831daea0fd1d0af4aa75c8b1
+SHA1: 650df43d46e813426020e00329050070c20c5536
+MD5sum: 30f0886f6b83f7eaf55f2070953d2f33
 Description: Cross Platform Git Credential Manager command line utility.
  GCM supports authentication with a number of Git hosting providers
  including GitHub, BitBucket, and Azure DevOps.
@@ -198,19 +198,19 @@ MD5sum: a3c4e4cb9716ddb802dd6a26f665e7cc
 Description: A remote control software.
 
 Package: yt-dlp
-Version: 2026.10.21
+Version: 2026.10.26
 Maintainer: yt-dlp maintainers <maintainers@yt-dlp.org>
 Architecture: arm64
 Homepage: https://github.com/yt-dlp/yt-dlp
-Installed-Size: 39338
+Installed-Size: 39834
 Priority: optional
 Section: utils
-Filename: pool/main/y/yt-dlp/yt-dlp_2026.10.21_arm64.deb
-Size: 39750792
-SHA512: 529bf10ec319cdc043cabad9f7e4729c79d90b3fff65449a6f37f818e7aa566f9a923b6ece8d2d10e63d1d1f33b9c66d78a1e3eb0c62c81a53ded561847b15d0
-SHA256: 07caa9df4ae960b0cd13db90add9e3c9641d7f88ee1c9dec0a795e796db03178
-SHA1: 017f6c2a7504015d1c8d01cee2e271eb30083628
-MD5sum: f746ce787bad33cf54807bbe696285d1
+Filename: pool/main/y/yt-dlp/yt-dlp_2026.10.26_arm64.deb
+Size: 40242256
+SHA512: b7072e8ae21ae3c52e5d719dc05f127cdd9ec7a363ac2cc006d34cb894b20d62f364a4ebb640e20eae4864d8c603f7da8f15da5edcf4cc03505b63a9abda5e4a
+SHA256: 1227fbb78925cd52a3121d8c128320726205c938ad84824dc493f3878022b758
+SHA1: 25cde3f3c36e4b59c36a3cc2b6ecc2566f60fec7
+MD5sum: f9905a7e320325ec39c37fbfedd1e410
 Description: yt-dlp is a feature-rich command-line audio/video downloader with support for thousands of sites.
 
 Package: zoxide
