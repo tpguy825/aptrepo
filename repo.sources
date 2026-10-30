@@ -1,5 +1,5 @@
 Types: deb
-URIs: https://apt.tpgy.uk/apt-repo
+URIs: https://tpguy825.github.io/aptrepo/apt-repo
 Suites: stable
 Components: main
 Architectures: amd64 arm64 armhf
