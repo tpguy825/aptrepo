@@ -8,11 +8,11 @@ All packages are updated with a [github action](https://github.com/tpguy825/aptr
 
 ```bash
 wget -O- https://keys.openpgp.org/vks/v1/by-fingerprint/CEEA496A2C5AB71E34ACD48691EDAEB6C4F3EC9F | gpg --dearmor | sudo tee /usr/share/keyrings/tpguy825-apt-repo.gpg >/dev/null
-wget -O- https://apt.tpgy.uk/repo.sources | sudo tee /etc/apt/sources.list.d/tpguy825-apt-repo.sources >/dev/null
+wget -O- https://tpguy825.github.io/aptrepo/repo.sources | sudo tee /etc/apt/sources.list.d/tpguy825-apt-repo.sources >/dev/null
 sudo apt update
 ```
 
-> Note: If apt.tpgy.uk doesn't work, use https://raw.githubusercontent.com/tpguy825/aptrepo/refs/heads/main/apt-repo/ instead
+> Note: If tpguy825.github.io/aptrepo doesn't work, use https://raw.githubusercontent.com/tpguy825/aptrepo/refs/heads/main/apt-repo/ instead
 
 ## Packages
 
